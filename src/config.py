@@ -1,30 +1,39 @@
+"""Configuración compatible con el código existente y parametrizada por zona."""
+import json
+from pathlib import Path
+
 from shapely.geometry import Polygon
 
-# Polígono exacto delimitado en el mapa:
-# Occidente: Autopista Norte | Norte: Calle 163A-165 (Toberín)
-# Oriente: Carrera 15 / 16B (Orquídeas) | Sur: Calle 153 (Estrella del Norte / Las Margaritas)
-COORDENADAS_POLIGONO = [
-    (-74.0458, 4.7438),  # Noroccidente (Autonorte con Calle 163A)
-    (-74.0412, 4.7452),  # Norte (El Toberín - Calle 165)
-    (-74.0365, 4.7435),  # Nororiente (Carrera 16B con Calle 164)
-    (-74.0342, 4.7385),  # Oriente (Borde Babilonia / Carrera 15)
-    (-74.0355, 4.7342),  # Suroriente (Calle 155 / Orquídeas sur)
-    (-74.0448, 4.7338),  # Suroccidente (Autonorte con Calle 153 - Estrella del Norte)
-    (-74.0468, 4.7388),  # Occidente medio (Autonorte con Calle 160)
-    (-74.0458, 4.7438),  # Cierre del polígono
-]
+RUTA_ZONAS = Path(__file__).resolve().parents[1] / "config" / "zonas.json"
+with RUTA_ZONAS.open(encoding="utf-8") as archivo:
+    CONFIG_ZONAS = json.load(archivo)["zonas"]
 
-POLIGONO_ZONA = Polygon(COORDENADAS_POLIGONO)
-
-# Bounding box amplio para la consulta inicial a APIs
-BBOX = {
-    "min_lon": -74.0480,
-    "max_lon": -74.0330,
-    "min_lat": 4.7325,
-    "max_lat": 4.7465,
+ZONAS = {
+    clave: {
+        **zona,
+        # El archivo expresa latitud,longitud; Shapely requiere x=longitud,y=latitud.
+        "poligono": Polygon([(lon, lat) for lat, lon in zona["coordenadas_lat_lon"]]),
+    }
+    for clave, zona in CONFIG_ZONAS.items()
 }
 
-# Parámetros de alertas de oportunidad
-UMBRAL_DESCUENTO_ZONA_PCT = -10.0  # Alerta si precio/m2 está >= 10% por debajo de la mediana del polígono
-UMBRAL_DIAS_MERCADO = 75           # Alerta si lleva >= 75 días publicado (alta probabilidad de negociación)
-UMBRAL_BAJADA_PRECIO_PCT = -5.0    # Alerta si el propietario bajó >= 5% respecto a su precio inicial
+# Alias legado para consumidores que todavía procesan únicamente Rincón.
+COORDENADAS_POLIGONO = [(lon, lat) for lat, lon in ZONAS["rincon"]["coordenadas_lat_lon"]]
+POLIGONO_ZONA = ZONAS["rincon"]["poligono"]
+BBOX = {
+    "min_lon": min(lon for lon, lat in COORDENADAS_POLIGONO),
+    "max_lon": max(lon for lon, lat in COORDENADAS_POLIGONO),
+    "min_lat": min(lat for lon, lat in COORDENADAS_POLIGONO),
+    "max_lat": max(lat for lon, lat in COORDENADAS_POLIGONO),
+}
+
+UMBRAL_DESCUENTO_ZONA_PCT = -10.0
+UMBRAL_DIAS_MERCADO = 75
+UMBRAL_BAJADA_PRECIO_PCT = -5.0
+DESCUENTO_CIERRE_BASE_PCT = 5.0
+RANGO_CIERRE_PCT = (3.0, 7.0)
+TOLERANCIA_AREA_M2 = 2.0
+TOLERANCIA_PRECIO_HUELLA_PCT = 5.0
+PRECISION_COORDENADAS_HUELLA = 4
+FACTOR_ATIPICO_PRECIO_M2 = (0.5, 1.8)
+MINIMOS_CAPTURA_PORTAL = {"Fincaraiz": 5, "Metrocuadrado": 3}
