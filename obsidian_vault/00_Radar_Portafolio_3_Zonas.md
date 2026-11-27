@@ -11,6 +11,7 @@ zonas: 3
 | Rincón | calibrado | sin_datos_confiables | 68 | 2 | 0.43% | 0 días | $ 5.673.326 | $ 11.890.558 |
 | Mirandela | aproximado_v1 | sin_datos_confiables | 22 | 0 | 0.0% | 0 días | $ 5.103.980 | $ 0 |
 | Salitre | aproximado_v1 | sin_datos_confiables | 1 | 0 | 0.0% | 0 días | $ 6.321.839 | $ 0 |
+
 ## Fichas de decisión de venta
 
 - [[03_Decision_Rincon|Decisión de venta: Rincón]]
