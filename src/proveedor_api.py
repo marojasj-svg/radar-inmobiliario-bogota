@@ -11,7 +11,8 @@ API_SH_BASE = "https://api.api.sh"
 SCRAPPA_BASE = "https://scrappa.co/api"
 TIMEOUT_SEGUNDOS = 45
 PAGINAS_MAXIMAS = 10
-CREDITOS_MES_RADAR = 450\nCREDITOS_MES_POR_ZONA = 150
+CREDITOS_MES_RADAR = 450
+CREDITOS_MES_POR_ZONA = 150
 RUTA_CREDITOS = Path("data/scrappa_creditos.json")
 RUTA_COORDENADAS = Path("data/metrocuadrado_coordenadas.json")
 
