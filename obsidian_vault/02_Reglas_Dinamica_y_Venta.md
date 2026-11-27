@@ -16,6 +16,7 @@ precision_coordenadas_huella: 4
 - Los anuncios sin coordenadas o con precio/m² atípico (menor a 0,5× o mayor a 1,8× la mediana preliminar) se aíslan en estado `revisar_atipico`.
 - Una ausencia solo cambia a posible venta cuando el portal supera el umbral mínimo de captura de esa zona.
 - DOM observado comienza en la primera detección disponible; no equivale a la fecha real de publicación.
+- Tasa de absorción acumulada: posibles ventas estimadas divididas por IDs únicos históricos de la zona; no equivale a absorción mensual de transacciones confirmadas.
 
 ## Perfiles de activos propios
 

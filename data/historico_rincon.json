@@ -12,8 +12,8 @@
     "habitaciones": 3,
     "banos": 3,
     "parqueaderos": 0,
-    "lat": "4.737281",
-    "lon": "-74.037667",
+    "lat": 4.737281,
+    "lon": -74.037667,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -29,7 +29,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 108.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.7373,
+        -74.0377
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-192905231",
@@ -44,8 +54,8 @@
     "habitaciones": 3,
     "banos": 3,
     "parqueaderos": 0,
-    "lat": "4.73864",
-    "lon": "-74.0430082",
+    "lat": 4.73864,
+    "lon": -74.0430082,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -61,7 +71,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 75.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.7386,
+        -74.043
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-193837950",
@@ -76,8 +96,8 @@
     "habitaciones": 3,
     "banos": 3,
     "parqueaderos": 0,
-    "lat": "4.7370564",
-    "lon": "-74.037771",
+    "lat": 4.7370564,
+    "lon": -74.037771,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -93,7 +113,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 109.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.7371,
+        -74.0378
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194295255",
@@ -108,8 +138,8 @@
     "habitaciones": 3,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.739007900813",
-    "lon": "-74.044903597815",
+    "lat": 4.739007900813,
+    "lon": -74.044903597815,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -125,7 +155,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 62.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.739,
+        -74.0449
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194564814",
@@ -140,8 +180,8 @@
     "habitaciones": 3,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.739405",
-    "lon": "-74.044418",
+    "lat": 4.739405,
+    "lon": -74.044418,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -157,7 +197,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 86.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7394,
+        -74.0444
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194401446",
@@ -172,8 +222,8 @@
     "habitaciones": 2,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.7381861",
-    "lon": "-74.0465513",
+    "lat": 4.7381861,
+    "lon": -74.0465513,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -189,7 +239,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 78.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": [
+        4.7382,
+        -74.0466
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194244215",
@@ -204,8 +264,8 @@
     "habitaciones": 3,
     "banos": 3,
     "parqueaderos": 0,
-    "lat": "4.7367826",
-    "lon": "-74.0416161",
+    "lat": 4.7367826,
+    "lon": -74.0416161,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -221,7 +281,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 90.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.7368,
+        -74.0416
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194531373",
@@ -236,8 +306,8 @@
     "habitaciones": 3,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.7396512",
-    "lon": "-74.046169",
+    "lat": 4.7396512,
+    "lon": -74.046169,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -253,7 +323,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 60.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7397,
+        -74.0462
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-10057697",
@@ -268,8 +348,8 @@
     "habitaciones": 3,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.7390963",
-    "lon": "-74.0447816",
+    "lat": 4.7390963,
+    "lon": -74.0447816,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -285,7 +365,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 63.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7391,
+        -74.0448
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194318629",
@@ -300,8 +390,8 @@
     "habitaciones": 3,
     "banos": 3,
     "parqueaderos": 0,
-    "lat": "4.738602",
-    "lon": "-74.0372417",
+    "lat": 4.738602,
+    "lon": -74.0372417,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -317,7 +407,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 108.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.7386,
+        -74.0372
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194129028",
@@ -332,8 +432,8 @@
     "habitaciones": 3,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.739190123388",
-    "lon": "-74.045676074012",
+    "lat": 4.739190123388,
+    "lon": -74.045676074012,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -349,7 +449,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 86.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7392,
+        -74.0457
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-10792242",
@@ -364,8 +474,8 @@
     "habitaciones": 2,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.7377607",
-    "lon": "-74.0454347",
+    "lat": 4.7377607,
+    "lon": -74.0454347,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -381,7 +491,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 60.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": [
+        4.7378,
+        -74.0454
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-193800815",
@@ -396,8 +516,8 @@
     "habitaciones": 3,
     "banos": 3,
     "parqueaderos": 0,
-    "lat": "4.7394735",
-    "lon": "-74.0459055",
+    "lat": 4.7394735,
+    "lon": -74.0459055,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -413,7 +533,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 116.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.7395,
+        -74.0459
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194657291",
@@ -428,8 +558,8 @@
     "habitaciones": 3,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.73658",
-    "lon": "-74.043004",
+    "lat": 4.73658,
+    "lon": -74.043004,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -445,7 +575,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 88.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7366,
+        -74.043
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194566267",
@@ -460,8 +600,8 @@
     "habitaciones": 3,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.7401061",
-    "lon": "-74.0431848",
+    "lat": 4.7401061,
+    "lon": -74.0431848,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -477,7 +617,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 60.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7401,
+        -74.0432
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194644927",
@@ -492,8 +642,8 @@
     "habitaciones": 3,
     "banos": 3,
     "parqueaderos": 0,
-    "lat": "4.7393701",
-    "lon": "-74.0459167",
+    "lat": 4.7393701,
+    "lon": -74.0459167,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -509,7 +659,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 195.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.7394,
+        -74.0459
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194637167",
@@ -524,8 +684,8 @@
     "habitaciones": 2,
     "banos": 1,
     "parqueaderos": 0,
-    "lat": "4.7405253",
-    "lon": "-74.0447051",
+    "lat": 4.7405253,
+    "lon": -74.0447051,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -541,7 +701,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 56.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.7405,
+        -74.0447
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194663458",
@@ -556,8 +726,8 @@
     "habitaciones": 2,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.7399013",
-    "lon": "-74.0461742",
+    "lat": 4.7399013,
+    "lon": -74.0461742,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -573,7 +743,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 58.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": [
+        4.7399,
+        -74.0462
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-193538193",
@@ -588,8 +768,8 @@
     "habitaciones": 2,
     "banos": 1,
     "parqueaderos": 0,
-    "lat": "4.739105298528",
-    "lon": "-74.037995819951",
+    "lat": 4.739105298528,
+    "lon": -74.037995819951,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -605,7 +785,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 49.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.7391,
+        -74.038
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194527880",
@@ -620,8 +810,8 @@
     "habitaciones": 3,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.737597519875",
-    "lon": "-74.040649195221",
+    "lat": 4.737597519875,
+    "lon": -74.040649195221,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -637,7 +827,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 82.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7376,
+        -74.0406
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-193701270",
@@ -652,8 +852,8 @@
     "habitaciones": 3,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.7401061",
-    "lon": "-74.0431848",
+    "lat": 4.7401061,
+    "lon": -74.0431848,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -669,7 +869,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 60.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7401,
+        -74.0432
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194414312",
@@ -684,8 +894,8 @@
     "habitaciones": 3,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.7392382",
-    "lon": "-74.0460761",
+    "lat": 4.7392382,
+    "lon": -74.0460761,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -701,7 +911,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 51.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7392,
+        -74.0461
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-192982042",
@@ -716,8 +936,8 @@
     "habitaciones": 3,
     "banos": 3,
     "parqueaderos": 0,
-    "lat": "4.7392872",
-    "lon": "-74.0459356",
+    "lat": 4.7392872,
+    "lon": -74.0459356,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -733,7 +953,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 116.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.7393,
+        -74.0459
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194438461",
@@ -748,8 +978,8 @@
     "habitaciones": 2,
     "banos": 3,
     "parqueaderos": 0,
-    "lat": "4.738577",
-    "lon": "-74.0433184",
+    "lat": 4.738577,
+    "lon": -74.0433184,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -765,7 +995,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 91.0,
+      "habitaciones": 2,
+      "banos": 3,
+      "coordenadas": [
+        4.7386,
+        -74.0433
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-193610696",
@@ -780,8 +1020,8 @@
     "habitaciones": 3,
     "banos": 3,
     "parqueaderos": 0,
-    "lat": "4.7392872",
-    "lon": "-74.0459356",
+    "lat": 4.7392872,
+    "lon": -74.0459356,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -797,7 +1037,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 116.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.7393,
+        -74.0459
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194628710",
@@ -812,8 +1062,8 @@
     "habitaciones": 3,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.7396475",
-    "lon": "-74.0460672",
+    "lat": 4.7396475,
+    "lon": -74.0460672,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -829,7 +1079,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 71.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7396,
+        -74.0461
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194064682",
@@ -844,8 +1104,8 @@
     "habitaciones": 3,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.7406645",
-    "lon": "-74.0447574",
+    "lat": 4.7406645,
+    "lon": -74.0447574,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -861,7 +1121,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 54.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7407,
+        -74.0448
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194038827",
@@ -876,8 +1146,8 @@
     "habitaciones": 3,
     "banos": 3,
     "parqueaderos": 0,
-    "lat": "4.7394169873951",
-    "lon": "-74.045941090299",
+    "lat": 4.7394169873951,
+    "lon": -74.045941090299,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -893,7 +1163,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 116.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.7394,
+        -74.0459
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194645197",
@@ -908,8 +1188,8 @@
     "habitaciones": 2,
     "banos": 1,
     "parqueaderos": 0,
-    "lat": "4.7399594",
-    "lon": "-74.0367747",
+    "lat": 4.7399594,
+    "lon": -74.0367747,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -925,7 +1205,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 47.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.74,
+        -74.0368
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194063239",
@@ -940,8 +1230,8 @@
     "habitaciones": 4,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.741360617215",
-    "lon": "-74.046186615734",
+    "lat": 4.741360617215,
+    "lon": -74.046186615734,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -957,7 +1247,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 166.0,
+      "habitaciones": 4,
+      "banos": 2,
+      "coordenadas": [
+        4.7414,
+        -74.0462
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194191303",
@@ -972,8 +1272,8 @@
     "habitaciones": 2,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.7392286",
-    "lon": "-74.0447921",
+    "lat": 4.7392286,
+    "lon": -74.0447921,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -989,7 +1289,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 64.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": [
+        4.7392,
+        -74.0448
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-193561231",
@@ -1004,8 +1314,8 @@
     "habitaciones": 2,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.740941773514",
-    "lon": "-74.040595048126",
+    "lat": 4.740941773514,
+    "lon": -74.040595048126,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1021,7 +1331,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 68.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": [
+        4.7409,
+        -74.0406
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-193464813",
@@ -1036,8 +1356,8 @@
     "habitaciones": 4,
     "banos": 5,
     "parqueaderos": 0,
-    "lat": "4.7390509475645",
-    "lon": "-74.043673889867",
+    "lat": 4.7390509475645,
+    "lon": -74.043673889867,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1053,7 +1373,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 650.0,
+      "habitaciones": 4,
+      "banos": 5,
+      "coordenadas": [
+        4.7391,
+        -74.0437
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194560515",
@@ -1068,8 +1398,8 @@
     "habitaciones": 2,
     "banos": 1,
     "parqueaderos": 0,
-    "lat": "4.7409836",
-    "lon": "-74.0438357",
+    "lat": 4.7409836,
+    "lon": -74.0438357,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1085,7 +1415,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 47.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.741,
+        -74.0438
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194109174",
@@ -1100,8 +1440,8 @@
     "habitaciones": 2,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.7401754",
-    "lon": "-74.0460543",
+    "lat": 4.7401754,
+    "lon": -74.0460543,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1117,7 +1457,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 68.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": [
+        4.7402,
+        -74.0461
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194305122",
@@ -1132,8 +1482,8 @@
     "habitaciones": 3,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.7402252194734",
-    "lon": "-74.046500730649",
+    "lat": 4.7402252194734,
+    "lon": -74.046500730649,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1149,7 +1499,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 66.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7402,
+        -74.0465
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194412138",
@@ -1164,8 +1524,8 @@
     "habitaciones": 3,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.7379247",
-    "lon": "-74.0409537",
+    "lat": 4.7379247,
+    "lon": -74.0409537,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1181,7 +1541,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 56.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7379,
+        -74.041
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194284868",
@@ -1196,8 +1566,8 @@
     "habitaciones": 2,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.740898583005",
-    "lon": "-74.040463417768",
+    "lat": 4.740898583005,
+    "lon": -74.040463417768,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1213,7 +1583,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 68.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": [
+        4.7409,
+        -74.0405
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-193457338",
@@ -1228,8 +1608,8 @@
     "habitaciones": 3,
     "banos": 3,
     "parqueaderos": 0,
-    "lat": "4.7393459946094",
-    "lon": "-74.045856559755",
+    "lat": 4.7393459946094,
+    "lon": -74.045856559755,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1245,7 +1625,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 116.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.7393,
+        -74.0459
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-193560797",
@@ -1260,8 +1650,8 @@
     "habitaciones": 2,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.740941773514",
-    "lon": "-74.040595048126",
+    "lat": 4.740941773514,
+    "lon": -74.040595048126,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1277,7 +1667,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 68.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": [
+        4.7409,
+        -74.0406
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-192995561",
@@ -1292,8 +1692,8 @@
     "habitaciones": 2,
     "banos": 1,
     "parqueaderos": 0,
-    "lat": "4.740341168242",
-    "lon": "-74.044266656993",
+    "lat": 4.740341168242,
+    "lon": -74.044266656993,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1309,7 +1709,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 42.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.7403,
+        -74.0443
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194402837",
@@ -1324,8 +1734,8 @@
     "habitaciones": 3,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.7397551",
-    "lon": "-74.045346",
+    "lat": 4.7397551,
+    "lon": -74.045346,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1341,7 +1751,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 88.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7398,
+        -74.0453
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-193632000",
@@ -1356,8 +1776,8 @@
     "habitaciones": 2,
     "banos": 1,
     "parqueaderos": 0,
-    "lat": "4.740290265749",
-    "lon": "-74.040717275915",
+    "lat": 4.740290265749,
+    "lon": -74.040717275915,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1373,7 +1793,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 46.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.7403,
+        -74.0407
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-193666500",
@@ -1388,8 +1818,8 @@
     "habitaciones": 2,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.7411713",
-    "lon": "-74.0405734",
+    "lat": 4.7411713,
+    "lon": -74.0405734,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1405,7 +1835,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 67.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": [
+        4.7412,
+        -74.0406
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-193632427",
@@ -1420,8 +1860,8 @@
     "habitaciones": 3,
     "banos": 1,
     "parqueaderos": 0,
-    "lat": "4.7414881",
-    "lon": "-74.036227",
+    "lat": 4.7414881,
+    "lon": -74.036227,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1437,7 +1877,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 55.0,
+      "habitaciones": 3,
+      "banos": 1,
+      "coordenadas": [
+        4.7415,
+        -74.0362
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194305733",
@@ -1452,8 +1902,8 @@
     "habitaciones": 3,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.7411713",
-    "lon": "-74.0405734",
+    "lat": 4.7411713,
+    "lon": -74.0405734,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1469,7 +1919,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 67.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7412,
+        -74.0406
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-193125012",
@@ -1484,8 +1944,8 @@
     "habitaciones": 3,
     "banos": 1,
     "parqueaderos": 0,
-    "lat": "4.7439292",
-    "lon": "-74.0378114",
+    "lat": 4.7439292,
+    "lon": -74.0378114,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1501,7 +1961,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 49.0,
+      "habitaciones": 3,
+      "banos": 1,
+      "coordenadas": [
+        4.7439,
+        -74.0378
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-193876638",
@@ -1516,8 +1986,8 @@
     "habitaciones": 2,
     "banos": 1,
     "parqueaderos": 0,
-    "lat": "4.7435198",
-    "lon": "-74.0377662",
+    "lat": 4.7435198,
+    "lon": -74.0377662,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1533,7 +2003,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 52.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.7435,
+        -74.0378
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194426049",
@@ -1548,8 +2028,8 @@
     "habitaciones": 3,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.7437297",
-    "lon": "-74.0379143",
+    "lat": 4.7437297,
+    "lon": -74.0379143,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1565,7 +2045,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 55.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7437,
+        -74.0379
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194485745",
@@ -1580,8 +2070,8 @@
     "habitaciones": 3,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.7437297",
-    "lon": "-74.0379143",
+    "lat": 4.7437297,
+    "lon": -74.0379143,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1597,7 +2087,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 55.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7437,
+        -74.0379
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194459858",
@@ -1612,8 +2112,8 @@
     "habitaciones": 3,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.7437789489875",
-    "lon": "-74.038046490726",
+    "lat": 4.7437789489875,
+    "lon": -74.038046490726,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1629,7 +2129,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 55.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7438,
+        -74.038
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194383696",
@@ -1644,8 +2154,8 @@
     "habitaciones": 2,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.743292",
-    "lon": "-74.044991",
+    "lat": 4.743292,
+    "lon": -74.044991,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1661,7 +2171,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 63.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": [
+        4.7433,
+        -74.045
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194444488",
@@ -1676,8 +2196,8 @@
     "habitaciones": 3,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.7437297",
-    "lon": "-74.0379143",
+    "lat": 4.7437297,
+    "lon": -74.0379143,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1693,7 +2213,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 55.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7437,
+        -74.0379
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-193737508",
@@ -1708,8 +2238,8 @@
     "habitaciones": 3,
     "banos": 1,
     "parqueaderos": 0,
-    "lat": "4.7442086",
-    "lon": "-74.0416913",
+    "lat": 4.7442086,
+    "lon": -74.0416913,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1725,7 +2255,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 54.0,
+      "habitaciones": 3,
+      "banos": 1,
+      "coordenadas": [
+        4.7442,
+        -74.0417
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194440047",
@@ -1740,8 +2280,8 @@
     "habitaciones": 3,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.7436872",
-    "lon": "-74.0379954",
+    "lat": 4.7436872,
+    "lon": -74.0379954,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1757,7 +2297,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 55.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7437,
+        -74.038
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194221057",
@@ -1772,8 +2322,8 @@
     "habitaciones": 3,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.7436304",
-    "lon": "-74.0398596",
+    "lat": 4.7436304,
+    "lon": -74.0398596,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1789,7 +2339,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 60.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7436,
+        -74.0399
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194317416",
@@ -1804,8 +2364,8 @@
     "habitaciones": 2,
     "banos": 1,
     "parqueaderos": 0,
-    "lat": "4.7436946",
-    "lon": "-74.0408872",
+    "lat": 4.7436946,
+    "lon": -74.0408872,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1821,7 +2381,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 42.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.7437,
+        -74.0409
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194496074",
@@ -1836,8 +2406,8 @@
     "habitaciones": 3,
     "banos": 1,
     "parqueaderos": 0,
-    "lat": "4.7438555",
-    "lon": "-74.0378919",
+    "lat": 4.7438555,
+    "lon": -74.0378919,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1853,7 +2423,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 51.0,
+      "habitaciones": 3,
+      "banos": 1,
+      "coordenadas": [
+        4.7439,
+        -74.0379
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194651142",
@@ -1868,8 +2448,8 @@
     "habitaciones": 2,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.7411713",
-    "lon": "-74.0405734",
+    "lat": 4.7411713,
+    "lon": -74.0405734,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1885,7 +2465,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 68.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": [
+        4.7412,
+        -74.0406
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194230491",
@@ -1900,8 +2490,8 @@
     "habitaciones": 2,
     "banos": 1,
     "parqueaderos": 0,
-    "lat": "4.7430524",
-    "lon": "-74.0384129",
+    "lat": 4.7430524,
+    "lon": -74.0384129,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1917,7 +2507,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 53.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.7431,
+        -74.0384
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194662730",
@@ -1932,8 +2532,8 @@
     "habitaciones": 3,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.7439497",
-    "lon": "-74.03932",
+    "lat": 4.7439497,
+    "lon": -74.03932,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1949,7 +2549,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 60.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7439,
+        -74.0393
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-192790520",
@@ -1964,8 +2574,8 @@
     "habitaciones": 3,
     "banos": 1,
     "parqueaderos": 0,
-    "lat": "4.7440083",
-    "lon": "-74.0393312",
+    "lat": 4.7440083,
+    "lon": -74.0393312,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -1981,7 +2591,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 53.0,
+      "habitaciones": 3,
+      "banos": 1,
+      "coordenadas": [
+        4.744,
+        -74.0393
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194387128",
@@ -1996,8 +2616,8 @@
     "habitaciones": 3,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "4.7436872",
-    "lon": "-74.0379954",
+    "lat": 4.7436872,
+    "lon": -74.0379954,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -2013,7 +2633,17 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 55.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7437,
+        -74.038
+      ]
+    },
+    "validado_poligono": true
   },
   {
     "id_inmueble": "FR-194511122",
@@ -2028,8 +2658,8 @@
     "habitaciones": 2,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "",
-    "lon": "",
+    "lat": null,
+    "lon": null,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -2045,7 +2675,14 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 61.5,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "validado_poligono": false
   },
   {
     "id_inmueble": "FR-194628524",
@@ -2060,8 +2697,8 @@
     "habitaciones": 3,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": "",
-    "lon": "",
+    "lat": null,
+    "lon": null,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
@@ -2077,6 +2714,13 @@
     "fecha_ultima_deteccion": "2026-11-26",
     "fecha_salida": null,
     "activo_en_corte": true,
-    "huella_inmueble": ""
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 75.2,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "validado_poligono": false
   }
 ]
