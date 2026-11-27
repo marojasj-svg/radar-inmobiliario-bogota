@@ -2,6 +2,7 @@ import csv
 import glob
 import json
 import os
+import re
 from datetime import date, datetime
 from statistics import mean, median
 
@@ -75,6 +76,15 @@ def migrar_csv_rincon():
             ultima = fila.get("fecha_ultima_vez_visto") or primera
             precio_ini = int(float(fila.get("precio_inicial") or 0))
             precio_act = int(float(fila.get("precio_actual") or 0))
+            texto_historial = str(fila.get("historial_precios") or "")
+            historial = [
+                {"fecha": fecha, "precio": int(re.sub(r"[^0-9]", "", precio))}
+                for fecha, precio in re.findall(r"(20\\d{2}-\\d{2}-\\d{2})\\s*:\\s*\\$?\\s*([0-9.,]+)", texto_historial)
+            ]
+            if not historial:
+                historial = [{"fecha": primera, "precio": precio_ini}]
+                if precio_act != precio_ini:
+                    historial.append({"fecha": ultima, "precio": precio_act})
             salida = ultima if fila.get("estado") == "vendido_o_retirado" else None
             resultado.append({
                 **fila,
@@ -93,11 +103,7 @@ def migrar_csv_rincon():
                 "dias_en_mercado": int(float(fila.get("dias_en_mercado") or 0)),
                 "estado": "posible_venta" if salida else "activo",
                 "activo_en_corte": not bool(salida),
-                "historial_precios": [{"fecha": primera, "precio": precio_ini}]
-                    if precio_ini == precio_act else [
-                        {"fecha": primera, "precio": precio_ini},
-                        {"fecha": ultima, "precio": precio_act},
-                    ],
+                "historial_precios": historial,
                 "huella_inmueble": "",
             })
     return resultado
