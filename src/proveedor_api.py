@@ -29,11 +29,12 @@ def buscar(portal, zona):
         lugares = [zona["busqueda_metrocuadrado"].replace(" bogota", "").strip()]
 
     headers = {"x-api-key": clave}
-    anuncios, errores = {}, []
+    anuncios, errores, advertencias = {}, [], []
     consultas = consultas_ok = 0
 
     for lugar in lugares:
-        for pagina in range(1, PAGINAS_MAXIMAS + 1):
+        pagina = 1
+        while pagina <= PAGINAS_MAXIMAS:
             consultas += 1
             params = (
                 {"transaction": "sale", "property_type": "apartment", "location": lugar, "page": pagina}
@@ -45,8 +46,9 @@ def buscar(portal, zona):
                     endpoint, params=params, headers=headers, timeout=TIMEOUT_SEGUNDOS
                 )
                 if respuesta.status_code == 404:
-                    # Una ubicación sin coincidencias no es una captura completa.
-                    errores.append(f"Sin resultados para ubicación '{lugar}' (HTTP 404).")
+                    # API.SH documenta 404 cuando una búsqueda no encuentra anuncios.
+                    consultas_ok += 1
+                    advertencias.append(f"Sin anuncios para la ubicación '{lugar}'.")
                     break
                 respuesta.raise_for_status()
                 data = respuesta.json()
@@ -63,7 +65,7 @@ def buscar(portal, zona):
                 siguiente = data.get("next_page")
                 if not siguiente or not lista:
                     break
-                pagina = int(siguiente) - 1
+                pagina = int(siguiente)
             except (requests.RequestException, ValueError, TypeError) as error:
                 errores.append(f"{lugar}, página {pagina}: {error}")
                 break
@@ -75,4 +77,5 @@ def buscar(portal, zona):
         "captura_confiable": consultas > 0 and consultas_ok == consultas and bool(anuncios) and not errores,
         "proveedor": "API.SH",
         "errores": errores[:10],
+        "advertencias": advertencias[:10],
     }
