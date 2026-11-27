@@ -7,6 +7,8 @@ from datetime import date, datetime
 from statistics import mean, median
 from shapely.geometry import Point
 
+from decisiones import generar_decisiones
+
 from config import (
     DESCUENTO_CIERRE_BASE_PCT,
     FACTOR_ATIPICO_PRECIO_M2,
@@ -532,7 +534,8 @@ def main():
             por_fuente,
         )
     generar_tableros(fecha_corte, historicos, fuentes)
-    print(f"[OK] Histórico y tableros actualizados para {fecha_corte}.")
+    generar_decisiones(fecha_corte, historicos, fuentes)
+    print(f"[OK] Histórico, tableros y fichas de decisión actualizados para {fecha_corte}.")
 
 
 if __name__ == "__main__":
