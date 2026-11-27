@@ -424,7 +424,7 @@ def generar_tableros(fecha_corte, historicos, estados_captura):
         dom = mean([int(r.get("dias_en_mercado") or 0) for r in ventas]) if ventas else 0
         total_historico = sum(1 for r in registros if r.get("zona") == zona_id)
         absorcion = round(len(ventas) / total_historico * 100, 2) if total_historico else 0
-        resumen[zona_id] = (activos, ventas, mediana, mediana_cierre, dom, absorcion)
+        resumen[zona_id] = (activos, ventas, mediana, mediana_cierre, dom, absorcion, estado_captura)
 
         os.makedirs(CARPETA_TABLEROS, exist_ok=True)
         path = os.path.join(CARPETA_TABLEROS, f"01_Tablero_{zona_id.title()}.md")
@@ -470,9 +470,9 @@ def generar_tableros(fecha_corte, historicos, estados_captura):
 
     filas = []
     for zona_id, zona in ZONAS.items():
-        activos, ventas, mediana, mediana_cierre, dom, absorcion = resumen[zona_id]
+        activos, ventas, mediana, mediana_cierre, dom, absorcion, estado_captura = resumen[zona_id]
         filas.append(
-            f"| {zona['nombre']} | {zona['estado_poligono']} | {resumen[zona_id][0] and 'confiable' or 'sin datos'} | {len(activos)} | {len(ventas)} | "
+            f"| {zona['nombre']} | {zona['estado_poligono']} | {estado_captura} | {len(activos)} | {len(ventas)} | "
             f"{absorcion}% | {dom} días | {moneda(mediana)} | {moneda(mediana_cierre)} |"
         )
     texto = f"""---
