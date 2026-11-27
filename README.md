@@ -1,20 +1,37 @@
-# Radar Inmobiliario Bogotá (Estrella del Norte / Orquídeas / Toberín)
+# Radar Inmobiliario Bogotá
 
-Sistema automatizado en Python + GitHub Actions + Obsidian para monitorear la oferta de apartamentos en venta dentro del polígono definido en el norte de Bogotá (Autopista Norte, Calle 165, Carrera 15/16B, Calle 153).
+Automatización para observar oferta y rotación de apartamentos en tres zonas: Rincón, Mirandela y Salitre. El sistema consulta FincaRaíz y Metrocuadrado, guarda capturas por fecha, mantiene histórico por zona y genera tableros y fichas Markdown para Obsidian.
 
-## ¿Qué hace este sistema?
-1. **Rastreo automático cada 3 días:** Consulta publicaciones activas en el cuadrante y filtra geográficamente las coordenadas exactas mediante polígonos (`shapely`).
-2. **Medición real de rotación (DOM y Absorción):** Compara cada corte contra el histórico acumulado (`data/historico_maestro.csv`) para identificar:
-   - **Días en el mercado (DOM):** Cuánto tiempo lleva publicado cada apartamento.
-   - **Tasa de absorción / posibles ventas:** Inmuebles que desaparecen del portal tras llevar varios días publicados.
-   - **Caídas de precio (*Price Drops*):** Propietarios que reducen el valor pedido.
-3. **Integración directa con Obsidian:** Genera un tablero resumen (`obsidian_vault/00_Tablero_Dinamica_Zona.md`) y fichas individuales en Markdown con propiedades YAML listas para **Dataview** en `obsidian_vault/Oportunidades/`.
+## Flujo automático
 
-## Configuración Rápida en GitHub
-1. Sube todos estos archivos a tu repositorio privado `radar-inmobiliario-bogota`.
-2. Ve a **Settings > Actions > General > Workflow permissions**, selecciona **Read and write permissions** y guarda.
-3. Ve a la pestaña **Actions**, selecciona **Monitor Inmobiliario Zona Norte** y haz clic en **Run workflow** para ejecutar la primera captura de línea base.
+El workflow de GitHub Actions ejecuta `src/scraper.py` y luego `src/analizador.py`. El cron actual realiza cortes cada tres días y también permite ejecución manual desde **Actions → Monitor Inmobiliario Zona Norte → Run workflow**.
 
-## Conexión con Obsidian
-1. Clona este repositorio en tu computador o dentro de una subcarpeta de tu bóveda de Obsidian.
-2. Instala el plugin comunitario **Obsidian Git** y activa *Pull on startup* para recibir las nuevas oportunidades automáticamente.
+- `config/zonas.json`: límites, estado de calibración y rutas de búsqueda por zona. Las coordenadas se guardan como [latitud, longitud]; el código las convierte al orden requerido por Shapely.
+- `data/snapshots/AAAA-MM-DD.json`: corte unificado con anuncios y estado de captura por portal y zona.
+- `data/historico_rincon.json`, `data/historico_mirandela.json`, `data/historico_salitre.json`: estado persistente de cada anuncio, fechas detectadas, precios, huellas y salidas probables.
+- `obsidian_vault/00_Radar_Portafolio_3_Zonas.md`: comparación consolidada.
+- `obsidian_vault/01_Tablero_Rincon.md`, `01_Tablero_Mirandela.md`, `01_Tablero_Salitre.md`: tablero por zona; el frontmatter conserva `estado_poligono`.
+- `obsidian_vault/02_Reglas_Dinamica_y_Venta.md`: parámetros de estimación y perfil de referencia de Rincón.
+- `obsidian_vault/Oportunidades/<Zona>/<ID>.md`: fichas individuales.
+
+La primera ejecución con la nueva estructura migra el histórico CSV anterior de Rincón a su archivo JSON. Los cortes históricos anteriores solo contienen Rincón y FincaRaíz.
+
+## Calidad y límites de las métricas
+
+Un anuncio que desaparece se clasifica como **posible venta**, no como venta confirmada. La ausencia solo se procesa si ese portal superó el umbral mínimo de captura de la zona; una falla o captura vacía no cierra todos los anuncios. Huellas similares entre portales o IDs se marcan como posibles republicaciones y transfieren la antigüedad acumulada.
+
+Los anuncios sin coordenadas y los precios por m² muy alejados de la mediana preliminar se aíslan como `revisar_atipico`. Se excluyen de la oferta válida y de las medianas. DOM cuenta desde la primera detección disponible; no es necesariamente la fecha real de publicación.
+
+El cierre estimado usa un descuento base del 5% y una banda de 3% a 7% sobre el último precio publicado. Es una referencia orientativa, no un dato transaccional ni un avalúo.
+
+Mirandela y Salitre están activas con polígonos `aproximado_v1`; sus tableros indican que están en calibración. Refinar los vértices en `config/zonas.json` no requiere cambiar el motor de análisis.
+
+## Credenciales y permisos
+
+El scraper consulta páginas públicas de los portales y no requiere credenciales ni tokens de FincaRaíz o Metrocuadrado. GitHub Actions usa el token temporal `GITHUB_TOKEN` que GitHub crea para cada ejecución. `actions/checkout` conserva la credencial para que el paso final pueda publicar el commit, y el workflow limita el permiso del token a `contents: write`. No se guardan tokens personales ni secretos de portales en el repositorio.
+
+En **Settings → Actions → General → Workflow permissions**, habilita permisos de lectura y escritura para que el workflow pueda guardar capturas, históricos y tableros.
+
+## Obsidian
+
+Clona este repositorio dentro de la bóveda o usa Obsidian Git para traer los commits del workflow. Los tableros y fichas son Markdown con frontmatter YAML compatible con Dataview.
