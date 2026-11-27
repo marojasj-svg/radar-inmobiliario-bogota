@@ -35,15 +35,19 @@ def _mes_actual():
     return datetime.now(timezone.utc).strftime("%Y-%m")
 
 
-def _reservar_credito():
-    """Reserva un crédito antes de llamar a Scrappa y limita el uso mensual del radar."""
+def _reservar_credito(zona_id):
+    """Reserva antes de llamar a Scrappa; distribuye el tope entre las tres zonas."""
     control = _cargar_json(RUTA_CREDITOS, {})
     mes = _mes_actual()
     if control.get("mes") != mes:
-        control = {"mes": mes, "creditos_reservados": 0}
-    if int(control.get("creditos_reservados", 0)) >= CREDITOS_MES_RADAR:
+        control = {"mes": mes, "creditos_reservados_por_zona": {}}
+    por_zona = control.setdefault("creditos_reservados_por_zona", {})
+    usados = int(por_zona.get(zona_id, 0))
+    total = sum(int(v) for v in por_zona.values())
+    if usados >= CREDITOS_MES_POR_ZONA or total >= CREDITOS_MES_RADAR:
         return False
-    control["creditos_reservados"] = int(control.get("creditos_reservados", 0)) + 1
+    por_zona[zona_id] = usados + 1
+    control["creditos_reservados"] = total + 1
     _guardar_json(RUTA_CREDITOS, control)
     return True
 
@@ -97,8 +101,8 @@ def _detalle_metro(id_anuncio, cache, headers, zona_id):
         if edad < 30:
             return guardado.get("lat"), guardado.get("lon"), None
 
-    if not _reservar_credito():
-        return None, None, "Se alcanzó el límite mensual preventivo de 450 créditos del radar."
+    if not _reservar_credito(zona_id):
+        return None, None, "Se alcanzó el límite mensual preventivo de 150 créditos de esta zona."
     respuesta = requests.get(
         f"{SCRAPPA_BASE}/metrocuadrado/property",
         params={"id": id_anuncio},
@@ -140,9 +144,9 @@ def _buscar_metrocuadrado(zona):
     total_paginas = 1
 
     while pagina <= min(total_paginas, max_paginas):
-        if not _reservar_credito():
+        if not _reservar_credito(zona_id):
             truncado = True
-            advertencias.append("Se detuvo la búsqueda al alcanzar el límite mensual preventivo de 450 créditos.")
+            advertencias.append("Se detuvo la búsqueda al alcanzar el límite mensual preventivo de 150 créditos de esta zona.")
             break
         consultas += 1
         params = {
