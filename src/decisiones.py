@@ -389,6 +389,112 @@ def agregar_enlaces_decision(carpeta, activos):
             archivo.write(texto)
 
 
+
+def _anuncios_validos_corte(corte, zona_id, portales):
+    anuncios = {}
+    for item in corte.get("inmuebles", []):
+        portal = item.get("portal")
+        precio = numero(item.get("precio", item.get("precio_actual")))
+        area = numero(item.get("area_m2"))
+        if item.get("zona") != zona_id or portal not in portales:
+            continue
+        if not item.get("validado_poligono") or item.get("estado") == "revisar_atipico":
+            continue
+        if precio <= 0 or area <= 0:
+            continue
+        llave = item.get("id_inmueble") or f"{portal}:{item.get('url', '')}"
+        if llave:
+            anuncios[llave] = item
+    return anuncios
+
+
+def _mediana_m2_corte(anuncios):
+    valores = []
+    for item in anuncios.values():
+        area, precio_m2 = datos_area(item)
+        if not precio_m2 and area:
+            precio_m2 = numero(item.get("precio", item.get("precio_actual"))) / area
+        if precio_m2 > 0:
+            valores.append(precio_m2)
+    return median(valores) if valores else 0
+
+
+def actualizar_resumen_semanal(cortes, carpeta):
+    ruta = os.path.join(carpeta, "00_Radar_Portafolio_3_Zonas.md")
+    try:
+        with open(ruta, encoding="utf-8") as archivo:
+            texto = archivo.read()
+    except OSError:
+        return
+    zonas = {"rincon": "Rincón", "mirandela": "Mirandela", "salitre": "Salitre"}
+    lineas = [
+        "## Cambios semanales (precios publicados)", "",
+        "Compara cortes confiables separados entre 5 y 14 días y limita la comparación a portales confiables en ambos. Una desaparición no confirma venta.",
+        "",
+        "| Zona | Corte base → último confiable | Oferta válida | Mediana COP/m² | Anuncios nuevos | Precios bajaron / subieron | Desaparecidos* |",
+        "|---|---|---:|---:|---:|---:|---:|",
+    ]
+    hay_comparacion = False
+    for zona_id, nombre in zonas.items():
+        confiables = cortes_confiables(cortes, zona_id)
+        pareja = None
+        for i in range(len(confiables) - 1, 0, -1):
+            ultimo, portales_ultimo = confiables[i]
+            try:
+                fecha_ultimo = date.fromisoformat(ultimo.get("fecha_corte", ""))
+            except ValueError:
+                continue
+            for base, portales_base in reversed(confiables[:i]):
+                try:
+                    dias = (fecha_ultimo - date.fromisoformat(base.get("fecha_corte", ""))).days
+                except ValueError:
+                    continue
+                comunes = sorted(set(portales_base) & set(portales_ultimo))
+                if 5 <= dias <= 14 and comunes:
+                    pareja = (base, ultimo, comunes)
+                    break
+            if pareja:
+                break
+        if not pareja:
+            lineas.append(f"| {nombre} | Sin dos cortes confiables separados entre 5 y 14 días | - | - | - | - | - |")
+            continue
+        base, ultimo, portales = pareja
+        previos = _anuncios_validos_corte(base, zona_id, portales)
+        actuales = _anuncios_validos_corte(ultimo, zona_id, portales)
+        if not previos or not actuales:
+            lineas.append(f"| {nombre} | {base.get('fecha_corte')} → {ultimo.get('fecha_corte')} | Sin anuncios geográficos válidos | - | - | - | - |")
+            continue
+        hay_comparacion = True
+        antes_ids, ahora_ids = set(previos), set(actuales)
+        bajaron = subieron = 0
+        for llave in antes_ids & ahora_ids:
+            p0 = numero(previos[llave].get("precio", previos[llave].get("precio_actual")))
+            p1 = numero(actuales[llave].get("precio", actuales[llave].get("precio_actual")))
+            bajaron += p1 < p0
+            subieron += p1 > p0
+        mediana_antes = _mediana_m2_corte(previos)
+        mediana_ahora = _mediana_m2_corte(actuales)
+        cambio = f" ({((mediana_ahora-mediana_antes)/mediana_antes*100):+.1f}%)" if mediana_antes else ""
+        lineas.append(
+            f"| {nombre} | {base.get('fecha_corte')} → {ultimo.get('fecha_corte')} | "
+            f"{len(antes_ids)} → {len(ahora_ids)} ({len(ahora_ids)-len(antes_ids):+d}) | "
+            f"{moneda(mediana_antes)} → {moneda(mediana_ahora)}{cambio} | "
+            f"{len(ahora_ids-antes_ids)} | {bajaron} / {subieron} | {len(antes_ids-ahora_ids)} |"
+        )
+    lineas += ["", "*Los desaparecidos solo cuentan con captura confiable en ambos cortes; pueden haberse retirado, republicado o vendido."]
+    if not hay_comparacion:
+        lineas += ["", "**Estado:** aún no hay dos cortes semanales confiables para medir cambios. Las fallas de captura no se interpretan como caída de oferta ni como ventas."]
+    seccion = "\n".join(lineas).rstrip() + "\n"
+    titulo = "## Cambios semanales (precios publicados)"
+    inicio = texto.find(titulo)
+    if inicio >= 0:
+        texto = texto[:inicio].rstrip() + "\n\n" + seccion
+    else:
+        texto = texto.rstrip() + "\n\n" + seccion
+    with open(ruta, "w", encoding="utf-8") as archivo:
+        archivo.write(texto)
+
+
 def generar_decisiones(fecha_corte, historicos, fuentes):
     activos = leer_activos()
     cortes = cargar_cortes()
@@ -409,4 +515,5 @@ def generar_decisiones(fecha_corte, historicos, fuentes):
         )
     actualizar_reglas(activos, CARPETA_TABLEROS)
     agregar_enlaces_decision(CARPETA_TABLEROS, activos)
+    actualizar_resumen_semanal(cortes, CARPETA_TABLEROS)
     print(f"[OK] Fichas de decisión generadas: {', '.join(paginas)}.")

@@ -8,7 +8,7 @@ on:
       - "requirements.txt"
       - ".github/workflows/main.yml"
   schedule:
-    - cron: '0 13 */3 * *'
+    - cron: '0 13 * * 1'
   workflow_dispatch:
     inputs:
       forzar_captura:

@@ -4,7 +4,7 @@ Automatización para observar oferta y rotación de apartamentos en tres zonas: 
 
 ## Flujo automático
 
-El workflow de GitHub Actions ejecuta `src/scraper.py` y luego `src/analizador.py`. El cron realiza cortes cada tres días. En una ejecución manual, si ya existe un corte para hoy, el radar lo reutiliza sin volver a llamar a los proveedores. Para actualizarlo el mismo día, marca **Forzar captura** en **Actions → Monitor Inmobiliario Zona Norte → Run workflow**.
+El workflow de GitHub Actions ejecuta `src/scraper.py` y luego `src/analizador.py`. El cron realiza cortes cada semana, los lunes a las 8:00 a. m. hora de Bogotá. En una ejecución manual, si ya existe un corte para hoy, el radar lo reutiliza sin volver a llamar a los proveedores. Para actualizarlo el mismo día, marca **Forzar captura** en **Actions → Monitor Inmobiliario Zona Norte → Run workflow**.
 
 - `config/zonas.json`: límites, estado de calibración y rutas de búsqueda por zona.
 - `config/activos.json`: perfiles de los apartamentos propios, tolerancias para comparables y fecha objetivo inicial de publicación. Las coordenadas se guardan como [latitud, longitud]; el código las convierte al orden requerido por Shapely.
@@ -12,13 +12,13 @@ El workflow de GitHub Actions ejecuta `src/scraper.py` y luego `src/analizador.p
 - `data/historico_rincon.json`, `data/historico_mirandela.json`, `data/historico_salitre.json`: estado persistente de cada anuncio, fechas detectadas, precios, huellas y salidas probables.
 - `data/metrocuadrado_coordenadas.json`: coordenadas obtenidas de los detalles de Metrocuadrado, para no volver a consultar el mismo anuncio durante 30 días.
 - `data/scrappa_creditos.json`: contador mensual preventivo de solicitudes que hace este radar a Scrappa.
-- `obsidian_vault/00_Radar_Portafolio_3_Zonas.md`: comparación consolidada.
+- `obsidian_vault/00_Radar_Portafolio_3_Zonas.md`: comparación consolidada y sección de cambios semanales entre cortes confiables.
 - `obsidian_vault/01_Tablero_Rincon.md`, `01_Tablero_Mirandela.md`, `01_Tablero_Salitre.md`: tablero por zona; el frontmatter conserva `estado_poligono`.
 - `obsidian_vault/02_Reglas_Dinamica_y_Venta.md`: parámetros de estimación, perfiles y fecha objetivo.
 - `obsidian_vault/03_Decision_Rincon.md`, `03_Decision_Mirandela.md`, `03_Decision_Salitre.md`: ficha de decisión de cada apartamento, comparables y evolución de precios.
 - `obsidian_vault/Oportunidades/<Zona>/<ID>.md`: fichas individuales.
 
-Cada análisis actualiza las fichas de decisión. La mediana de comparables sirve como referencia de anuncios publicados, no de ventas confirmadas. Solo se propone un rango preliminar de publicación cuando la captura actual es confiable y hay al menos tres comparables directos; de lo contrario la ficha indica que falta información.
+Cada análisis actualiza las fichas de decisión y el resumen semanal de oferta, mediana COP/m², anuncios nuevos, cambios de precio y desapariciones probables. La comparación requiere dos capturas confiables separadas entre 5 y 14 días y utiliza los mismos portales en ambos cortes. La mediana de comparables sirve como referencia de anuncios publicados, no de ventas confirmadas. Solo se propone un rango preliminar de publicación cuando la captura actual es confiable y hay al menos tres comparables directos; de lo contrario la ficha indica que falta información.
 
 La fecha objetivo inicial de publicación es el 27 de febrero de 2027 y se puede cambiar en `config/activos.json`.
 
