@@ -12,7 +12,7 @@ from config import MINIMOS_CAPTURA_PORTAL, ZONAS
 from proveedor_api import buscar as buscar_api
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "es-CO,es;q=0.9,en;q=0.8",
 }
@@ -115,9 +115,7 @@ def normalizar_item(raw, portal, zona_id, barrio_fuente):
         validado = False
         if lat is not None and lon is not None:
             validado = zona["poligono"].covers(Point(lon, lat))
-            # No asignar a una zona anuncios geolocalizados fuera del polígono.
-            if not validado:
-                return None
+            # Conservar fuera del polígono para auditoría; el analizador los excluye de métricas.
 
         habit = raw.get("rooms") or raw.get("bedrooms") or raw.get("habitaciones") or raw.get("alcobas") or 0
         banos = raw.get("bathrooms") or raw.get("banos") or raw.get("baños") or 0
@@ -171,8 +169,47 @@ def urls_busqueda(portal, zona_id, zona):
             yield barrio, base if pagina == 1 else f"{base}?page={pagina}"
 
 
+
+def buscar_fincaraiz_directo(zona):
+    """Consulta páginas públicas de FincaRaíz y extrae anuncios del JSON embebido."""
+    anuncios, errores, advertencias = {}, [], []
+    consultas = consultas_ok = 0
+    for barrio, url in urls_busqueda("Fincaraiz", zona.get("id", ""), zona):
+        consultas += 1
+        try:
+            respuesta = requests.get(url, headers=HEADERS, timeout=TIMEOUT_SEGUNDOS)
+            respuesta.raise_for_status()
+            consultas_ok += 1
+            encontrados, vistos = [], set()
+            for datos in extraer_datos_embebidos(respuesta.text):
+                buscar_listados_recursivo(datos, encontrados, vistos)
+            for anuncio in encontrados:
+                clave = str(anuncio.get("id") or anuncio.get("property_id") or anuncio.get("code") or anuncio.get("url") or "")
+                if clave:
+                    anuncio = dict(anuncio)
+                    anuncio.setdefault("link", anuncio.get("url", ""))
+                    anuncios[clave] = anuncio
+            if not encontrados:
+                advertencias.append(f"Sin anuncios estructurados en la página de búsqueda {barrio}, consulta {consultas}.")
+        except (requests.RequestException, ValueError, TypeError, AttributeError) as error:
+            errores.append(f"{barrio}, consulta {consultas}: {error}")
+    return list(anuncios.values()), {
+        "consultas": consultas,
+        "consultas_ok": consultas_ok,
+        "capturados": len(anuncios),
+        "captura_confiable": consultas > 0 and consultas_ok == consultas and bool(anuncios) and not errores,
+        "truncado_por_limite": False,
+        "proveedor": "FincaRaiz web pública",
+        "errores": errores[:10],
+        "advertencias": advertencias[:10],
+    }
+
+
 def recolectar_portal(portal, zona_id, zona):
-    candidatos, estado = buscar_api(portal, zona)
+    if portal == "Fincaraiz":
+        candidatos, estado = buscar_fincaraiz_directo({**zona, "id": zona_id})
+    else:
+        candidatos, estado = buscar_api(portal, zona)
     unicos = {}
     for item in candidatos:
         barrio = (
@@ -230,6 +267,45 @@ def main():
             inmuebles.extend(registros)
             estado_captura[zona_id][portal] = estado
             print(f"[INFO] {zona_id}/{portal}: {len(registros)} anuncios; captura confiable={estado['captura_confiable']}")
+
+    fuentes_confiables = [
+        (zona_id, portal)
+        for zona_id, fuentes in estado_captura.items()
+        for portal, estado in fuentes.items()
+        if estado.get("captura_confiable")
+    ]
+    if not fuentes_confiables:
+        print("[ERROR] Ningún portal produjo una captura confiable; se conserva el último corte.")
+        return
+
+    # Al reintentar el mismo día, conservar los datos del portal cuya nueva consulta falló.
+    if os.path.exists(ruta):
+        try:
+            with open(ruta, encoding="utf-8") as archivo:
+                anterior = json.load(archivo)
+            anteriores = anterior.get("inmuebles", [])
+            for zona_id, fuentes in estado_captura.items():
+                for portal, estado in list(fuentes.items()):
+                    if estado.get("captura_confiable"):
+                        continue
+                    estado_anterior = anterior.get("estado_captura", {}).get(zona_id, {}).get(portal, {})
+                    if estado_anterior.get("captura_confiable"):
+                        inmuebles.extend(
+                            item for item in anteriores
+                            if item.get("zona") == zona_id and item.get("portal") == portal
+                        )
+                        fuentes[portal] = dict(estado_anterior)
+                        fuentes[portal]["advertencias"] = list(fuentes[portal].get("advertencias", [])) + [
+                            "Se conservó la captura confiable previa del mismo día porque el nuevo intento falló."
+                        ]
+        except (OSError, json.JSONDecodeError) as error:
+            print(f"[AVISO] No se pudo leer el corte previo para combinarlo: {error}")
+
+    registros_unicos = {}
+    for item in inmuebles:
+        clave = (item.get("zona"), item.get("portal"), item.get("id_inmueble"))
+        registros_unicos[clave] = item
+    inmuebles = list(registros_unicos.values())
 
     with open(ruta, "w", encoding="utf-8") as archivo:
         json.dump({
