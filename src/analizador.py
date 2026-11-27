@@ -406,10 +406,17 @@ def tabla_posibles_ventas(registros, mediana):
     return "\n".join(filas) or "| Sin posibles ventas | - | - | - | - | - | - | - | - | - | - |"
 
 
-def generar_tableros(fecha_corte, historicos):
+def generar_tableros(fecha_corte, historicos, estados_captura):
     resumen = {}
     for zona_id, zona in ZONAS.items():
         registros = historicos[zona_id]
+        fuentes_zona = estados_captura.get(zona_id, {})
+        portales_confiables = [p for p, estado in fuentes_zona.items() if estado.get("captura_confiable")]
+        estado_captura = (
+            "confiable" if fuentes_zona and len(portales_confiables) == len(fuentes_zona)
+            else "parcial" if portales_confiables
+            else "sin_datos_confiables"
+        )
         activos = [r for r in registros if r.get("zona") == zona_id and es_activo_valido(r)]
         ventas = [r for r in registros if r.get("zona") == zona_id and r.get("estado") == "posible_venta"]
         mediana = median([int(r.get("precio_m2") or 0) for r in activos if int(r.get("precio_m2") or 0) > 0]) if activos else 0
@@ -424,12 +431,18 @@ def generar_tableros(fecha_corte, historicos):
         frontmatter = (
             f"---\ntipo: tablero-inmobiliario\nzona: {zona_id}\n"
             f"estado_poligono: {zona['estado_poligono']}\nfecha_actualizacion: {fecha_corte}\n"
+            f"estado_captura: {estado_captura}\nportales_confiables: {json.dumps(portales_confiables, ensure_ascii=False)}\n"
             f"oferta_activa_valida: {len(activos)}\nposibles_ventas: {len(ventas)}\n"
             f"mediana_precio_m2: {int(mediana)}\n---"
         )
         lineas = [
             frontmatter, "", f"# Radar de {zona['nombre']} — Bogotá", "",
             f"Polígono en **{zona['estado_poligono']}**. Los indicadores geográficos deben interpretarse con esa calibración.",
+            f"**Captura {fecha_corte}:** " + "; ".join(
+                f"{p}: {e.get('capturados', 0)} anuncios ({'confiable' if e.get('captura_confiable') else 'no confiable'})"
+                for p, e in fuentes_zona.items()
+            ) if fuentes_zona else "**Captura:** no disponible.",
+            *([] if portales_confiables else ["La captura actual no es confiable; las cifras de oferta y medianas conservan el último histórico validado y pueden estar desactualizadas."]),
             "", "## Dinámica de zona", "",
             f"- Oferta activa válida: **{len(activos)}**",
             f"- Posibles ventas acumuladas: **{len(ventas)}**",
@@ -439,7 +452,7 @@ def generar_tableros(fecha_corte, historicos):
             f"- Mediana de cierre estimado (-5%): **{moneda(mediana_cierre)} COP/m²**",
             "", "## Posibles ventas y cierres estimados", "",
             "| ID | Portal | Barrio | Área (m²) | Hab/Baños | DOM (días) | Último precio | Cierre est. (-5%) | Cierre est. ($/m²) | vs mediana zona | Señal |",
-            "|---|---|---|---:|---:|---:|---:|---:|---:|---:|---|",
+            "|---|---|---|---|---:|---:|---:|---:|---:|---:|---:|---|",
             tabla_posibles_ventas(registros, mediana),
         ]
         if zona_id == "rincon":
@@ -459,7 +472,7 @@ def generar_tableros(fecha_corte, historicos):
     for zona_id, zona in ZONAS.items():
         activos, ventas, mediana, mediana_cierre, dom, absorcion = resumen[zona_id]
         filas.append(
-            f"| {zona['nombre']} | {zona['estado_poligono']} | {len(activos)} | {len(ventas)} | "
+            f"| {zona['nombre']} | {zona['estado_poligono']} | {resumen[zona_id][0] and 'confiable' or 'sin datos'} | {len(activos)} | {len(ventas)} | "
             f"{absorcion}% | {dom} días | {moneda(mediana)} | {moneda(mediana_cierre)} |"
         )
     texto = f"""---
@@ -470,7 +483,7 @@ zonas: 3
 
 # Radar de liquidez del portafolio — Bogotá
 
-| Zona | Estado del polígono | Oferta activa válida | Posibles ventas acumuladas | Tasa de absorción | DOM mediano de salida | Mediana activa COP/m² | Mediana cierre estimado (-5%) |
+| Zona | Estado del polígono | Captura | Oferta activa válida | Posibles ventas acumuladas | Tasa de absorción | DOM promedio de salida | Mediana activa COP/m² | Mediana cierre estimado (-5%) |
 |---|---|---:|---:|---:|---:|---:|---:|
 {chr(10).join(filas)}
 """
@@ -494,6 +507,7 @@ precision_coordenadas_huella: 4
 - Los anuncios sin coordenadas o con precio/m² atípico (menor a 0,5× o mayor a 1,8× la mediana preliminar) se aíslan en estado `revisar_atipico`.
 - Una ausencia solo cambia a posible venta cuando el portal supera el umbral mínimo de captura de esa zona.
 - DOM observado comienza en la primera detección disponible; no equivale a la fecha real de publicación.
+- Tasa de absorción acumulada: posibles ventas estimadas divididas por IDs únicos históricos de la zona; no equivale a absorción mensual de transacciones confirmadas.
 
 ## Perfiles de activos propios
 
@@ -515,7 +529,7 @@ def main():
             inmuebles_hoy,
             por_fuente,
         )
-    generar_tableros(fecha_corte, historicos)
+    generar_tableros(fecha_corte, historicos, fuentes)
     print(f"[OK] Histórico y tableros actualizados para {fecha_corte}.")
 
 
