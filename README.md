@@ -36,18 +36,17 @@ Mirandela y Salitre están activas con polígonos `aproximado_v1`; sus tableros 
 
 ## Proveedores y credenciales
 
-FincaRaíz se consulta por API.SH y Metrocuadrado por Scrappa. Son proveedores externos e independientes de los portales. Scrappa requiere una búsqueda por radio y una consulta de detalle por anuncio nuevo para recuperar coordenadas. El radar limita esta búsqueda a un círculo calculado alrededor del polígono y valida después cada coordenada contra el polígono configurado. Los anuncios fuera del polígono no entran en el corte.
+FincaRaíz se consulta directamente desde sus páginas públicas, leyendo los datos estructurados que el portal incluye en cada página; no requiere una API key. Metrocuadrado se consulta por Scrappa, que requiere una búsqueda por radio y una consulta de detalle por anuncio nuevo para recuperar coordenadas. El radar limita esta búsqueda a un círculo calculado alrededor del polígono y valida después cada coordenada contra el polígono configurado. Los anuncios fuera del polígono se conservan con `validado_poligono: false` para auditoría y se excluyen de métricas.
 
 En GitHub, abre **Settings → Secrets and variables → Actions → New repository secret** y configura:
 
-- `RADAR_DATA_API_KEY`: clave API.SH para FincaRaíz.
 - `SCRAPPA_API_KEY`: clave Scrappa para Metrocuadrado.
 
-Pega cada clave directamente en GitHub como secreto. No la agregues al código, a un archivo del repositorio ni a este chat.
+Pega la clave directamente en GitHub como secreto. No la agregues al código, a un archivo del repositorio ni a este chat.
 
 Scrappa incluye 500 créditos mensuales gratuitos por cuenta. Para limitar el consumo de este radar, el contador del repositorio reserva como máximo 450 solicitudes al mes, distribuidas en hasta 150 por zona, y conserva las coordenadas consultadas por 30 días. Usa una cuenta/clave dedicada al radar: el contador solo conoce las solicitudes del repositorio y no puede contar otras aplicaciones que usen la misma cuenta. No compres créditos ni actives un plan pago para habilitar este flujo; si el límite preventivo se alcanza, la captura Metrocuadrado queda incompleta y no se usa para inferir salidas. Revisa la [documentación de búsqueda](https://scrappa.co/docs/metrocuadrado-api/metrocuadrado_search), la [documentación de detalles](https://scrappa.co/docs/metrocuadrado-api/metrocuadrado_property) y los [precios vigentes](https://scrappa.co/pricing) antes de utilizar el servicio; sus condiciones pueden cambiar.
 
-API.SH ofrece créditos gratuitos mensuales sujetos a sus límites vigentes; revisa sus [precios](https://api.sh/pricing). Un error HTTP 402 significa que la cuenta o la clave no tiene créditos disponibles o alcanzó un límite. Sin agregar fondos, espera al reinicio mensual o revisa los límites en el panel de API.SH. Si falta cualquier clave, la captura de ese portal se marca como no confiable y no genera posibles ventas.
+FincaRaíz no requiere clave. Como su página o estructura puede cambiar y el portal puede limitar solicitudes automatizadas, cada corte valida que las páginas respondan, que se hayan extraído anuncios y que se alcance el mínimo de registros y cobertura geográfica. Si la captura no pasa esos controles, se conserva el último corte válido y no se infieren salidas del mercado.
 
 GitHub Actions usa además el token temporal `GITHUB_TOKEN` que GitHub crea para cada ejecución. `actions/checkout` conserva la credencial para que el paso final pueda publicar el commit, y el workflow limita el permiso del token a `contents: write`.
 
