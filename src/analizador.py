@@ -79,7 +79,7 @@ def migrar_csv_rincon():
             texto_historial = str(fila.get("historial_precios") or "")
             historial = [
                 {"fecha": fecha, "precio": int(re.sub(r"[^0-9]", "", precio))}
-                for fecha, precio in re.findall(r"(20\d{2}-\d{2}-\d{2})\s*:\s*\\$?\s*([0-9.,]+)", texto_historial)
+                for fecha, precio in re.findall(r"(20\d{2}-\d{2}-\d{2})\s*:\s*\$?\s*([0-9.,]+)", texto_historial)
             ]
             if not historial:
                 historial = [{"fecha": primera, "precio": precio_ini}]
