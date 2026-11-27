@@ -513,7 +513,7 @@ precision_coordenadas_huella: 4
 - DOM observado comienza en la primera detección disponible; no equivale a la fecha real de publicación.
 - Tasa de absorción acumulada: posibles ventas estimadas divididas por IDs únicos históricos de la zona; no equivale a absorción mensual de transacciones confirmadas.
 
-## Perfiles de activos propios
+## Perfiles de apartamentos propios
 
 - Rincón: 55 m², 3 habitaciones, 2 baños, parqueadero propio, 5.º piso sin ascensor, administración $515.000 COP/mes. Horizonte inicial: junio de 2027.
 - Mirandela y Salitre: perfil por parametrizar en archivos de configuración cuando se suministren sus características.
