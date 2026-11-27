@@ -9,8 +9,8 @@
   "estado_captura": {
     "rincon": {
       "Fincaraiz": {
-        "consultas": 13,
-        "consultas_ok": 13,
+        "consultas": 12,
+        "consultas_ok": 12,
         "capturados": 69,
         "captura_confiable": true,
         "truncado_por_limite": false,
@@ -71,16 +71,16 @@
     },
     "salitre": {
       "Fincaraiz": {
-        "consultas": 11,
-        "consultas_ok": 11,
+        "consultas": 6,
+        "consultas_ok": 5,
         "capturados": 1,
         "captura_confiable": false,
-        "truncado_por_limite": true,
+        "truncado_por_limite": false,
         "proveedor": "API.SH",
-        "errores": [],
-        "advertencias": [
-          "Se alcanzó el máximo de páginas para 'salitre'."
+        "errores": [
+          "salitre, página 5: 402 Client Error: Payment Required for url: https://api.api.sh/fincaraiz/v1/search?transaction=sale&property_type=apartment&location=salitre&page=5&raw=true"
         ],
+        "advertencias": [],
         "capturados_con_coordenadas": 1,
         "capturados_en_poligono": 1,
         "cobertura_coordenadas_pct": 100.0
@@ -1025,23 +1025,6 @@
     {
       "portal": "Fincaraiz",
       "zona": "rincon",
-      "id_inmueble": "FR-192790520",
-      "titulo": "Apartamento en Venta en Toberin, Bogotá",
-      "barrio": "Toberin",
-      "precio": 280000000,
-      "area_m2": 53.0,
-      "precio_m2": 5283018,
-      "habitaciones": 3,
-      "banos": 1,
-      "parqueaderos": 0,
-      "lat": 4.7440083,
-      "lon": -74.0393312,
-      "validado_poligono": true,
-      "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/192790520"
-    },
-    {
-      "portal": "Fincaraiz",
-      "zona": "rincon",
       "id_inmueble": "FR-194651142",
       "titulo": "Apartamento en Venta en Toberin, Bogotá",
       "barrio": "Toberin",
@@ -1055,6 +1038,23 @@
       "lon": -74.0405734,
       "validado_poligono": true,
       "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/194651142"
+    },
+    {
+      "portal": "Fincaraiz",
+      "zona": "rincon",
+      "id_inmueble": "FR-192790520",
+      "titulo": "Apartamento en Venta en Toberin, Bogotá",
+      "barrio": "Toberin",
+      "precio": 280000000,
+      "area_m2": 53.0,
+      "precio_m2": 5283018,
+      "habitaciones": 3,
+      "banos": 1,
+      "parqueaderos": 0,
+      "lat": 4.7440083,
+      "lon": -74.0393312,
+      "validado_poligono": true,
+      "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/192790520"
     },
     {
       "portal": "Fincaraiz",
@@ -1127,23 +1127,6 @@
     {
       "portal": "Fincaraiz",
       "zona": "rincon",
-      "id_inmueble": "FR-194177396",
-      "titulo": "Apartamento en Venta en Las orquideas, Bogotá",
-      "barrio": "Las orquideas",
-      "precio": 380000000,
-      "area_m2": 57.0,
-      "precio_m2": 6666666,
-      "habitaciones": 2,
-      "banos": 2,
-      "parqueaderos": 1,
-      "lat": 4.7420106,
-      "lon": -74.040294,
-      "validado_poligono": true,
-      "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-las-orquideas-bogota/194177396"
-    },
-    {
-      "portal": "Fincaraiz",
-      "zona": "rincon",
       "id_inmueble": "FR-194221057",
       "titulo": "Apartamento en Venta en Las orquideas, Bogotá",
       "barrio": "Las orquideas",
@@ -1157,6 +1140,23 @@
       "lon": -74.0398596,
       "validado_poligono": true,
       "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-las-orquideas-bogota/194221057"
+    },
+    {
+      "portal": "Fincaraiz",
+      "zona": "rincon",
+      "id_inmueble": "FR-194177396",
+      "titulo": "Apartamento en Venta en Las orquideas, Bogotá",
+      "barrio": "Las orquideas",
+      "precio": 380000000,
+      "area_m2": 57.0,
+      "precio_m2": 6666666,
+      "habitaciones": 2,
+      "banos": 2,
+      "parqueaderos": 1,
+      "lat": 4.7420106,
+      "lon": -74.040294,
+      "validado_poligono": true,
+      "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-las-orquideas-bogota/194177396"
     },
     {
       "portal": "Fincaraiz",
@@ -1331,19 +1331,19 @@
     {
       "portal": "Fincaraiz",
       "zona": "mirandela",
-      "id_inmueble": "FR-193694733",
-      "titulo": "Apartamento en Venta en Mirandela, Bogotá",
-      "barrio": "Mirandela",
-      "precio": 435000000,
-      "area_m2": 100.0,
-      "precio_m2": 4350000,
-      "habitaciones": 4,
+      "id_inmueble": "FR-194442766",
+      "titulo": "Apartamento en Venta en Lagos de Torca, Bogotá",
+      "barrio": "Lagos de Torca",
+      "precio": 650000000,
+      "area_m2": 90.0,
+      "precio_m2": 7222222,
+      "habitaciones": 3,
       "banos": 2,
-      "parqueaderos": 2,
-      "lat": 4.7662406,
-      "lon": -74.0495325,
+      "parqueaderos": 1,
+      "lat": 4.7669556,
+      "lon": -74.0483189,
       "validado_poligono": true,
-      "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-mirandela-bogota/193694733"
+      "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-lagos-de-torca-bogota/194442766"
     },
     {
       "portal": "Fincaraiz",
@@ -1365,19 +1365,19 @@
     {
       "portal": "Fincaraiz",
       "zona": "mirandela",
-      "id_inmueble": "FR-194442766",
-      "titulo": "Apartamento en Venta en Lagos de Torca, Bogotá",
-      "barrio": "Lagos de Torca",
-      "precio": 650000000,
-      "area_m2": 90.0,
-      "precio_m2": 7222222,
-      "habitaciones": 3,
+      "id_inmueble": "FR-193694733",
+      "titulo": "Apartamento en Venta en Mirandela, Bogotá",
+      "barrio": "Mirandela",
+      "precio": 435000000,
+      "area_m2": 100.0,
+      "precio_m2": 4350000,
+      "habitaciones": 4,
       "banos": 2,
-      "parqueaderos": 1,
-      "lat": 4.7669556,
-      "lon": -74.0483189,
+      "parqueaderos": 2,
+      "lat": 4.7662406,
+      "lon": -74.0495325,
       "validado_poligono": true,
-      "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-lagos-de-torca-bogota/194442766"
+      "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-mirandela-bogota/193694733"
     },
     {
       "portal": "Fincaraiz",
@@ -1450,23 +1450,6 @@
     {
       "portal": "Fincaraiz",
       "zona": "mirandela",
-      "id_inmueble": "FR-193016778",
-      "titulo": "Apartamento en Venta en Mirandela, Bogotá",
-      "barrio": "Mirandela",
-      "precio": 260000000,
-      "area_m2": 56.0,
-      "precio_m2": 4642857,
-      "habitaciones": 3,
-      "banos": 2,
-      "parqueaderos": 0,
-      "lat": 4.7680618,
-      "lon": -74.0485736,
-      "validado_poligono": true,
-      "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-mirandela-bogota/193016778"
-    },
-    {
-      "portal": "Fincaraiz",
-      "zona": "mirandela",
       "id_inmueble": "FR-194449070",
       "titulo": "Apartamento en Venta en Villa nova, Bogotá",
       "barrio": "Villa nova",
@@ -1480,6 +1463,23 @@
       "lon": -74.050160056935,
       "validado_poligono": true,
       "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-villa-nova-bogota/194449070"
+    },
+    {
+      "portal": "Fincaraiz",
+      "zona": "mirandela",
+      "id_inmueble": "FR-193016778",
+      "titulo": "Apartamento en Venta en Mirandela, Bogotá",
+      "barrio": "Mirandela",
+      "precio": 260000000,
+      "area_m2": 56.0,
+      "precio_m2": 4642857,
+      "habitaciones": 3,
+      "banos": 2,
+      "parqueaderos": 0,
+      "lat": 4.7680618,
+      "lon": -74.0485736,
+      "validado_poligono": true,
+      "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-mirandela-bogota/193016778"
     },
     {
       "portal": "Fincaraiz",
