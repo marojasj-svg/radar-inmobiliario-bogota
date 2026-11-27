@@ -135,7 +135,8 @@ def _buscar_metrocuadrado(zona):
         }
 
     headers = {"x-api-key": api_key}
-    zona_id = zona.get("id", "zona")\n    radio_km, latitud, longitud = _radio_km(zona)
+    zona_id = zona.get("id", "zona")
+    radio_km, latitud, longitud = _radio_km(zona)
     cache = _cargar_json(RUTA_COORDENADAS, {})
     anuncios, errores, advertencias = {}, [], []
     consultas = consultas_ok = 0
