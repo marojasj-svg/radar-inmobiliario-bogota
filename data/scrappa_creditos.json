@@ -1,9 +1,9 @@
 {
   "mes": "2026-11",
   "creditos_reservados_por_zona": {
-    "rincon": 6,
-    "mirandela": 6,
-    "salitre": 6
+    "rincon": 7,
+    "mirandela": 7,
+    "salitre": 7
   },
-  "creditos_reservados": 18
+  "creditos_reservados": 21
 }
