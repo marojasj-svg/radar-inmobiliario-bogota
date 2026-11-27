@@ -173,7 +173,7 @@ def encabezado_fuentes(fecha_corte, fuentes, ultima_confiable):
 
 
 def escribir_ficha(zona_id, activo, fecha_corte, historicos, fuentes, cortes, indice_historico):
-    ruta = os.path.join(CARPETA_TABLEROS, f"03_Decision_{activo['nombre']}.md")
+    ruta = os.path.join(CARPETA_TABLEROS, f"03_Decision_{zona_id.title()}.md")
     fuentes_actuales = fuentes.get(zona_id, {})
     portales_actuales = {
         portal for portal, estado in fuentes_actuales.items()
@@ -226,11 +226,9 @@ def escribir_ficha(zona_id, activo, fecha_corte, historicos, fuentes, cortes, in
         precio_salida = (
             f"- **Rango preliminar para probar publicación:** {moneda(rango_publicacion[0])}–"
             f"{moneda(rango_publicacion[1])} COP (±3% sobre el valor derivado de la mediana de "
-            f"{len(comparables)} comparables).
-"
+            f"{len(comparables)} comparables).\n"
             f"- **Cierre orientativo (-5%):** {moneda(valor_base * 0.95)} COP; banda "
-            f"{moneda(rango_cierre[0])}–{moneda(rango_cierre[1])} COP.
-"
+            f"{moneda(rango_cierre[0])}–{moneda(rango_cierre[1])} COP.\n"
             "- Recomendación provisional basada en precios publicados; revisar fotos, estado y "
             "negociación antes de fijar el precio definitivo."
         )
@@ -372,14 +370,14 @@ def actualizar_reglas(activos, carpeta):
 
 def agregar_enlaces_decision(carpeta, activos):
     enlaces = "\n".join(
-        f"- [[03_Decision_{activo['nombre']}|Decisión de venta: {activo['nombre']}]]"
-        for activo in activos["activos"].values()
+        f"- [[03_Decision_{zona_id.title()}|Decisión de venta: {activo['nombre']}]]"
+        for zona_id, activo in activos["activos"].items()
     )
     seccion = "## Fichas de decisión de venta\n\n" + enlaces
     rutas = [os.path.join(carpeta, "00_Radar_Portafolio_3_Zonas.md")]
     rutas.extend(
-        os.path.join(carpeta, f"01_Tablero_{a['nombre']}.md")
-        for a in activos["activos"].values()
+        os.path.join(carpeta, f"01_Tablero_{zona_id.title()}.md")
+        for zona_id in activos["activos"]
     )
     for ruta in rutas:
         try:
