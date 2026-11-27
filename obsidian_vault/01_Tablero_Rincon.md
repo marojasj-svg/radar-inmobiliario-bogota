@@ -3,33 +3,33 @@ tipo: tablero-inmobiliario
 zona: rincon
 estado_poligono: calibrado
 fecha_actualizacion: 2026-11-27
-estado_captura: sin_datos_confiables
-portales_confiables: []
-oferta_activa_valida: 63
-posibles_ventas: 0
-mediana_precio_m2: 5686274
+estado_captura: confiable
+portales_confiables: ["Fincaraiz", "Metrocuadrado"]
+oferta_activa_valida: 68
+posibles_ventas: 2
+mediana_precio_m2: 5673325
 ---
 
 # Radar de Rincón — Bogotá
 
 Polígono en **calibrado**. Los indicadores geográficos deben interpretarse con esa calibración.
-**Captura 2026-11-27:** Fincaraiz: 0 anuncios (no confiable); Metrocuadrado: 0 anuncios (no confiable)
-La captura actual no es confiable; las cifras de oferta y medianas conservan el último histórico validado y pueden estar desactualizadas.
+**Captura 2026-11-27:** Fincaraiz: 69 anuncios (confiable); Metrocuadrado: 123 anuncios (confiable)
 
 ## Dinámica de zona
 
-- Oferta activa válida: **63**
-- Posibles ventas acumuladas: **0**
-- Tasa de absorción observada: **0.0%**
+- Oferta activa válida: **68**
+- Posibles ventas acumuladas: **2**
+- Tasa de absorción observada: **1.02%**
 - DOM promedio de salida: **0 días**
-- Mediana activa: **$ 5.686.274 COP/m²**
-- Mediana de cierre estimado (-5%): **$ 0 COP/m²**
+- Mediana activa: **$ 5.673.326 COP/m²**
+- Mediana de cierre estimado (-5%): **$ 11.890.558 COP/m²**
 
 ## Posibles ventas y cierres estimados
 
 | ID | Portal | Barrio | Área (m²) | Hab/Baños | DOM (días) | Último precio | Cierre est. (-5%) | Cierre est. ($/m²) | vs mediana zona | Señal |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|---|
-| Sin posibles ventas | - | - | - | - | - | - | - | - | - | - |
+| FR-194511122 | Fincaraiz | Las Margaritas | 61.5 | 2/2 | 0 | $ 771.309.000 | $ 732.743.550 | $ 11.914.529 | 111.62% | Estimación orientativa |
+| FR-194628524 | Fincaraiz | Las Margaritas | 75.2 | 3/2 | 0 | $ 939.334.000 | $ 892.367.300 | $ 11.866.586 | 110.77% | Estimación orientativa |
 
 ## Comparables directos del apartamento propio (50–62 m², 3 habitaciones)
 
@@ -44,7 +44,6 @@ La captura actual no es confiable; las cifras de oferta y medianas conservan el 
 | FR-194412138 | Fincaraiz | 56.0 | $ 375.000.000 | $ 6.696.428 | 1 | 2 |
 | FR-193632427 | Fincaraiz | 55.0 | $ 325.000.000 | $ 5.909.090 | 1 | 1 |
 | FR-194426049 | Fincaraiz | 55.0 | $ 270.000.000 | $ 4.909.090 | 1 | 2 |
-| FR-194485745 | Fincaraiz | 55.0 | $ 270.000.000 | $ 4.909.090 | 1 | 2 |
 | FR-194459858 | Fincaraiz | 55.0 | $ 270.000.000 | $ 4.909.090 | 1 | 2 |
 | FR-194444488 | Fincaraiz | 55.0 | $ 285.000.000 | $ 5.181.818 | 1 | 2 |
 | FR-193737508 | Fincaraiz | 54.0 | $ 225.000.000 | $ 4.166.666 | 1 | 1 |
@@ -53,4 +52,7 @@ La captura actual no es confiable; las cifras de oferta y medianas conservan el 
 | FR-194496074 | Fincaraiz | 51.0 | $ 290.000.000 | $ 5.686.274 | 1 | 1 |
 | FR-194662730 | Fincaraiz | 60.0 | $ 300.000.000 | $ 5.000.000 | 1 | 2 |
 | FR-192790520 | Fincaraiz | 53.0 | $ 280.000.000 | $ 5.283.018 | 1 | 1 |
-| FR-194387128 | Fincaraiz | 55.0 | $ 270.000.000 | $ 4.909.090 | 1 | 2 |
+| FR-193573749 | Fincaraiz | 56.0 | $ 399.000.000 | $ 7.125.000 | 0 | 1 |
+| FR-194392256 | Fincaraiz | 55.0 | $ 270.000.000 | $ 4.909.090 | 0 | 2 |
+| FR-194665676 | Fincaraiz | 55.0 | $ 270.000.000 | $ 4.909.090 | 0 | 2 |
+| FR-194030691 | Fincaraiz | 57.0 | $ 300.000.000 | $ 5.263.157 | 0 | 1 |

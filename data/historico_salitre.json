@@ -1,1 +1,45 @@
-[]
+[
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194079906",
+    "titulo": "Apartamento en Venta en Pablo vi norte, Bogotá",
+    "barrio": "Pablo vi norte",
+    "precio": 550000000,
+    "area_m2": 87.0,
+    "precio_m2": 6321839,
+    "habitaciones": 4,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.6519268,
+    "lon": -74.0922413,
+    "validado_poligono": true,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-pablo-vi-norte-bogota/194079906",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 550000000,
+    "precio_actual": 550000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "activo_nuevo",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 550000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 87.0,
+      "habitaciones": 4,
+      "banos": 2,
+      "coordenadas": [
+        4.6519,
+        -74.0922
+      ]
+    },
+    "posible_republicacion": false
+  }
+]

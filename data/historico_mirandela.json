@@ -1,1 +1,3001 @@
-[]
+[
+  {
+    "portal": "Fincaraiz",
+    "zona": "mirandela",
+    "id_inmueble": "FR-193980831",
+    "titulo": "Apartamento en Venta en Suba, Bogotá",
+    "barrio": "Suba",
+    "precio": 420000000,
+    "area_m2": 90.0,
+    "precio_m2": 4666666,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 2,
+    "lat": 4.7678365,
+    "lon": -74.0464867,
+    "validado_poligono": true,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-suba-bogota/193980831",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 420000000,
+    "precio_actual": 420000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "activo_nuevo",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 420000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 90.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7678,
+        -74.0465
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "mirandela",
+    "id_inmueble": "FR-194640907",
+    "titulo": "Apartamento en Venta en Mirandela, Bogotá",
+    "barrio": "Mirandela",
+    "precio": 329000000,
+    "area_m2": 64.0,
+    "precio_m2": 5140625,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 1,
+    "lat": 4.7672057,
+    "lon": -74.0466643,
+    "validado_poligono": true,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-mirandela-bogota/194640907",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 329000000,
+    "precio_actual": 329000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "activo_nuevo",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 329000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 64.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.7672,
+        -74.0467
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "mirandela",
+    "id_inmueble": "FR-194220745",
+    "titulo": "Apartamento en Venta en Mirandela, Bogotá",
+    "barrio": "Mirandela",
+    "precio": 350000000,
+    "area_m2": 120.0,
+    "precio_m2": 2916666,
+    "habitaciones": 3,
+    "banos": 3,
+    "parqueaderos": 1,
+    "lat": 4.765812808073,
+    "lon": -74.050160056935,
+    "validado_poligono": true,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-mirandela-bogota/194220745",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 350000000,
+    "precio_actual": 350000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "activo_nuevo",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 350000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 120.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.7658,
+        -74.0502
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "mirandela",
+    "id_inmueble": "FR-194442766",
+    "titulo": "Apartamento en Venta en Lagos de Torca, Bogotá",
+    "barrio": "Lagos de Torca",
+    "precio": 650000000,
+    "area_m2": 90.0,
+    "precio_m2": 7222222,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": 4.7669556,
+    "lon": -74.0483189,
+    "validado_poligono": true,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-lagos-de-torca-bogota/194442766",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 650000000,
+    "precio_actual": 650000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "activo_nuevo",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 650000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 90.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.767,
+        -74.0483
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "mirandela",
+    "id_inmueble": "FR-193905460",
+    "titulo": "Apartamento en Venta en Mirandela, Bogotá",
+    "barrio": "Mirandela",
+    "precio": 520000000,
+    "area_m2": 90.0,
+    "precio_m2": 5777777,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 2,
+    "lat": 4.7671179,
+    "lon": -74.0511617,
+    "validado_poligono": true,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-mirandela-bogota/193905460",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 520000000,
+    "precio_actual": 520000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "activo_nuevo",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 520000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 90.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7671,
+        -74.0512
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "mirandela",
+    "id_inmueble": "FR-193694733",
+    "titulo": "Apartamento en Venta en Mirandela, Bogotá",
+    "barrio": "Mirandela",
+    "precio": 435000000,
+    "area_m2": 100.0,
+    "precio_m2": 4350000,
+    "habitaciones": 4,
+    "banos": 2,
+    "parqueaderos": 2,
+    "lat": 4.7662406,
+    "lon": -74.0495325,
+    "validado_poligono": true,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-mirandela-bogota/193694733",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 435000000,
+    "precio_actual": 435000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "activo_nuevo",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 435000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 100.0,
+      "habitaciones": 4,
+      "banos": 2,
+      "coordenadas": [
+        4.7662,
+        -74.0495
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "mirandela",
+    "id_inmueble": "FR-193996077",
+    "titulo": "Apartamento en Venta en Lagos de Torca, Bogotá",
+    "barrio": "Lagos de Torca",
+    "precio": 350000000,
+    "area_m2": 58.0,
+    "precio_m2": 6034482,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": 4.7669674,
+    "lon": -74.0499393,
+    "validado_poligono": true,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-lagos-de-torca-bogota/193996077",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 350000000,
+    "precio_actual": 350000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "activo_nuevo",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 350000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 58.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.767,
+        -74.0499
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "mirandela",
+    "id_inmueble": "FR-194457935",
+    "titulo": "Apartamento en Venta en Mirandela, Bogotá",
+    "barrio": "Mirandela",
+    "precio": 385000000,
+    "area_m2": 75.0,
+    "precio_m2": 5133333,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": 4.765812808073,
+    "lon": -74.050160056935,
+    "validado_poligono": true,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-mirandela-bogota/194457935",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 385000000,
+    "precio_actual": 385000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "activo_nuevo",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 385000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 75.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7658,
+        -74.0502
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "mirandela",
+    "id_inmueble": "FR-194413394",
+    "titulo": "Apartamento en Venta en Lagos de Torca, Bogotá",
+    "barrio": "Lagos de Torca",
+    "precio": 410000000,
+    "area_m2": 90.0,
+    "precio_m2": 4555555,
+    "habitaciones": 4,
+    "banos": 3,
+    "parqueaderos": 1,
+    "lat": 4.768248,
+    "lon": -74.047087,
+    "validado_poligono": true,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-lagos-de-torca-bogota/194413394",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 410000000,
+    "precio_actual": 410000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "activo_nuevo",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 410000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 90.0,
+      "habitaciones": 4,
+      "banos": 3,
+      "coordenadas": [
+        4.7682,
+        -74.0471
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "mirandela",
+    "id_inmueble": "FR-194507066",
+    "titulo": "Apartamento en Venta en Lagos de Torca, Bogotá",
+    "barrio": "Lagos de Torca",
+    "precio": 435000000,
+    "area_m2": 100.0,
+    "precio_m2": 4350000,
+    "habitaciones": 4,
+    "banos": 2,
+    "parqueaderos": 2,
+    "lat": 4.7678610283753,
+    "lon": -74.051205019003,
+    "validado_poligono": true,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-lagos-de-torca-bogota/194507066",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 435000000,
+    "precio_actual": 435000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "activo_nuevo",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 435000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 100.0,
+      "habitaciones": 4,
+      "banos": 2,
+      "coordenadas": [
+        4.7679,
+        -74.0512
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "mirandela",
+    "id_inmueble": "FR-193016778",
+    "titulo": "Apartamento en Venta en Mirandela, Bogotá",
+    "barrio": "Mirandela",
+    "precio": 260000000,
+    "area_m2": 56.0,
+    "precio_m2": 4642857,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.7680618,
+    "lon": -74.0485736,
+    "validado_poligono": true,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-mirandela-bogota/193016778",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 260000000,
+    "precio_actual": 260000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "activo_nuevo",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 260000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 56.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7681,
+        -74.0486
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "mirandela",
+    "id_inmueble": "FR-194449070",
+    "titulo": "Apartamento en Venta en Villa nova, Bogotá",
+    "barrio": "Villa nova",
+    "precio": 380000000,
+    "area_m2": 75.0,
+    "precio_m2": 5066666,
+    "habitaciones": 3,
+    "banos": 3,
+    "parqueaderos": 1,
+    "lat": 4.765812808073,
+    "lon": -74.050160056935,
+    "validado_poligono": true,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-villa-nova-bogota/194449070",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 380000000,
+    "precio_actual": 380000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "activo_nuevo",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 380000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 75.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.7658,
+        -74.0502
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "mirandela",
+    "id_inmueble": "FR-194471384",
+    "titulo": "Apartamento en Venta en Lagos de Torca, Bogotá",
+    "barrio": "Lagos de Torca",
+    "precio": 450000000,
+    "area_m2": 90.0,
+    "precio_m2": 5000000,
+    "habitaciones": 3,
+    "banos": 3,
+    "parqueaderos": 2,
+    "lat": 4.7678017,
+    "lon": -74.0460341,
+    "validado_poligono": true,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-lagos-de-torca-bogota/194471384",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 450000000,
+    "precio_actual": 450000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "activo_nuevo",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 450000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 90.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.7678,
+        -74.046
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-6889283",
+    "titulo": "Apartamento en Venta, SAN JOSE DE BAVARIA   Zona Urbana, Bogotá D.C.",
+    "barrio": "SAN JOSE DE BAVARIA   ZONA URBANA",
+    "precio": 330000000,
+    "area_m2": 32.0,
+    "precio_m2": 10312500,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-san-jose-de-bavaria-zona-urbana-2-habitaciones-1-banos/MC6889283",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 330000000,
+    "precio_actual": 330000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 330000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 32.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-847-M7249419",
+    "titulo": "Apartamento en Venta, Mirandela, Bogotá D.C.",
+    "barrio": "MIRANDELA",
+    "precio": 300000000,
+    "area_m2": 38.5,
+    "precio_m2": 7784120,
+    "habitaciones": 2,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-2-habitaciones-2-banos/847-M7249419",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 300000000,
+    "precio_actual": 300000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 300000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 38.5,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-14836-M7026138",
+    "titulo": "Apartamento en Venta, MIRANDELA, Bogotá D.C.",
+    "barrio": "CASA BLANCA",
+    "precio": 287000000,
+    "area_m2": 42.0,
+    "precio_m2": 6833333,
+    "habitaciones": 2,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-casa-blanca-2-habitaciones-2-banos/14836-M7026138",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 287000000,
+    "precio_actual": 287000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 287000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 42.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-3147-M7189481",
+    "titulo": "Apartamento en Venta, CHICO NAVARRA, Bogotá D.C.",
+    "barrio": "SANTA CATALINA",
+    "precio": 1195000000,
+    "area_m2": 229.6,
+    "precio_m2": 5204703,
+    "habitaciones": 3,
+    "banos": 5,
+    "parqueaderos": 3,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-santa-catalina-3-habitaciones-5-banos-3-garajes/3147-M7189481",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 1195000000,
+    "precio_actual": 1195000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 1195000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 229.6,
+      "habitaciones": 3,
+      "banos": 5,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-9914-M6933338",
+    "titulo": "Apartamento en Venta, Mirandela, Bogotá D.C.",
+    "barrio": "MIRANDELA",
+    "precio": 500000000,
+    "area_m2": 90.2,
+    "precio_m2": 5543851,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-3-habitaciones-2-banos-1-garajes/9914-M6933338",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 500000000,
+    "precio_actual": 500000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 500000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 90.2,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-14836-M6834821",
+    "titulo": "Apartamento en Venta, MIRANDELA, Bogotá D.C.",
+    "barrio": "CASA BLANCA",
+    "precio": 739000000,
+    "area_m2": 91.0,
+    "precio_m2": 8120879,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-casa-blanca-3-habitaciones-2-banos-1-garajes/14836-M6834821",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 739000000,
+    "precio_actual": 739000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 739000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 91.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-14836-M7057609",
+    "titulo": "Apartamento en Venta, MIRANDELA, Bogotá D.C.",
+    "barrio": "NUEVA ZELANDIA",
+    "precio": 495000000,
+    "area_m2": 81.0,
+    "precio_m2": 6111111,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-nueva-zelandia-3-habitaciones-2-banos-1-garajes/14836-M7057609",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 495000000,
+    "precio_actual": 495000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 495000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 81.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-14836-M6073065",
+    "titulo": "Apartamento en Venta, MIRANDELA, Bogotá D.C.",
+    "barrio": "CASA BLANCA",
+    "precio": 289000000,
+    "area_m2": 42.0,
+    "precio_m2": 6872770,
+    "habitaciones": 2,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-casa-blanca-2-habitaciones-2-banos/14836-M6073065",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 289000000,
+    "precio_actual": 289000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 289000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 42.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-3553-M7193058",
+    "titulo": "Apartamento en Venta, MIRANDELA, Bogotá D.C.",
+    "barrio": "TEJARES DEL NORTE",
+    "precio": 345000000,
+    "area_m2": 68.0,
+    "precio_m2": 5073529,
+    "habitaciones": 3,
+    "banos": 1,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-tejares-del-norte-3-habitaciones-1-banos-1-garajes/3553-M7193058",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 345000000,
+    "precio_actual": 345000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 345000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 68.0,
+      "habitaciones": 3,
+      "banos": 1,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-2996-M7212402",
+    "titulo": "Apartamento en Venta, CHICO NAVARRA, Bogotá D.C.",
+    "barrio": "MIRANDELA",
+    "precio": 779000000,
+    "area_m2": 77.0,
+    "precio_m2": 10116883,
+    "habitaciones": 2,
+    "banos": 2,
+    "parqueaderos": 2,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-2-habitaciones-2-banos-2-garajes/2996-M7212402",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 779000000,
+    "precio_actual": 779000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 779000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 77.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-3312-M7177573",
+    "titulo": "Apartamento en Venta, SAN JOSE DE BAVARIA, Bogotá D.C.",
+    "barrio": "SAN JOSE DE BAVARIA",
+    "precio": 310000000,
+    "area_m2": 38.0,
+    "precio_m2": 8157894,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-san-jose-de-bavaria-2-habitaciones-1-banos-1-garajes/3312-M7177573",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 310000000,
+    "precio_actual": 310000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 310000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 38.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-14836-M7102011",
+    "titulo": "Apartamento en Venta, MIRANDELA, Bogotá D.C.",
+    "barrio": "MIRANDELA",
+    "precio": 485000000,
+    "area_m2": 90.0,
+    "precio_m2": 5388888,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 2,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-3-habitaciones-2-banos-2-garajes/14836-M7102011",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 485000000,
+    "precio_actual": 485000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 485000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 90.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-3636-M5566378",
+    "titulo": "Apartamento en Venta, MIRANDELA, Bogotá D.C.",
+    "barrio": "CJR MIRANDELA AGRUPACION 2",
+    "precio": 358000000,
+    "area_m2": 74.0,
+    "precio_m2": 4837837,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-cjr-mirandela-agrupacion-2-3-habitaciones-2-banos-1-garajes/3636-M5566378",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 358000000,
+    "precio_actual": 358000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 358000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 74.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-17636-M6849441",
+    "titulo": "Apartamento en Venta, MIRANDELA, Bogotá D.C.",
+    "barrio": "MIRANDELA",
+    "precio": 415000000,
+    "area_m2": 90.0,
+    "precio_m2": 4611111,
+    "habitaciones": 3,
+    "banos": 3,
+    "parqueaderos": 2,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-3-habitaciones-3-banos-2-garajes/17636-M6849441",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 415000000,
+    "precio_actual": 415000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 415000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 90.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-2671-M7248495",
+    "titulo": "Apartamento en Venta, Suba, Bogotá D.C.",
+    "barrio": "SUBA",
+    "precio": 375000000,
+    "area_m2": 76.4,
+    "precio_m2": 4910948,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-suba-3-habitaciones-2-banos-1-garajes/2671-M7248495",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 375000000,
+    "precio_actual": 375000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 375000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 76.4,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-3636-M5599507",
+    "titulo": "Apartamento en Venta, MIRANDELA, Bogotá D.C.",
+    "barrio": "CJR MIRANDELA AGRUPACION 2",
+    "precio": 358000000,
+    "area_m2": 74.0,
+    "precio_m2": 4837837,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-cjr-mirandela-agrupacion-2-3-habitaciones-2-banos-1-garajes/3636-M5599507",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 358000000,
+    "precio_actual": 358000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 358000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 74.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-11104-M7248127",
+    "titulo": "Apartamento en Venta, SUBA MIRANDELA, Bogotá D.C.",
+    "barrio": "Mirandela",
+    "precio": 285000000,
+    "area_m2": 37.0,
+    "precio_m2": 7702702,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-2-habitaciones-1-banos/11104-M7248127",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 285000000,
+    "precio_actual": 285000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 285000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 37.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-175-M7182234",
+    "titulo": "Apartamento en Venta, San Jose De Bavaria Tramonte Living, Bogotá D.C.",
+    "barrio": "SAN JOSE DE BAVARIA TRAMONTE LIVING",
+    "precio": 280000000,
+    "area_m2": 38.2,
+    "precio_m2": 7331762,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-san-jose-de-bavaria-tramonte-living-2-habitaciones-1-banos/175-M7182234",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 280000000,
+    "precio_actual": 280000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 280000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 38.2,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-633-M7145365",
+    "titulo": "Apartamento en Venta, Mirandela, Bogotá D.C.",
+    "barrio": "MIRANDELA",
+    "precio": 330000000,
+    "area_m2": 80.0,
+    "precio_m2": 4125000,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-3-habitaciones-2-banos-1-garajes/633-M7145365",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 330000000,
+    "precio_actual": 330000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 330000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 80.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-2974-M7226855",
+    "titulo": "Apartamento en Venta, LAGOS DE TORCA, Bogotá D.C.",
+    "barrio": "MIRANDELA",
+    "precio": 607000000,
+    "area_m2": 62.8,
+    "precio_m2": 9665605,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-3-habitaciones-2-banos-1-garajes/2974-M7226855",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 607000000,
+    "precio_actual": 607000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 607000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 62.8,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-4058-M7152957",
+    "titulo": "Apartamento en Venta, MIRANDELA, Bogotá D.C.",
+    "barrio": "CASA BLANCA",
+    "precio": 600000000,
+    "area_m2": 75.0,
+    "precio_m2": 8000000,
+    "habitaciones": 2,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-casa-blanca-2-habitaciones-2-banos-1-garajes/4058-M7152957",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 600000000,
+    "precio_actual": 600000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 600000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 75.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-4058-M5997022",
+    "titulo": "Apartamento en Venta, MIRANDELA, Bogotá D.C.",
+    "barrio": "CASA BLANCA",
+    "precio": 296000000,
+    "area_m2": 45.0,
+    "precio_m2": 6577777,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-casa-blanca-2-habitaciones-1-banos/4058-M5997022",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 296000000,
+    "precio_actual": 296000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 296000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 45.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-11813-M7196712",
+    "titulo": "Apartamento en Venta, Suba, Bogotá D.C.",
+    "barrio": "SUBA",
+    "precio": 450000000,
+    "area_m2": 90.0,
+    "precio_m2": 5000000,
+    "habitaciones": 3,
+    "banos": 3,
+    "parqueaderos": 2,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-suba-3-habitaciones-3-banos-2-garajes/11813-M7196712",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 450000000,
+    "precio_actual": 450000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 450000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 90.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-4058-M5856935",
+    "titulo": "Apartamento en Venta, MIRANDELA, Bogotá D.C.",
+    "barrio": "CASA BLANCA",
+    "precio": 296000000,
+    "area_m2": 45.0,
+    "precio_m2": 6577777,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-casa-blanca-2-habitaciones-1-banos/4058-M5856935",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 296000000,
+    "precio_actual": 296000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 296000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 45.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-4058-M5980432",
+    "titulo": "Apartamento en Venta, MIRANDELA, Bogotá D.C.",
+    "barrio": "MIRANDELA",
+    "precio": 237000000,
+    "area_m2": 40.0,
+    "precio_m2": 5925000,
+    "habitaciones": 1,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-1-habitaciones-1-banos/4058-M5980432",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 237000000,
+    "precio_actual": 237000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 237000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 40.0,
+      "habitaciones": 1,
+      "banos": 1,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-15955-M7176906",
+    "titulo": "Apartamento en Venta, MIRANDELA, Bogotá D.C.",
+    "barrio": "GUACANI",
+    "precio": 380000000,
+    "area_m2": 62.0,
+    "precio_m2": 6129032,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-guacani-3-habitaciones-2-banos-1-garajes/15955-M7176906",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 380000000,
+    "precio_actual": 380000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 380000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 62.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-16474-M7246371",
+    "titulo": "Apartamento en Venta, Lagos De Torca, Bogotá D.C.",
+    "barrio": "LAGOS DE TORCA",
+    "precio": 490000000,
+    "area_m2": 56.0,
+    "precio_m2": 8750000,
+    "habitaciones": 2,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-lagos-de-torca-2-habitaciones-2-banos-1-garajes/16474-M7246371",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 490000000,
+    "precio_actual": 490000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 490000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 56.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-482-M5475648",
+    "titulo": "Apartamento en Venta, MIRANDELA, Bogotá D.C.",
+    "barrio": "CJR MIRANDELA XII",
+    "precio": 345000000,
+    "area_m2": 64.7,
+    "precio_m2": 5334776,
+    "habitaciones": 3,
+    "banos": 1,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-cjr-mirandela-xii-3-habitaciones-1-banos-1-garajes/482-M5475648",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 345000000,
+    "precio_actual": 345000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 345000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 64.7,
+      "habitaciones": 3,
+      "banos": 1,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-16288-M7086903",
+    "titulo": "Apartamento en Venta, Mirandela, Bogotá D.C.",
+    "barrio": "MIRANDELA",
+    "precio": 310000000,
+    "area_m2": 65.0,
+    "precio_m2": 4769230,
+    "habitaciones": 2,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-2-habitaciones-2-banos-1-garajes/16288-M7086903",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 310000000,
+    "precio_actual": 310000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 310000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 65.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-183-M7250833",
+    "titulo": "Apartamento en Venta, Mirandela, Bogotá D.C.",
+    "barrio": "MIRANDELA",
+    "precio": 360000000,
+    "area_m2": 83.1,
+    "precio_m2": 4333694,
+    "habitaciones": 3,
+    "banos": 3,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-3-habitaciones-3-banos-1-garajes/183-M7250833",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 360000000,
+    "precio_actual": 360000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 360000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 83.1,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-2363-M7175568",
+    "titulo": "Apartamento en Venta, Lagos De Torca, Bogotá D.C.",
+    "barrio": "LAGOS DE TORCA",
+    "precio": 650000000,
+    "area_m2": 91.0,
+    "precio_m2": 7146783,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-lagos-de-torca-3-habitaciones-2-banos-1-garajes/2363-M7175568",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 650000000,
+    "precio_actual": 650000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 650000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 91.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-16288-M6391113",
+    "titulo": "Apartamento en Venta, Mirandela, Bogotá D.C.",
+    "barrio": "MIRANDELA",
+    "precio": 430000000,
+    "area_m2": 75.0,
+    "precio_m2": 5733333,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-3-habitaciones-2-banos-1-garajes/16288-M6391113",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 430000000,
+    "precio_actual": 430000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 430000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 75.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-16739-M6791391",
+    "titulo": "Apartamento en Venta, MIRANDELA, Bogotá D.C.",
+    "barrio": "GUACANI",
+    "precio": 520000000,
+    "area_m2": 90.0,
+    "precio_m2": 5777777,
+    "habitaciones": 3,
+    "banos": 3,
+    "parqueaderos": 2,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-guacani-3-habitaciones-3-banos-2-garajes/16739-M6791391",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 520000000,
+    "precio_actual": 520000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 520000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 90.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-4058-M6044963",
+    "titulo": "Apartamento en Venta, MIRANDELA, Bogotá D.C.",
+    "barrio": "CASA BLANCA",
+    "precio": 660000000,
+    "area_m2": 92.0,
+    "precio_m2": 7173913,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-casa-blanca-3-habitaciones-2-banos-1-garajes/4058-M6044963",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 660000000,
+    "precio_actual": 660000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 660000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 92.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-4058-M5975251",
+    "titulo": "Apartamento en Venta, MIRANDELA, Bogotá D.C.",
+    "barrio": "CASA BLANCA",
+    "precio": 296000000,
+    "area_m2": 45.0,
+    "precio_m2": 6577777,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-casa-blanca-2-habitaciones-1-banos/4058-M5975251",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 296000000,
+    "precio_actual": 296000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 296000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 45.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-16039-M7225610",
+    "titulo": "Apartamento en Venta, San Jose De Bavaria, Bogotá D.C.",
+    "barrio": "MIRANDELA",
+    "precio": 330000000,
+    "area_m2": 38.0,
+    "precio_m2": 8684210,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-2-habitaciones-1-banos/16039-M7225610",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 330000000,
+    "precio_actual": 330000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 330000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 38.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-20610-M7086459",
+    "titulo": "Apartamento en Venta, MIRANDELA, Bogotá D.C.",
+    "barrio": "ASD",
+    "precio": 450000000,
+    "area_m2": 80.0,
+    "precio_m2": 5625000,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-asd-3-habitaciones-2-banos-1-garajes/20610-M7086459",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 450000000,
+    "precio_actual": 450000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 450000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 80.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-11139-M6761386",
+    "titulo": "Apartamento en Venta, Mirandela, Bogotá D.C.",
+    "barrio": "MIRANDELA",
+    "precio": 375000000,
+    "area_m2": 76.0,
+    "precio_m2": 4934210,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-3-habitaciones-2-banos-1-garajes/11139-M6761386",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 375000000,
+    "precio_actual": 375000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 375000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 76.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-4058-M6579388",
+    "titulo": "Apartamento en Venta, Mirandela, Bogotá D.C.",
+    "barrio": "MIRANDELA",
+    "precio": 730000000,
+    "area_m2": 89.0,
+    "precio_m2": 8202247,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-3-habitaciones-2-banos-1-garajes/4058-M6579388",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 730000000,
+    "precio_actual": 730000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 730000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 89.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-2456-M6883882",
+    "titulo": "Apartamento en Venta, SAN JOSE DE BAVARIA, Bogotá D.C.",
+    "barrio": "ASD",
+    "precio": 320000000,
+    "area_m2": 38.0,
+    "precio_m2": 8421052,
+    "habitaciones": 1,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-asd-1-habitaciones-1-banos/2456-M6883882",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 320000000,
+    "precio_actual": 320000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 320000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 38.0,
+      "habitaciones": 1,
+      "banos": 1,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-3241-M7189604",
+    "titulo": "Apartamento en Venta, SAN JOSE DE BAVARIA, Bogotá D.C.",
+    "barrio": "ASD",
+    "precio": 450000000,
+    "area_m2": 56.0,
+    "precio_m2": 8035714,
+    "habitaciones": 2,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-asd-2-habitaciones-2-banos-1-garajes/3241-M7189604",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 450000000,
+    "precio_actual": 450000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 450000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 56.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-4058-M7253817",
+    "titulo": "Apartamento en Venta, MIRANDELA, Bogotá D.C.",
+    "barrio": "CASA BLANCA",
+    "precio": 6000000000,
+    "area_m2": 75.0,
+    "precio_m2": 80000000,
+    "habitaciones": 2,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-casa-blanca-2-habitaciones-2-banos-1-garajes/4058-M7253817",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 6000000000,
+    "precio_actual": 6000000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 6000000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 75.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-4058-M7247716",
+    "titulo": "Apartamento en Venta, MIRANDELA, Bogotá D.C.",
+    "barrio": "TIBABITA",
+    "precio": 290000000,
+    "area_m2": 45.0,
+    "precio_m2": 6444444,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-tibabita-2-habitaciones-1-banos/4058-M7247716",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 290000000,
+    "precio_actual": 290000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 290000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 45.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-19677-M6773750",
+    "titulo": "Apartamento en Venta, MIRANDELA, Bogotá D.C.",
+    "barrio": "MIRANDELA",
+    "precio": 380000000,
+    "area_m2": 80.0,
+    "precio_m2": 4750000,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-3-habitaciones-2-banos-1-garajes/19677-M6773750",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 380000000,
+    "precio_actual": 380000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 380000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 80.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-2361-M7030242",
+    "titulo": "Apartamento en Venta, Mirandela, Bogotá D.C.",
+    "barrio": "MIRANDELA",
+    "precio": 350000000,
+    "area_m2": 120.0,
+    "precio_m2": 2916666,
+    "habitaciones": 3,
+    "banos": 3,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-3-habitaciones-3-banos-1-garajes/2361-M7030242",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 350000000,
+    "precio_actual": 350000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 350000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 120.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-3282-M6480657",
+    "titulo": "Apartamento en Venta, MIRANDELA III, Bogotá D.C.",
+    "barrio": "MIRANDELA",
+    "precio": 325000000,
+    "area_m2": 61.8,
+    "precio_m2": 5259750,
+    "habitaciones": 2,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-2-habitaciones-2-banos-1-garajes/3282-M6480657",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 325000000,
+    "precio_actual": 325000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 325000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 61.8,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-18457-M7103185",
+    "titulo": "Apartamento en Venta, MIRANDELA, Bogotá D.C.",
+    "barrio": "MIRANDELA",
+    "precio": 390000000,
+    "area_m2": 78.0,
+    "precio_m2": 5000000,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-3-habitaciones-2-banos-1-garajes/18457-M7103185",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 390000000,
+    "precio_actual": 390000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 390000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 78.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-6882431",
+    "titulo": "Apartamento en Venta, mirandela   san pedro   170 y Alredores, Bogotá D.C.",
+    "barrio": "MIRANDELA",
+    "precio": 350000000,
+    "area_m2": 58.0,
+    "precio_m2": 6034482,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-3-habitaciones-2-banos-1-garajes/MC6882431",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 350000000,
+    "precio_actual": 350000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 350000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 58.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-7092243",
+    "titulo": "Apartamento en Venta, mirandela   san pedro   170 y Alredores, Bogotá D.C.",
+    "barrio": "MIRANDELA",
+    "precio": 500000000,
+    "area_m2": 103.0,
+    "precio_m2": 4854368,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 2,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-3-habitaciones-2-banos-2-garajes/MC7092243",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 500000000,
+    "precio_actual": 500000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 500000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 103.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-7129247",
+    "titulo": "Apartamento en Venta, MIRANDELA I   170 y Alredores, Bogotá D.C.",
+    "barrio": "MIRANDELA",
+    "precio": 370000000,
+    "area_m2": 73.8,
+    "precio_m2": 5011512,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-3-habitaciones-2-banos-1-garajes/MC7129247",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 370000000,
+    "precio_actual": 370000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 370000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 73.8,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-7142678",
+    "titulo": "Apartamento en Venta, MIRANDELA   Zona Urbana, Bogotá D.C.",
+    "barrio": "MIRANDELA",
+    "precio": 320000000,
+    "area_m2": 75.0,
+    "precio_m2": 4266666,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-3-habitaciones-2-banos-1-garajes/MC7142678",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 320000000,
+    "precio_actual": 320000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 320000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 75.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-10159-M7237792",
+    "titulo": "Apartamento en Venta, Mirandela, Bogotá D.C.",
+    "barrio": "MIRANDELA",
+    "precio": 500000000,
+    "area_m2": 90.2,
+    "precio_m2": 5543851,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-3-habitaciones-2-banos-1-garajes/10159-M7237792",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 500000000,
+    "precio_actual": 500000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 500000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 90.2,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-15997-M7116185",
+    "titulo": "Apartamento en Venta, MIRANDELA, Bogotá D.C.",
+    "barrio": "MIRANDELA",
+    "precio": 430000000,
+    "area_m2": 90.0,
+    "precio_m2": 4777777,
+    "habitaciones": 3,
+    "banos": 3,
+    "parqueaderos": 2,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-3-habitaciones-3-banos-2-garajes/15997-M7116185",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 430000000,
+    "precio_actual": 430000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 430000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 90.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-19711-M7135175",
+    "titulo": "Apartamento en Venta, Mirandela, Bogotá D.C.",
+    "barrio": "MIRANDELA",
+    "precio": 345000000,
+    "area_m2": 64.0,
+    "precio_m2": 5390625,
+    "habitaciones": 2,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-2-habitaciones-2-banos-1-garajes/19711-M7135175",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 345000000,
+    "precio_actual": 345000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 345000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 64.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-4058-M7153118",
+    "titulo": "Apartamento en Venta, MIRANDELA, Bogotá D.C.",
+    "barrio": "TIBABITA",
+    "precio": 290000000,
+    "area_m2": 45.0,
+    "precio_m2": 6444444,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-tibabita-2-habitaciones-1-banos/4058-M7153118",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 290000000,
+    "precio_actual": 290000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 290000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 45.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-183-M7022531",
+    "titulo": "Apartamento en Venta, San Jose De Bavaria, Bogotá D.C.",
+    "barrio": "SAN JOSE DE BAVARIA",
+    "precio": 300000000,
+    "area_m2": 42.0,
+    "precio_m2": 7142857,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-san-jose-de-bavaria-2-habitaciones-1-banos/183-M7022531",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 300000000,
+    "precio_actual": 300000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 300000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 42.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-16634-M6574909",
+    "titulo": "Apartamento en Venta, MIRANDELA, Bogotá D.C.",
+    "barrio": "ASD",
+    "precio": 489900000,
+    "area_m2": 56.0,
+    "precio_m2": 8748214,
+    "habitaciones": 2,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-asd-2-habitaciones-2-banos-1-garajes/16634-M6574909",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 489900000,
+    "precio_actual": 489900000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 489900000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 56.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-10159-M6782675",
+    "titulo": "Apartamento en Venta, Mirandela, Bogotá D.C.",
+    "barrio": "MIRANDELA",
+    "precio": 310000000,
+    "area_m2": 65.7,
+    "precio_m2": 4716263,
+    "habitaciones": 2,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-2-habitaciones-2-banos-1-garajes/10159-M6782675",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 310000000,
+    "precio_actual": 310000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 310000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 65.7,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-11813-M6677723",
+    "titulo": "Apartamento en Venta, Suba, Bogotá D.C.",
+    "barrio": "SUBA",
+    "precio": 319000000,
+    "area_m2": 38.0,
+    "precio_m2": 8394736,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-suba-2-habitaciones-1-banos/11813-M6677723",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 319000000,
+    "precio_actual": 319000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 319000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 38.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-10159-M7215384",
+    "titulo": "Apartamento en Venta, Mirandela, Bogotá D.C.",
+    "barrio": "MIRANDELA",
+    "precio": 500000000,
+    "area_m2": 90.2,
+    "precio_m2": 5543851,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-3-habitaciones-2-banos-1-garajes/10159-M7215384",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 500000000,
+    "precio_actual": 500000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 500000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 90.2,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Metrocuadrado",
+    "zona": "mirandela",
+    "id_inmueble": "MC-7017270",
+    "titulo": "Apartamento en Venta, MIRANDELA   Zona Urbana, Bogotá D.C.",
+    "barrio": "MIRANDELA   ZONA URBANA",
+    "precio": 330000000,
+    "area_m2": 62.0,
+    "precio_m2": 5322580,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": null,
+    "lon": null,
+    "validado_poligono": false,
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-mirandela-zona-urbana-3-habitaciones-2-banos-1-garajes/MC7017270",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 330000000,
+    "precio_actual": 330000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 330000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 62.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": null
+    },
+    "posible_republicacion": false
+  }
+]
