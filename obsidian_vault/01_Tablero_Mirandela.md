@@ -13,7 +13,7 @@ mediana_precio_m2: 5103979
 # Radar de Mirandela — Bogotá
 
 Polígono en **aproximado_v1**. Los indicadores geográficos deben interpretarse con esa calibración.
-**Captura 2026-11-27:** Fincaraiz: 22 anuncios (confiable); Metrocuadrado: 0 anuncios (no confiable)
+**Captura 2026-11-27:** Fincaraiz: 22 anuncios (confiable); Metrocuadrado: 61 anuncios (no confiable)
 
 ## Dinámica de zona
 
