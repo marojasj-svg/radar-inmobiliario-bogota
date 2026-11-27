@@ -3,8 +3,8 @@ tipo: tablero-inmobiliario
 zona: rincon
 estado_poligono: calibrado
 fecha_actualizacion: 2026-11-27
-estado_captura: confiable
-portales_confiables: ["Fincaraiz", "Metrocuadrado"]
+estado_captura: parcial
+portales_confiables: ["Fincaraiz"]
 oferta_activa_valida: 68
 posibles_ventas: 2
 mediana_precio_m2: 5673325
@@ -13,13 +13,13 @@ mediana_precio_m2: 5673325
 # Radar de Rincón — Bogotá
 
 Polígono en **calibrado**. Los indicadores geográficos deben interpretarse con esa calibración.
-**Captura 2026-11-27:** Fincaraiz: 69 anuncios (confiable); Metrocuadrado: 123 anuncios (confiable)
+**Captura 2026-11-27:** Fincaraiz: 69 anuncios (confiable); Metrocuadrado: 391 anuncios (no confiable)
 
 ## Dinámica de zona
 
 - Oferta activa válida: **68**
 - Posibles ventas acumuladas: **2**
-- Tasa de absorción observada: **1.02%**
+- Tasa de absorción observada: **0.43%**
 - DOM promedio de salida: **0 días**
 - Mediana activa: **$ 5.673.326 COP/m²**
 - Mediana de cierre estimado (-5%): **$ 11.890.558 COP/m²**

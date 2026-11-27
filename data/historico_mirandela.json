@@ -2997,5 +2997,392 @@
       "coordenadas": null
     },
     "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "mirandela",
+    "id_inmueble": "FR-194631762",
+    "titulo": "Apartamento en Venta en Colina Campestre, Bogotá",
+    "barrio": "Colina Campestre",
+    "precio": 375000000,
+    "area_m2": 76.0,
+    "precio_m2": 4934210,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": 4.7657941,
+    "lon": -74.0472487,
+    "validado_poligono": true,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-colina-campestre-bogota/194631762",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 375000000,
+    "precio_actual": 375000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "activo_nuevo",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 375000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 76.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7658,
+        -74.0472
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "mirandela",
+    "id_inmueble": "FR-193908252",
+    "titulo": "Apartamento en Venta en Lagos de Torca, Bogotá",
+    "barrio": "Lagos de Torca",
+    "precio": 490000000,
+    "area_m2": 90.0,
+    "precio_m2": 5444444,
+    "habitaciones": 4,
+    "banos": 3,
+    "parqueaderos": 2,
+    "lat": 4.767311989454,
+    "lon": -74.051757989987,
+    "validado_poligono": true,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-lagos-de-torca-bogota/193908252",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 490000000,
+    "precio_actual": 490000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "activo_nuevo",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 490000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 90.0,
+      "habitaciones": 4,
+      "banos": 3,
+      "coordenadas": [
+        4.7673,
+        -74.0518
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "mirandela",
+    "id_inmueble": "FR-194548907",
+    "titulo": "Apartamento en Venta en Mirandela, Bogotá",
+    "barrio": "Mirandela",
+    "precio": 500000000,
+    "area_m2": 90.0,
+    "precio_m2": 5555555,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": 4.767648,
+    "lon": -74.046104,
+    "validado_poligono": true,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-mirandela-bogota/194548907",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 500000000,
+    "precio_actual": 500000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "activo_nuevo",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 500000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 90.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7676,
+        -74.0461
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "mirandela",
+    "id_inmueble": "FR-194099138",
+    "titulo": "Apartamento en Venta en Lagos de Torca, Bogotá",
+    "barrio": "Lagos de Torca",
+    "precio": 350000000,
+    "area_m2": 58.0,
+    "precio_m2": 6034482,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": 4.7669353077064,
+    "lon": -74.049982239398,
+    "validado_poligono": true,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-lagos-de-torca-bogota/194099138",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 350000000,
+    "precio_actual": 350000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "activo_nuevo",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 350000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 58.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7669,
+        -74.05
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "mirandela",
+    "id_inmueble": "FR-194263671",
+    "titulo": "Apartamento en Venta en Mirandela, Bogotá",
+    "barrio": "Mirandela",
+    "precio": 535000000,
+    "area_m2": 97.0,
+    "precio_m2": 5515463,
+    "habitaciones": 3,
+    "banos": 3,
+    "parqueaderos": 2,
+    "lat": 4.7684083,
+    "lon": -74.046846,
+    "validado_poligono": true,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-mirandela-bogota/194263671",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 535000000,
+    "precio_actual": 535000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "activo_nuevo",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 535000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 97.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.7684,
+        -74.0468
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "mirandela",
+    "id_inmueble": "FR-194334359",
+    "titulo": "Apartamento en Venta en Mirandela, Bogotá",
+    "barrio": "Mirandela",
+    "precio": 485000000,
+    "area_m2": 90.0,
+    "precio_m2": 5388888,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 2,
+    "lat": 4.7678365,
+    "lon": -74.0464867,
+    "validado_poligono": true,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-mirandela-bogota/194334359",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 485000000,
+    "precio_actual": 485000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "activo_nuevo",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 485000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 90.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7678,
+        -74.0465
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "mirandela",
+    "id_inmueble": "FR-191642473",
+    "titulo": "Apartamento en  Venta en Mirandela, Bogotá",
+    "barrio": "Mirandela",
+    "precio": 325000000,
+    "area_m2": 61.0,
+    "precio_m2": 5327868,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": 4.7676435,
+    "lon": -74.047109,
+    "validado_poligono": true,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-mirandela-bogota/191642473",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 325000000,
+    "precio_actual": 325000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "activo_nuevo",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 325000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 61.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7676,
+        -74.0471
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "mirandela",
+    "id_inmueble": "FR-194519565",
+    "titulo": "Apartamento en Venta en Mirandela, Bogotá",
+    "barrio": "Mirandela",
+    "precio": 340000000,
+    "area_m2": 67.0,
+    "precio_m2": 5074626,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": 4.7664281,
+    "lon": -74.0487164,
+    "validado_poligono": true,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-mirandela-bogota/194519565",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 340000000,
+    "precio_actual": 340000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "activo_nuevo",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 340000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 67.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7664,
+        -74.0487
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "mirandela",
+    "id_inmueble": "FR-194569816",
+    "titulo": "Apartamento en Venta en Lagos de Torca, Bogotá",
+    "barrio": "Lagos de Torca",
+    "precio": 335000000,
+    "area_m2": 68.0,
+    "precio_m2": 4926470,
+    "habitaciones": 2,
+    "banos": 2,
+    "parqueaderos": 1,
+    "lat": 4.7684083,
+    "lon": -74.046846,
+    "validado_poligono": true,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-lagos-de-torca-bogota/194569816",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 335000000,
+    "precio_actual": 335000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "activo_nuevo",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 335000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "mirandela",
+      "area_m2": 68.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": [
+        4.7684,
+        -74.0468
+      ]
+    },
+    "posible_republicacion": false
   }
 ]
