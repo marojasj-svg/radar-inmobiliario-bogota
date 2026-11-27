@@ -11,6 +11,7 @@ with RUTA_ZONAS.open(encoding="utf-8") as archivo:
 ZONAS = {
     clave: {
         **zona,
+        "id": clave,
         # El archivo expresa latitud,longitud; Shapely requiere x=longitud,y=latitud.
         "poligono": Polygon([(lon, lat) for lat, lon in zona["coordenadas_lat_lon"]]),
     }
