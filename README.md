@@ -28,7 +28,9 @@ Mirandela y Salitre están activas con polígonos `aproximado_v1`; sus tableros 
 
 ## Credenciales y permisos
 
-El scraper consulta páginas públicas de los portales y no requiere credenciales ni tokens de FincaRaíz o Metrocuadrado. GitHub Actions usa el token temporal `GITHUB_TOKEN` que GitHub crea para cada ejecución. `actions/checkout` conserva la credencial para que el paso final pueda publicar el commit, y el workflow limita el permiso del token a `contents: write`. No se guardan tokens personales ni secretos de portales en el repositorio.
+La captura estructurada consulta FincaRaíz y Metrocuadrado a través de API.SH, un proveedor externo y no afiliado a esos portales. Requiere una clave de API guardada en GitHub como secreto `RADAR_DATA_API_KEY` (Settings → Secrets and variables → Actions → New repository secret). Nunca debe pegarse en el código ni en los archivos del radar. API.SH publica 1.000 créditos mensuales gratuitos; cada búsqueda documentada cuesta 1 crédito, con topes configurables en su cuenta. El proveedor puede cambiar su disponibilidad, condiciones y precios; revisa sus [precios](https://api.sh/pricing) antes de activar o continuar el uso. Sin el secreto, el radar marca las capturas como no confiables y no infiere posibles ventas.
+
+GitHub Actions usa además el token temporal `GITHUB_TOKEN` que GitHub crea para cada ejecución. `actions/checkout` conserva la credencial para que el paso final pueda publicar el commit, y el workflow limita el permiso del token a `contents: write`.
 
 En **Settings → Actions → General → Workflow permissions**, habilita permisos de lectura y escritura para que el workflow pueda guardar capturas, históricos y tableros.
 
