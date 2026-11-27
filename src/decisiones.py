@@ -364,7 +364,7 @@ def actualizar_reglas(activos, carpeta):
         f"\n- **Horizonte inicial de publicación:** {activos.get('fecha_objetivo_publicacion', 'por definir')}."
     )
     with open(ruta, "w", encoding="utf-8") as archivo:
-        archivo.write(_reemplazar_seccion(texto, "## Perfiles de activos propios", "\n".join(lineas)))
+        archivo.write(_reemplazar_seccion(texto, "## Perfiles de apartamentos propios", "\n".join(lineas)))
 
 
 def agregar_enlaces_decision(carpeta, activos):
