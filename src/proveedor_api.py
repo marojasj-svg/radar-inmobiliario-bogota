@@ -52,12 +52,14 @@ def buscar(portal, zona):
                     break
                 respuesta.raise_for_status()
                 data = respuesta.json()
+                if not isinstance(data, dict):
+                    raise ValueError("La respuesta del proveedor no es un objeto JSON.")
                 if data.get("success") is False:
                     raise ValueError(data.get("error", "Error reportado por API.SH"))
                 consultas_ok += 1
                 lista = data.get("listings") or data.get("results") or []
-                if not isinstance(lista, list):
-                    raise ValueError("La respuesta no contiene una lista de anuncios.")
+                if not isinstance(lista, list) or any(not isinstance(item, dict) for item in lista):
+                    raise ValueError("La respuesta no contiene una lista válida de anuncios.")
                 for item in lista:
                     clave_anuncio = str(item.get("id") or item.get("code") or item.get("url") or "")
                     if clave_anuncio:
@@ -66,7 +68,7 @@ def buscar(portal, zona):
                 if not siguiente or not lista:
                     break
                 pagina = int(siguiente)
-            except (requests.RequestException, ValueError, TypeError) as error:
+            except (requests.RequestException, ValueError, TypeError, AttributeError) as error:
                 errores.append(f"{lugar}, página {pagina}: {error}")
                 break
 
