@@ -284,6 +284,8 @@ def actualizar_zona(zona_id, fecha_corte, lista_actual, estado_fuentes):
         r for r in registros
         if r.get("zona") == zona_id and r.get("activo_en_corte")
         and r.get("id_inmueble") not in actuales
+        and r.get("validado_poligono", False)
+        and r.get("estado") != "revisar_atipico"
         and estado_fuentes.get(r.get("portal"), {}).get("captura_confiable", False)
     ]
     candidatos = list(actuales.values())
