@@ -12,19 +12,56 @@
         "consultas": 11,
         "consultas_ok": 11,
         "capturados": 69,
-        "captura_confiable": true,
+        "captura_confiable": false,
+        "truncado_por_limite": true,
         "proveedor": "API.SH",
         "errores": [],
-        "advertencias": []
+        "advertencias": [
+          "Se alcanzó el máximo de páginas para 'el-toberin'."
+        ],
+        "capturados_con_coordenadas": 69,
+        "capturados_en_poligono": 69,
+        "cobertura_coordenadas_pct": 100.0
       },
       "Metrocuadrado": {
         "consultas": 3,
         "consultas_ok": 3,
         "capturados": 123,
-        "captura_confiable": true,
+        "captura_confiable": false,
+        "truncado_por_limite": true,
         "proveedor": "API.SH",
         "errores": [],
-        "advertencias": []
+        "advertencias": [
+          "Se alcanzó el máximo de páginas para 'rincon'."
+        ],
+        "consultas_geolocalizacion": 123,
+        "coordenadas_recuperadas": 0,
+        "coordenadas_desde_cache": 0,
+        "advertencias_geolocalizacion": [
+          "Metrocuadrado no publicó coordenadas para 874-M7250669.",
+          "Metrocuadrado no publicó coordenadas para 20706-M7196135.",
+          "Metrocuadrado no publicó coordenadas para 17-M7245664.",
+          "Metrocuadrado no publicó coordenadas para 847-M4686546.",
+          "Metrocuadrado no publicó coordenadas para 16437-M7254943.",
+          "Metrocuadrado no publicó coordenadas para 2671-M5836829.",
+          "Metrocuadrado no publicó coordenadas para 847-M6042488.",
+          "Metrocuadrado no publicó coordenadas para 20842-M7166341.",
+          "Metrocuadrado no publicó coordenadas para 2671-M5836766.",
+          "Metrocuadrado no publicó coordenadas para 5175-M6534649.",
+          "Metrocuadrado no publicó coordenadas para 5044-M4971410.",
+          "Metrocuadrado no publicó coordenadas para 920-M7168440.",
+          "Metrocuadrado no publicó coordenadas para 2671-M7196662.",
+          "Metrocuadrado no publicó coordenadas para 2671-M6916874.",
+          "Metrocuadrado no publicó coordenadas para 20842-M7201024.",
+          "Metrocuadrado no publicó coordenadas para 2671-M7199001.",
+          "Metrocuadrado no publicó coordenadas para 3312-M3593304.",
+          "Metrocuadrado no publicó coordenadas para 2671-M5835329.",
+          "Metrocuadrado no publicó coordenadas para 2671-M5835713.",
+          "Metrocuadrado no publicó coordenadas para 34-M7199894."
+        ],
+        "capturados_con_coordenadas": 0,
+        "capturados_en_poligono": 0,
+        "cobertura_coordenadas_pct": 0.0
       }
     },
     "mirandela": {
@@ -32,19 +69,54 @@
         "consultas": 3,
         "consultas_ok": 3,
         "capturados": 13,
-        "captura_confiable": true,
+        "captura_confiable": false,
+        "truncado_por_limite": true,
         "proveedor": "API.SH",
         "errores": [],
-        "advertencias": []
+        "advertencias": [
+          "Se alcanzó el máximo de páginas para 'mirandela'."
+        ],
+        "capturados_con_coordenadas": 13,
+        "capturados_en_poligono": 13,
+        "cobertura_coordenadas_pct": 100.0
       },
       "Metrocuadrado": {
         "consultas": 2,
         "consultas_ok": 2,
         "capturados": 61,
-        "captura_confiable": true,
+        "captura_confiable": false,
+        "truncado_por_limite": false,
         "proveedor": "API.SH",
         "errores": [],
-        "advertencias": []
+        "advertencias": [],
+        "consultas_geolocalizacion": 61,
+        "coordenadas_recuperadas": 0,
+        "coordenadas_desde_cache": 0,
+        "advertencias_geolocalizacion": [
+          "Metrocuadrado no publicó coordenadas para MC6889283.",
+          "Metrocuadrado no publicó coordenadas para 847-M7249419.",
+          "Metrocuadrado no publicó coordenadas para 14836-M7026138.",
+          "Metrocuadrado no publicó coordenadas para 3147-M7189481.",
+          "Metrocuadrado no publicó coordenadas para 9914-M6933338.",
+          "Metrocuadrado no publicó coordenadas para 14836-M6834821.",
+          "Metrocuadrado no publicó coordenadas para 14836-M7057609.",
+          "Metrocuadrado no publicó coordenadas para 14836-M6073065.",
+          "Metrocuadrado no publicó coordenadas para 3553-M7193058.",
+          "Metrocuadrado no publicó coordenadas para 2996-M7212402.",
+          "Metrocuadrado no publicó coordenadas para 3312-M7177573.",
+          "Metrocuadrado no publicó coordenadas para 14836-M7102011.",
+          "Metrocuadrado no publicó coordenadas para 3636-M5566378.",
+          "Metrocuadrado no publicó coordenadas para 17636-M6849441.",
+          "Metrocuadrado no publicó coordenadas para 2671-M7248495.",
+          "Metrocuadrado no publicó coordenadas para 3636-M5599507.",
+          "Metrocuadrado no publicó coordenadas para 11104-M7248127.",
+          "Metrocuadrado no publicó coordenadas para 175-M7182234.",
+          "Metrocuadrado no publicó coordenadas para 633-M7145365.",
+          "Metrocuadrado no publicó coordenadas para 2974-M7226855."
+        ],
+        "capturados_con_coordenadas": 0,
+        "capturados_en_poligono": 0,
+        "cobertura_coordenadas_pct": 0.0
       }
     },
     "salitre": {
@@ -53,18 +125,28 @@
         "consultas_ok": 4,
         "capturados": 1,
         "captura_confiable": false,
+        "truncado_por_limite": true,
         "proveedor": "API.SH",
         "errores": [],
-        "advertencias": []
+        "advertencias": [
+          "Se alcanzó el máximo de páginas para 'salitre'."
+        ],
+        "capturados_con_coordenadas": 1,
+        "capturados_en_poligono": 1,
+        "cobertura_coordenadas_pct": 100.0
       },
       "Metrocuadrado": {
         "consultas": 1,
         "consultas_ok": 1,
         "capturados": 0,
         "captura_confiable": false,
+        "truncado_por_limite": false,
         "proveedor": "API.SH",
         "errores": [],
-        "advertencias": []
+        "advertencias": [],
+        "capturados_con_coordenadas": 0,
+        "capturados_en_poligono": 0,
+        "cobertura_coordenadas_pct": 0.0
       }
     }
   },

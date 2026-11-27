@@ -3,8 +3,8 @@ tipo: tablero-inmobiliario
 zona: mirandela
 estado_poligono: aproximado_v1
 fecha_actualizacion: 2026-11-27
-estado_captura: confiable
-portales_confiables: ["Fincaraiz", "Metrocuadrado"]
+estado_captura: sin_datos_confiables
+portales_confiables: []
 oferta_activa_valida: 13
 posibles_ventas: 0
 mediana_precio_m2: 5000000
@@ -13,7 +13,8 @@ mediana_precio_m2: 5000000
 # Radar de Mirandela — Bogotá
 
 Polígono en **aproximado_v1**. Los indicadores geográficos deben interpretarse con esa calibración.
-**Captura 2026-11-27:** Fincaraiz: 13 anuncios (confiable); Metrocuadrado: 61 anuncios (confiable)
+**Captura 2026-11-27:** Fincaraiz: 13 anuncios (no confiable); Metrocuadrado: 61 anuncios (no confiable)
+La captura actual no es confiable; las cifras de oferta y medianas conservan el último histórico validado y pueden estar desactualizadas.
 
 ## Dinámica de zona
 

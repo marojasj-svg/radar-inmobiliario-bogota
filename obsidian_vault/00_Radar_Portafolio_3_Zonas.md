@@ -8,6 +8,6 @@ zonas: 3
 
 | Zona | Estado del polígono | Captura | Oferta activa válida | Posibles ventas acumuladas | Tasa de absorción | DOM promedio de salida | Mediana activa COP/m² | Mediana cierre estimado (-5%) |
 |---|---|---:|---:|---:|---:|---:|---:|
-| Rincón | calibrado | confiable | 68 | 2 | 1.02% | 0 días | $ 5.673.326 | $ 11.890.558 |
-| Mirandela | aproximado_v1 | confiable | 13 | 0 | 0.0% | 0 días | $ 5.000.000 | $ 0 |
+| Rincón | calibrado | sin_datos_confiables | 68 | 2 | 1.02% | 0 días | $ 5.673.326 | $ 11.890.558 |
+| Mirandela | aproximado_v1 | sin_datos_confiables | 13 | 0 | 0.0% | 0 días | $ 5.000.000 | $ 0 |
 | Salitre | aproximado_v1 | sin_datos_confiables | 1 | 0 | 0.0% | 0 días | $ 6.321.839 | $ 0 |
