@@ -30,3 +30,8 @@ La captura actual no es confiable; las cifras de oferta y medianas conservan el 
 | ID | Portal | Barrio | Área (m²) | Hab/Baños | DOM (días) | Último precio | Cierre est. (-5%) | Cierre est. ($/m²) | vs mediana zona | Señal |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|---|
 | Sin posibles ventas | - | - | - | - | - | - | - | - | - | - |
+## Fichas de decisión de venta
+
+- [[03_Decision_Rincon|Decisión de venta: Rincón]]
+- [[03_Decision_Mirandela|Decisión de venta: Mirandela]]
+- [[03_Decision_Salitre|Decisión de venta: Salitre]]
