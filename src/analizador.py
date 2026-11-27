@@ -3,7 +3,7 @@ import glob
 import json
 import os
 from datetime import date, datetime
-from statistics import median
+from statistics import mean, median
 
 from config import (
     DESCUENTO_CIERRE_BASE_PCT,
@@ -340,7 +340,8 @@ def escribir_fichas(zona_id, fecha_corte, registros, mediana):
             or float(r.get("variacion_pct") or 0) <= UMBRAL_BAJADA_PRECIO_PCT
         )
         es_salida = r.get("estado") in ("posible_venta", "posible_republicacion")
-        if not es_oportunidad and not es_salida:
+        es_revision = bool(r.get("activo_en_corte")) and r.get("estado") == "revisar_atipico"
+        if not es_oportunidad and not es_salida and not es_revision:
             continue
         carpeta = os.path.join(CARPETA_OPORTUNIDADES, zona_id.title())
         os.makedirs(carpeta, exist_ok=True)
@@ -385,7 +386,7 @@ def generar_tableros(fecha_corte, historicos):
         ventas = [r for r in registros if r.get("zona") == zona_id and r.get("estado") == "posible_venta"]
         mediana = median([int(r.get("precio_m2") or 0) for r in activos if int(r.get("precio_m2") or 0) > 0]) if activos else 0
         mediana_cierre = median([int(r.get("cierre_estimado_5pct_m2") or 0) for r in ventas if int(r.get("cierre_estimado_5pct_m2") or 0) > 0]) if ventas else 0
-        dom = median([int(r.get("dias_en_mercado") or 0) for r in ventas]) if ventas else 0
+        dom = mean([int(r.get("dias_en_mercado") or 0) for r in ventas]) if ventas else 0
         total_historico = sum(1 for r in registros if r.get("zona") == zona_id)
         absorcion = round(len(ventas) / total_historico * 100, 2) if total_historico else 0
         resumen[zona_id] = (activos, ventas, mediana, mediana_cierre, dom, absorcion)
@@ -405,7 +406,7 @@ def generar_tableros(fecha_corte, historicos):
             f"- Oferta activa válida: **{len(activos)}**",
             f"- Posibles ventas acumuladas: **{len(ventas)}**",
             f"- Tasa de absorción observada: **{absorcion}%**",
-            f"- DOM mediano de salida: **{dom} días**",
+            f"- DOM promedio de salida: **{dom} días**",
             f"- Mediana activa: **{moneda(mediana)} COP/m²**",
             f"- Mediana de cierre estimado (-5%): **{moneda(mediana_cierre)} COP/m²**",
             "", "## Posibles ventas y cierres estimados", "",
