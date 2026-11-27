@@ -4,7 +4,7 @@ Automatización para observar oferta y rotación de apartamentos en tres zonas: 
 
 ## Flujo automático
 
-El workflow de GitHub Actions ejecuta `src/scraper.py` y luego `src/analizador.py`. El cron actual realiza cortes cada tres días y permite ejecución manual desde **Actions → Monitor Inmobiliario Zona Norte → Run workflow**.
+El workflow de GitHub Actions ejecuta `src/scraper.py` y luego `src/analizador.py`. El cron realiza cortes cada tres días. En una ejecución manual, si ya existe un corte para hoy, el radar lo reutiliza sin volver a llamar a los proveedores. Para actualizarlo el mismo día, marca **Forzar captura** en **Actions → Monitor Inmobiliario Zona Norte → Run workflow**.
 
 - `config/zonas.json`: límites, estado de calibración y rutas de búsqueda por zona. Las coordenadas se guardan como [latitud, longitud]; el código las convierte al orden requerido por Shapely.
 - `data/snapshots/AAAA-MM-DD.json`: corte unificado con anuncios y estado de captura por portal y zona.
@@ -41,7 +41,7 @@ Pega cada clave directamente en GitHub como secreto. No la agregues al código, 
 
 Scrappa incluye 500 créditos mensuales gratuitos por cuenta. Para limitar el consumo de este radar, el contador del repositorio reserva como máximo 450 solicitudes al mes, distribuidas en hasta 150 por zona, y conserva las coordenadas consultadas por 30 días. Usa una cuenta/clave dedicada al radar: el contador solo conoce las solicitudes del repositorio y no puede contar otras aplicaciones que usen la misma cuenta. No compres créditos ni actives un plan pago para habilitar este flujo; si el límite preventivo se alcanza, la captura Metrocuadrado queda incompleta y no se usa para inferir salidas. Revisa la [documentación de búsqueda](https://scrappa.co/docs/metrocuadrado-api/metrocuadrado_search), la [documentación de detalles](https://scrappa.co/docs/metrocuadrado-api/metrocuadrado_property) y los [precios vigentes](https://scrappa.co/pricing) antes de utilizar el servicio; sus condiciones pueden cambiar.
 
-API.SH publica 1.000 créditos mensuales gratuitos según su información de precios; revisa sus [precios](https://api.sh/pricing) y condiciones vigentes. Si falta cualquier clave, la captura de ese portal se marca como no confiable y no genera posibles ventas.
+API.SH ofrece créditos gratuitos mensuales sujetos a sus límites vigentes; revisa sus [precios](https://api.sh/pricing). Un error HTTP 402 significa que la cuenta o la clave no tiene créditos disponibles o alcanzó un límite. Sin agregar fondos, espera al reinicio mensual o revisa los límites en el panel de API.SH. Si falta cualquier clave, la captura de ese portal se marca como no confiable y no genera posibles ventas.
 
 GitHub Actions usa además el token temporal `GITHUB_TOKEN` que GitHub crea para cada ejecución. `actions/checkout` conserva la credencial para que el paso final pueda publicar el commit, y el workflow limita el permiso del token a `contents: write`.
 
