@@ -17,3 +17,17 @@ zonas: 3
 - [[03_Decision_Rincon|Decisión de venta: Rincón]]
 - [[03_Decision_Mirandela|Decisión de venta: Mirandela]]
 - [[03_Decision_Salitre|Decisión de venta: Salitre]]
+
+## Cambios semanales (precios publicados)
+
+Compara cortes confiables separados entre 5 y 14 días y limita la comparación a portales confiables en ambos. Una desaparición no confirma venta.
+
+| Zona | Corte base → último confiable | Oferta válida | Mediana COP/m² | Anuncios nuevos | Precios bajaron / subieron | Desaparecidos* |
+|---|---|---:|---:|---:|---:|---:|
+| Rincón | Sin dos cortes confiables separados entre 5 y 14 días | - | - | - | - | - |
+| Mirandela | Sin dos cortes confiables separados entre 5 y 14 días | - | - | - | - | - |
+| Salitre | Sin dos cortes confiables separados entre 5 y 14 días | - | - | - | - | - |
+
+*Los desaparecidos solo cuentan con captura confiable en ambos cortes; pueden haberse retirado, republicado o vendido.
+
+**Estado:** aún no hay dos cortes semanales confiables para medir cambios. Las fallas de captura no se interpretan como caída de oferta ni como ventas.
