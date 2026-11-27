@@ -9,6 +9,8 @@ El workflow de GitHub Actions ejecuta `src/scraper.py` y luego `src/analizador.p
 - `config/zonas.json`: límites, estado de calibración y rutas de búsqueda por zona. Las coordenadas se guardan como [latitud, longitud]; el código las convierte al orden requerido por Shapely.
 - `data/snapshots/AAAA-MM-DD.json`: corte unificado con anuncios y estado de captura por portal y zona.
 - `data/historico_rincon.json`, `data/historico_mirandela.json`, `data/historico_salitre.json`: estado persistente de cada anuncio, fechas detectadas, precios, huellas y salidas probables.
+- `data/metrocuadrado_coordenadas.json`: coordenadas obtenidas de los detalles de Metrocuadrado, para no volver a consultar el mismo anuncio durante 30 días.
+- `data/scrappa_creditos.json`: contador mensual preventivo de solicitudes que hace este radar a Scrappa.
 - `obsidian_vault/00_Radar_Portafolio_3_Zonas.md`: comparación consolidada.
 - `obsidian_vault/01_Tablero_Rincon.md`, `01_Tablero_Mirandela.md`, `01_Tablero_Salitre.md`: tablero por zona; el frontmatter conserva `estado_poligono`.
 - `obsidian_vault/02_Reglas_Dinamica_y_Venta.md`: parámetros de estimación y perfil de referencia de Rincón.
@@ -26,9 +28,20 @@ El cierre estimado usa un descuento base del 5% y una banda de 3% a 7% sobre el 
 
 Mirandela y Salitre están activas con polígonos `aproximado_v1`; sus tableros indican que están en calibración. Refinar los vértices en `config/zonas.json` no requiere cambiar el motor de análisis.
 
-## Credenciales y permisos
+## Proveedores y credenciales
 
-La captura estructurada consulta FincaRaíz y Metrocuadrado a través de API.SH, un proveedor externo y no afiliado a esos portales. Las consultas piden también los datos originales (`raw=true`) para recuperar coordenadas cuando el proveedor las incluye. Una zona solo se marca confiable si hay coordenadas en al menos 80% de los anuncios considerados, suficientes anuncios validados dentro del polígono y todas las páginas consultadas. Requiere una clave de API guardada en GitHub como secreto `RADAR_DATA_API_KEY` (Settings → Secrets and variables → Actions → New repository secret). Nunca debe pegarse en el código ni en los archivos del radar. API.SH publica 1.000 créditos mensuales gratuitos; cada búsqueda documentada cuesta 1 crédito, con topes configurables en su cuenta. El proveedor puede cambiar su disponibilidad, condiciones y precios; revisa sus [precios](https://api.sh/pricing) antes de activar o continuar el uso. Sin el secreto, el radar marca las capturas como no confiables y no infiere posibles ventas.
+FincaRaíz se consulta por API.SH y Metrocuadrado por Scrappa. Son proveedores externos e independientes de los portales. Scrappa requiere una búsqueda por radio y una consulta de detalle por anuncio nuevo para recuperar coordenadas. El radar limita esta búsqueda a un círculo calculado alrededor del polígono y valida después cada coordenada contra el polígono configurado. Los anuncios fuera del polígono no entran en el corte.
+
+En GitHub, abre **Settings → Secrets and variables → Actions → New repository secret** y configura:
+
+- `RADAR_DATA_API_KEY`: clave API.SH para FincaRaíz.
+- `SCRAPPA_API_KEY`: clave Scrappa para Metrocuadrado.
+
+Pega cada clave directamente en GitHub como secreto. No la agregues al código, a un archivo del repositorio ni a este chat.
+
+Scrappa incluye 500 créditos mensuales gratuitos por cuenta. Para limitar el consumo de este radar, el contador del repositorio reserva como máximo 450 solicitudes al mes y conserva las coordenadas consultadas por 30 días. Usa una cuenta/clave dedicada al radar: el contador solo conoce las solicitudes del repositorio y no puede contar otras aplicaciones que usen la misma cuenta. No compres créditos ni actives un plan pago para habilitar este flujo; si el límite preventivo se alcanza, la captura Metrocuadrado queda incompleta y no se usa para inferir salidas. Revisa la [documentación de búsqueda](https://scrappa.co/docs/metrocuadrado-api/metrocuadrado_search), la [documentación de detalles](https://scrappa.co/docs/metrocuadrado-api/metrocuadrado_property) y los [precios vigentes](https://scrappa.co/pricing) antes de utilizar el servicio; sus condiciones pueden cambiar.
+
+API.SH publica 1.000 créditos mensuales gratuitos según su información de precios; revisa sus [precios](https://api.sh/pricing) y condiciones vigentes. Si falta cualquier clave, la captura de ese portal se marca como no confiable y no genera posibles ventas.
 
 GitHub Actions usa además el token temporal `GITHUB_TOKEN` que GitHub crea para cada ejecución. `actions/checkout` conserva la credencial para que el paso final pueda publicar el commit, y el workflow limita el permiso del token a `contents: write`.
 
