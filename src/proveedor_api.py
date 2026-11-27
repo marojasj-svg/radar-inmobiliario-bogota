@@ -4,6 +4,7 @@ import math
 import os
 from datetime import datetime, timezone
 from pathlib import Path
+import time
 
 import requests
 
@@ -51,6 +52,21 @@ def _reservar_credito(zona_id):
     control["creditos_reservados"] = total + 1
     _guardar_json(RUTA_CREDITOS, control)
     return True
+
+
+def _solicitud_scrappa(url, params, headers):
+    """Reintenta solo 503, que Scrappa documenta como no facturable y seguro."""
+    esperas = (0, 3, 8)
+    for indice, espera in enumerate(esperas):
+        if espera:
+            time.sleep(espera)
+        respuesta = requests.get(
+            url, params=params, headers=headers, timeout=TIMEOUT_SEGUNDOS
+        )
+        if respuesta.status_code == 503 and indice < len(esperas) - 1:
+            continue
+        respuesta.raise_for_status()
+        return respuesta
 
 
 def _coordenadas(obj):
@@ -104,11 +120,10 @@ def _detalle_metro(id_anuncio, cache, headers, zona_id):
 
     if not _reservar_credito(zona_id):
         return None, None, "Se alcanzó el límite mensual preventivo de 150 créditos de esta zona."
-    respuesta = requests.get(
+    respuesta = _solicitud_scrappa(
         f"{SCRAPPA_BASE}/metrocuadrado/property",
         params={"id": id_anuncio},
         headers=headers,
-        timeout=TIMEOUT_SEGUNDOS,
     )
     respuesta.raise_for_status()
     data = respuesta.json()
@@ -162,11 +177,10 @@ def _buscar_metrocuadrado(zona):
             "per_page": 48,
         }
         try:
-            respuesta = requests.get(
+            respuesta = _solicitud_scrappa(
                 f"{SCRAPPA_BASE}/metrocuadrado/search",
                 params=params,
                 headers=headers,
-                timeout=TIMEOUT_SEGUNDOS,
             )
             respuesta.raise_for_status()
             data = respuesta.json()
