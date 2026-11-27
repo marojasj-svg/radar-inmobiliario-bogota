@@ -231,7 +231,6 @@ def main():
             estado_captura[zona_id][portal] = estado
             print(f"[INFO] {zona_id}/{portal}: {len(registros)} anuncios; captura confiable={estado['captura_confiable']}")
 
-    ruta = f"data/snapshots/{fecha}.json"
     with open(ruta, "w", encoding="utf-8") as archivo:
         json.dump({
             "fecha_corte": fecha,
