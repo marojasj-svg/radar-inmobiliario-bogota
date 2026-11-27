@@ -3,34 +3,37 @@ tipo: tablero-inmobiliario
 zona: rincon
 estado_poligono: calibrado
 fecha_actualizacion: 2026-11-27
-estado_captura: sin_datos_confiables
-portales_confiables: []
-oferta_activa_valida: 68
-posibles_ventas: 2
-mediana_precio_m2: 5673325
+estado_captura: parcial
+portales_confiables: ["Fincaraiz"]
+oferta_activa_valida: 61
+posibles_ventas: 6
+mediana_precio_m2: 5735294
 ---
 
 # Radar de Rincón — Bogotá
 
 Polígono en **calibrado**. Los indicadores geográficos deben interpretarse con esa calibración.
-**Captura 2026-11-27:** Fincaraiz: 0 anuncios (no confiable); Metrocuadrado: 0 anuncios (no confiable)
-La captura actual no es confiable; las cifras de oferta y medianas conservan el último histórico validado y pueden estar desactualizadas.
+**Captura 2026-11-27:** Fincaraiz: 143 anuncios (confiable); Metrocuadrado: 0 anuncios (no confiable)
 
 ## Dinámica de zona
 
-- Oferta activa válida: **68**
-- Posibles ventas acumuladas: **2**
-- Tasa de absorción observada: **0.43%**
-- DOM promedio de salida: **0 días**
-- Mediana activa: **$ 5.673.326 COP/m²**
-- Mediana de cierre estimado (-5%): **$ 11.890.558 COP/m²**
+- Oferta activa válida: **61**
+- Posibles ventas acumuladas: **6**
+- Tasa de absorción observada: **1.1%**
+- DOM promedio de salida: **0.8333333333333334 días**
+- Mediana activa: **$ 5.735.294 COP/m²**
+- Mediana de cierre estimado (-5%): **$ 5.389.660 COP/m²**
 
 ## Posibles ventas y cierres estimados
 
 | ID | Portal | Barrio | Área (m²) | Hab/Baños | DOM (días) | Último precio | Cierre est. (-5%) | Cierre est. ($/m²) | vs mediana zona | Señal |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|---|
-| FR-194511122 | Fincaraiz | Las Margaritas | 61.5 | 2/2 | 0 | $ 771.309.000 | $ 732.743.550 | $ 11.914.529 | 111.62% | Estimación orientativa |
-| FR-194628524 | Fincaraiz | Las Margaritas | 75.2 | 3/2 | 0 | $ 939.334.000 | $ 892.367.300 | $ 11.866.586 | 110.77% | Estimación orientativa |
+| FR-194221057 | Fincaraiz | Las orquideas | 60.0 | 3/2 | 1 | $ 315.000.000 | $ 299.250.000 | $ 4.987.500 | -12.09% | Estimación orientativa |
+| FR-194317416 | Fincaraiz | Toberin | 42.0 | 2/1 | 1 | $ 295.000.000 | $ 280.250.000 | $ 6.672.619 | 17.61% | Estimación orientativa |
+| FR-194496074 | Fincaraiz | Bogotá | 51.0 | 3/1 | 1 | $ 290.000.000 | $ 275.500.000 | $ 5.401.961 | -4.78% | Estimación orientativa |
+| FR-194230491 | Fincaraiz | Toberin | 53.0 | 2/1 | 1 | $ 300.000.000 | $ 285.000.000 | $ 5.377.358 | -5.22% | Estimación orientativa |
+| FR-194662730 | Fincaraiz | Toberin | 60.0 | 3/2 | 1 | $ 300.000.000 | $ 285.000.000 | $ 4.750.000 | -16.27% | Estimación orientativa |
+| FR-194150527 | Fincaraiz | Las orquideas | 57.0 | 2/2 | 0 | $ 380.000.000 | $ 361.000.000 | $ 6.333.333 | 11.63% | Estimación orientativa |
 
 ## Comparables directos del apartamento propio (50–62 m², 3 habitaciones)
 
@@ -49,9 +52,6 @@ La captura actual no es confiable; las cifras de oferta y medianas conservan el 
 | FR-194444488 | Fincaraiz | 55.0 | $ 285.000.000 | $ 5.181.818 | 1 | 2 |
 | FR-193737508 | Fincaraiz | 54.0 | $ 225.000.000 | $ 4.166.666 | 1 | 1 |
 | FR-194440047 | Fincaraiz | 55.0 | $ 270.000.000 | $ 4.909.090 | 1 | 2 |
-| FR-194221057 | Fincaraiz | 60.0 | $ 315.000.000 | $ 5.250.000 | 1 | 2 |
-| FR-194496074 | Fincaraiz | 51.0 | $ 290.000.000 | $ 5.686.274 | 1 | 1 |
-| FR-194662730 | Fincaraiz | 60.0 | $ 300.000.000 | $ 5.000.000 | 1 | 2 |
 | FR-192790520 | Fincaraiz | 53.0 | $ 280.000.000 | $ 5.283.018 | 1 | 1 |
 | FR-193573749 | Fincaraiz | 56.0 | $ 399.000.000 | $ 7.125.000 | 0 | 1 |
 | FR-194392256 | Fincaraiz | 55.0 | $ 270.000.000 | $ 4.909.090 | 0 | 2 |

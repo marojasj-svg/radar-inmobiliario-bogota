@@ -3,7 +3,7 @@
     "id_inmueble": "FR-194306263",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Villas del mediterraneo, Bogotá",
-    "barrio": "Villas del mediterraneo",
+    "barrio": "Rincon",
     "precio_inicial": 650000000,
     "precio_actual": 660000000,
     "variacion_pct": 1.54,
@@ -11,7 +11,7 @@
     "precio_m2": 6111111,
     "habitaciones": 3,
     "banos": 3,
-    "parqueaderos": 2,
+    "parqueaderos": 0,
     "lat": 4.737281,
     "lon": -74.037667,
     "fecha_primera_deteccion": "2026-11-26",
@@ -50,7 +50,7 @@
     "id_inmueble": "FR-192905231",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Estrella del norte, Bogotá",
-    "barrio": "Estrella del norte",
+    "barrio": "Rincon",
     "precio_inicial": 420000000,
     "precio_actual": 420000000,
     "variacion_pct": 0.0,
@@ -58,7 +58,7 @@
     "precio_m2": 5600000,
     "habitaciones": 3,
     "banos": 3,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.73864,
     "lon": -74.0430082,
     "fecha_primera_deteccion": "2026-11-26",
@@ -93,7 +93,7 @@
     "id_inmueble": "FR-193837950",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Villas del mediterraneo, Bogotá",
-    "barrio": "Villas del mediterraneo",
+    "barrio": "Rincon",
     "precio_inicial": 650000000,
     "precio_actual": 650000000,
     "variacion_pct": 0.0,
@@ -101,7 +101,7 @@
     "precio_m2": 5963302,
     "habitaciones": 3,
     "banos": 3,
-    "parqueaderos": 2,
+    "parqueaderos": 0,
     "lat": 4.7370564,
     "lon": -74.037771,
     "fecha_primera_deteccion": "2026-11-26",
@@ -136,7 +136,7 @@
     "id_inmueble": "FR-194295255",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Villa magdala, Bogotá",
-    "barrio": "Villa magdala",
+    "barrio": "Rincon",
     "precio_inicial": 380000000,
     "precio_actual": 380000000,
     "variacion_pct": 0.0,
@@ -144,7 +144,7 @@
     "precio_m2": 6129032,
     "habitaciones": 3,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.739007900813,
     "lon": -74.044903597815,
     "fecha_primera_deteccion": "2026-11-26",
@@ -179,7 +179,7 @@
     "id_inmueble": "FR-194564814",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Villa magdala, Bogotá",
-    "barrio": "Villa magdala",
+    "barrio": "Rincon",
     "precio_inicial": 496000000,
     "precio_actual": 496000000,
     "variacion_pct": 0.0,
@@ -187,7 +187,7 @@
     "precio_m2": 5767441,
     "habitaciones": 3,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.739405,
     "lon": -74.044418,
     "fecha_primera_deteccion": "2026-11-26",
@@ -222,7 +222,7 @@
     "id_inmueble": "FR-194401446",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Ibagué",
-    "barrio": "Ibagué",
+    "barrio": "Rincon",
     "precio_inicial": 270000000,
     "precio_actual": 270000000,
     "variacion_pct": 0.0,
@@ -265,7 +265,7 @@
     "id_inmueble": "FR-194244215",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Cedritos, Bogotá",
-    "barrio": "Cedritos",
+    "barrio": "Rincon",
     "precio_inicial": 460000000,
     "precio_actual": 460000000,
     "variacion_pct": 0.0,
@@ -273,7 +273,7 @@
     "precio_m2": 5111111,
     "habitaciones": 3,
     "banos": 3,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7367826,
     "lon": -74.0416161,
     "fecha_primera_deteccion": "2026-11-26",
@@ -308,7 +308,7 @@
     "id_inmueble": "FR-194531373",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Estrella del norte, Bogotá",
-    "barrio": "Estrella del norte",
+    "barrio": "Rincon",
     "precio_inicial": 310000000,
     "precio_actual": 310000000,
     "variacion_pct": 0.0,
@@ -316,7 +316,7 @@
     "precio_m2": 5166666,
     "habitaciones": 3,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7396512,
     "lon": -74.046169,
     "fecha_primera_deteccion": "2026-11-26",
@@ -351,7 +351,7 @@
     "id_inmueble": "FR-10057697",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Estrella del norte, Bogotá",
-    "barrio": "Estrella del norte",
+    "barrio": "Rincon",
     "precio_inicial": 385000000,
     "precio_actual": 385000000,
     "variacion_pct": 0.0,
@@ -359,7 +359,7 @@
     "precio_m2": 6111111,
     "habitaciones": 3,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7390963,
     "lon": -74.0447816,
     "fecha_primera_deteccion": "2026-11-26",
@@ -394,7 +394,7 @@
     "id_inmueble": "FR-194318629",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Villas del mediterraneo, Bogotá",
-    "barrio": "Villas del mediterraneo",
+    "barrio": "Rincon",
     "precio_inicial": 650000000,
     "precio_actual": 660000000,
     "variacion_pct": 1.54,
@@ -402,7 +402,7 @@
     "precio_m2": 6111111,
     "habitaciones": 3,
     "banos": 3,
-    "parqueaderos": 2,
+    "parqueaderos": 0,
     "lat": 4.738602,
     "lon": -74.0372417,
     "fecha_primera_deteccion": "2026-11-26",
@@ -441,7 +441,7 @@
     "id_inmueble": "FR-194129028",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Villa magdala, Bogotá",
-    "barrio": "Villa magdala",
+    "barrio": "Rincon",
     "precio_inicial": 430000000,
     "precio_actual": 430000000,
     "variacion_pct": 0.0,
@@ -449,7 +449,7 @@
     "precio_m2": 5000000,
     "habitaciones": 3,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.739190123388,
     "lon": -74.045676074012,
     "fecha_primera_deteccion": "2026-11-26",
@@ -484,7 +484,7 @@
     "id_inmueble": "FR-10792242",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Villa magdala, Bogotá",
-    "barrio": "Villa magdala",
+    "barrio": "Rincon",
     "precio_inicial": 380000000,
     "precio_actual": 380000000,
     "variacion_pct": 0.0,
@@ -492,7 +492,7 @@
     "precio_m2": 6333333,
     "habitaciones": 2,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7377607,
     "lon": -74.0454347,
     "fecha_primera_deteccion": "2026-11-26",
@@ -527,7 +527,7 @@
     "id_inmueble": "FR-193800815",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Villa magdala, Bogotá",
-    "barrio": "Villa magdala",
+    "barrio": "Rincon",
     "precio_inicial": 520000000,
     "precio_actual": 520000000,
     "variacion_pct": 0.0,
@@ -535,7 +535,7 @@
     "precio_m2": 4482758,
     "habitaciones": 3,
     "banos": 3,
-    "parqueaderos": 2,
+    "parqueaderos": 0,
     "lat": 4.7394735,
     "lon": -74.0459055,
     "fecha_primera_deteccion": "2026-11-26",
@@ -570,7 +570,7 @@
     "id_inmueble": "FR-194657291",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Cedritos, Bogotá",
-    "barrio": "Cedritos",
+    "barrio": "Rincon",
     "precio_inicial": 820000000,
     "precio_actual": 820000000,
     "variacion_pct": 0.0,
@@ -578,7 +578,7 @@
     "precio_m2": 9318181,
     "habitaciones": 3,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.73658,
     "lon": -74.043004,
     "fecha_primera_deteccion": "2026-11-26",
@@ -613,7 +613,7 @@
     "id_inmueble": "FR-194566267",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Toberin, Bogotá",
-    "barrio": "Toberin",
+    "barrio": "Rincon",
     "precio_inicial": 350000000,
     "precio_actual": 350000000,
     "variacion_pct": 0.0,
@@ -621,7 +621,7 @@
     "precio_m2": 5833333,
     "habitaciones": 3,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7401061,
     "lon": -74.0431848,
     "fecha_primera_deteccion": "2026-11-26",
@@ -656,7 +656,7 @@
     "id_inmueble": "FR-194644927",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Estrella del norte, Bogotá",
-    "barrio": "Estrella del norte",
+    "barrio": "Rincon",
     "precio_inicial": 645000000,
     "precio_actual": 645000000,
     "variacion_pct": 0.0,
@@ -664,7 +664,7 @@
     "precio_m2": 3307692,
     "habitaciones": 3,
     "banos": 3,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7393701,
     "lon": -74.0459167,
     "fecha_primera_deteccion": "2026-11-26",
@@ -699,7 +699,7 @@
     "id_inmueble": "FR-194637167",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Cedritos, Bogotá",
-    "barrio": "Cedritos",
+    "barrio": "Rincon",
     "precio_inicial": 385000000,
     "precio_actual": 385000000,
     "variacion_pct": 0.0,
@@ -707,7 +707,7 @@
     "precio_m2": 6875000,
     "habitaciones": 2,
     "banos": 1,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7405253,
     "lon": -74.0447051,
     "fecha_primera_deteccion": "2026-11-26",
@@ -742,7 +742,7 @@
     "id_inmueble": "FR-194663458",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Estrella del norte, Bogotá",
-    "barrio": "Estrella del norte",
+    "barrio": "Rincon",
     "precio_inicial": 440000000,
     "precio_actual": 440000000,
     "variacion_pct": 0.0,
@@ -750,7 +750,7 @@
     "precio_m2": 7586206,
     "habitaciones": 2,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7399013,
     "lon": -74.0461742,
     "fecha_primera_deteccion": "2026-11-26",
@@ -785,7 +785,7 @@
     "id_inmueble": "FR-193538193",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Santa Paula, Bogotá",
-    "barrio": "Santa Paula",
+    "barrio": "Rincon",
     "precio_inicial": 645000000,
     "precio_actual": 645000000,
     "variacion_pct": 0.0,
@@ -793,7 +793,7 @@
     "precio_m2": 13163265,
     "habitaciones": 2,
     "banos": 1,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.739105298528,
     "lon": -74.037995819951,
     "fecha_primera_deteccion": "2026-11-26",
@@ -828,7 +828,7 @@
     "id_inmueble": "FR-194527880",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Villa magdala, Bogotá",
-    "barrio": "Villa magdala",
+    "barrio": "Rincon",
     "precio_inicial": 550000000,
     "precio_actual": 550000000,
     "variacion_pct": 0.0,
@@ -836,7 +836,7 @@
     "precio_m2": 6707317,
     "habitaciones": 3,
     "banos": 2,
-    "parqueaderos": 2,
+    "parqueaderos": 0,
     "lat": 4.737597519875,
     "lon": -74.040649195221,
     "fecha_primera_deteccion": "2026-11-26",
@@ -871,7 +871,7 @@
     "id_inmueble": "FR-193701270",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Cedritos, Bogotá",
-    "barrio": "Cedritos",
+    "barrio": "Rincon",
     "precio_inicial": 300000000,
     "precio_actual": 300000000,
     "variacion_pct": 0.0,
@@ -879,7 +879,7 @@
     "precio_m2": 5000000,
     "habitaciones": 3,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7401061,
     "lon": -74.0431848,
     "fecha_primera_deteccion": "2026-11-26",
@@ -914,7 +914,7 @@
     "id_inmueble": "FR-194414312",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Toberin, Bogotá",
-    "barrio": "Toberin",
+    "barrio": "Rincon",
     "precio_inicial": 299000000,
     "precio_actual": 299000000,
     "variacion_pct": 0.0,
@@ -922,7 +922,7 @@
     "precio_m2": 5862745,
     "habitaciones": 3,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7392382,
     "lon": -74.0460761,
     "fecha_primera_deteccion": "2026-11-26",
@@ -957,7 +957,7 @@
     "id_inmueble": "FR-192982042",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Cedro Golf, Bogotá",
-    "barrio": "Cedro Golf",
+    "barrio": "Rincon",
     "precio_inicial": 533540000,
     "precio_actual": 533540000,
     "variacion_pct": 0.0,
@@ -965,7 +965,7 @@
     "precio_m2": 4599482,
     "habitaciones": 3,
     "banos": 3,
-    "parqueaderos": 2,
+    "parqueaderos": 0,
     "lat": 4.7392872,
     "lon": -74.0459356,
     "fecha_primera_deteccion": "2026-11-26",
@@ -1000,7 +1000,7 @@
     "id_inmueble": "FR-194438461",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Colina Campestre, Bogotá",
-    "barrio": "Colina Campestre",
+    "barrio": "Rincon",
     "precio_inicial": 880000000,
     "precio_actual": 880000000,
     "variacion_pct": 0.0,
@@ -1008,7 +1008,7 @@
     "precio_m2": 9670329,
     "habitaciones": 2,
     "banos": 3,
-    "parqueaderos": 2,
+    "parqueaderos": 0,
     "lat": 4.738577,
     "lon": -74.0433184,
     "fecha_primera_deteccion": "2026-11-26",
@@ -1043,7 +1043,7 @@
     "id_inmueble": "FR-193610696",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Estrella del norte, Bogotá",
-    "barrio": "Estrella del norte",
+    "barrio": "Rincon",
     "precio_inicial": 517000000,
     "precio_actual": 517000000,
     "variacion_pct": 0.0,
@@ -1051,7 +1051,7 @@
     "precio_m2": 4456896,
     "habitaciones": 3,
     "banos": 3,
-    "parqueaderos": 2,
+    "parqueaderos": 0,
     "lat": 4.7392872,
     "lon": -74.0459356,
     "fecha_primera_deteccion": "2026-11-26",
@@ -1086,7 +1086,7 @@
     "id_inmueble": "FR-194628710",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Estrella del norte, Bogotá",
-    "barrio": "Estrella del norte",
+    "barrio": "Rincon",
     "precio_inicial": 420000000,
     "precio_actual": 420000000,
     "variacion_pct": 0.0,
@@ -1129,7 +1129,7 @@
     "id_inmueble": "FR-194064682",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Estrella del norte, Bogotá",
-    "barrio": "Estrella del norte",
+    "barrio": "Rincon",
     "precio_inicial": 320000000,
     "precio_actual": 320000000,
     "variacion_pct": 0.0,
@@ -1172,7 +1172,7 @@
     "id_inmueble": "FR-194038827",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Estrella del norte, Bogotá",
-    "barrio": "Estrella del norte",
+    "barrio": "Rincon",
     "precio_inicial": 520000000,
     "precio_actual": 520000000,
     "variacion_pct": 0.0,
@@ -1180,7 +1180,7 @@
     "precio_m2": 4482758,
     "habitaciones": 3,
     "banos": 3,
-    "parqueaderos": 2,
+    "parqueaderos": 0,
     "lat": 4.7394169873951,
     "lon": -74.045941090299,
     "fecha_primera_deteccion": "2026-11-26",
@@ -1215,7 +1215,7 @@
     "id_inmueble": "FR-194645197",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Usaquen, Bogotá",
-    "barrio": "Usaquen",
+    "barrio": "Rincon",
     "precio_inicial": 283000000,
     "precio_actual": 283000000,
     "variacion_pct": 0.0,
@@ -1223,7 +1223,7 @@
     "precio_m2": 6021276,
     "habitaciones": 2,
     "banos": 1,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7399594,
     "lon": -74.0367747,
     "fecha_primera_deteccion": "2026-11-26",
@@ -1258,7 +1258,7 @@
     "id_inmueble": "FR-194063239",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Las orquideas, Bogotá",
-    "barrio": "Las orquideas",
+    "barrio": "Rincon",
     "precio_inicial": 580000000,
     "precio_actual": 580000000,
     "variacion_pct": 0.0,
@@ -1266,7 +1266,7 @@
     "precio_m2": 3493975,
     "habitaciones": 4,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.741360617215,
     "lon": -74.046186615734,
     "fecha_primera_deteccion": "2026-11-26",
@@ -1301,7 +1301,7 @@
     "id_inmueble": "FR-194191303",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Estrella del norte, Bogotá",
-    "barrio": "Estrella del norte",
+    "barrio": "Rincon",
     "precio_inicial": 385000000,
     "precio_actual": 385000000,
     "variacion_pct": 0.0,
@@ -1309,7 +1309,7 @@
     "precio_m2": 6015625,
     "habitaciones": 2,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7392286,
     "lon": -74.0447921,
     "fecha_primera_deteccion": "2026-11-26",
@@ -1344,7 +1344,7 @@
     "id_inmueble": "FR-193561231",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Las orquideas, Bogotá",
-    "barrio": "Las orquideas",
+    "barrio": "Rincon",
     "precio_inicial": 365000000,
     "precio_actual": 365000000,
     "variacion_pct": 0.0,
@@ -1352,7 +1352,7 @@
     "precio_m2": 5367647,
     "habitaciones": 2,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.740941773514,
     "lon": -74.040595048126,
     "fecha_primera_deteccion": "2026-11-26",
@@ -1387,7 +1387,7 @@
     "id_inmueble": "FR-193464813",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Los rosales, Bogotá",
-    "barrio": "Los rosales",
+    "barrio": "Rincon",
     "precio_inicial": 3950000000,
     "precio_actual": 3950000000,
     "variacion_pct": 0.0,
@@ -1395,7 +1395,7 @@
     "precio_m2": 6076923,
     "habitaciones": 4,
     "banos": 5,
-    "parqueaderos": 4,
+    "parqueaderos": 0,
     "lat": 4.7390509475645,
     "lon": -74.043673889867,
     "fecha_primera_deteccion": "2026-11-26",
@@ -1430,7 +1430,7 @@
     "id_inmueble": "FR-194560515",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Toberin, Bogotá",
-    "barrio": "Toberin",
+    "barrio": "Rincon",
     "precio_inicial": 285000000,
     "precio_actual": 285000000,
     "variacion_pct": 0.0,
@@ -1438,7 +1438,7 @@
     "precio_m2": 6063829,
     "habitaciones": 2,
     "banos": 1,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7409836,
     "lon": -74.0438357,
     "fecha_primera_deteccion": "2026-11-26",
@@ -1473,7 +1473,7 @@
     "id_inmueble": "FR-194109174",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Villa magdala, Bogotá",
-    "barrio": "Villa magdala",
+    "barrio": "Rincon",
     "precio_inicial": 390000000,
     "precio_actual": 390000000,
     "variacion_pct": 0.0,
@@ -1481,7 +1481,7 @@
     "precio_m2": 5735294,
     "habitaciones": 2,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7401754,
     "lon": -74.0460543,
     "fecha_primera_deteccion": "2026-11-26",
@@ -1516,7 +1516,7 @@
     "id_inmueble": "FR-194305122",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Villa magdala, Bogotá",
-    "barrio": "Villa magdala",
+    "barrio": "Rincon",
     "precio_inicial": 450000000,
     "precio_actual": 450000000,
     "variacion_pct": 0.0,
@@ -1524,7 +1524,7 @@
     "precio_m2": 6818181,
     "habitaciones": 3,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7402252194734,
     "lon": -74.046500730649,
     "fecha_primera_deteccion": "2026-11-26",
@@ -1559,7 +1559,7 @@
     "id_inmueble": "FR-194412138",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Villa magdala, Bogotá",
-    "barrio": "Villa magdala",
+    "barrio": "Rincon",
     "precio_inicial": 375000000,
     "precio_actual": 375000000,
     "variacion_pct": 0.0,
@@ -1567,7 +1567,7 @@
     "precio_m2": 6696428,
     "habitaciones": 3,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7379247,
     "lon": -74.0409537,
     "fecha_primera_deteccion": "2026-11-26",
@@ -1602,7 +1602,7 @@
     "id_inmueble": "FR-194284868",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Las orquideas, Bogotá",
-    "barrio": "Las orquideas",
+    "barrio": "Rincon",
     "precio_inicial": 359500000,
     "precio_actual": 359500000,
     "variacion_pct": 0.0,
@@ -1610,7 +1610,7 @@
     "precio_m2": 5286764,
     "habitaciones": 2,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.740898583005,
     "lon": -74.040463417768,
     "fecha_primera_deteccion": "2026-11-26",
@@ -1645,7 +1645,7 @@
     "id_inmueble": "FR-193457338",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Toberin, Bogotá",
-    "barrio": "Toberin",
+    "barrio": "Rincon",
     "precio_inicial": 533540000,
     "precio_actual": 533540000,
     "variacion_pct": 0.0,
@@ -1653,7 +1653,7 @@
     "precio_m2": 4599482,
     "habitaciones": 3,
     "banos": 3,
-    "parqueaderos": 2,
+    "parqueaderos": 0,
     "lat": 4.7393459946094,
     "lon": -74.045856559755,
     "fecha_primera_deteccion": "2026-11-26",
@@ -1688,7 +1688,7 @@
     "id_inmueble": "FR-193560797",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Las orquideas, Bogotá",
-    "barrio": "Las orquideas",
+    "barrio": "Rincon",
     "precio_inicial": 365000000,
     "precio_actual": 365000000,
     "variacion_pct": 0.0,
@@ -1696,7 +1696,7 @@
     "precio_m2": 5367647,
     "habitaciones": 2,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.740941773514,
     "lon": -74.040595048126,
     "fecha_primera_deteccion": "2026-11-26",
@@ -1731,7 +1731,7 @@
     "id_inmueble": "FR-192995561",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Las orquideas, Bogotá",
-    "barrio": "Las orquideas",
+    "barrio": "Rincon",
     "precio_inicial": 300000000,
     "precio_actual": 300000000,
     "variacion_pct": 0.0,
@@ -1739,7 +1739,7 @@
     "precio_m2": 7142857,
     "habitaciones": 2,
     "banos": 1,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.740341168242,
     "lon": -74.044266656993,
     "fecha_primera_deteccion": "2026-11-26",
@@ -1774,7 +1774,7 @@
     "id_inmueble": "FR-194402837",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Estrella del norte, Bogotá",
-    "barrio": "Estrella del norte",
+    "barrio": "Rincon",
     "precio_inicial": 605589000,
     "precio_actual": 605589000,
     "variacion_pct": 0.0,
@@ -1782,7 +1782,7 @@
     "precio_m2": 6881693,
     "habitaciones": 3,
     "banos": 2,
-    "parqueaderos": 3,
+    "parqueaderos": 0,
     "lat": 4.7397551,
     "lon": -74.045346,
     "fecha_primera_deteccion": "2026-11-26",
@@ -1817,7 +1817,7 @@
     "id_inmueble": "FR-193632000",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Las orquideas, Bogotá",
-    "barrio": "Las orquideas",
+    "barrio": "Rincon",
     "precio_inicial": 235000000,
     "precio_actual": 235000000,
     "variacion_pct": 0.0,
@@ -1825,7 +1825,7 @@
     "precio_m2": 5108695,
     "habitaciones": 2,
     "banos": 1,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.740290265749,
     "lon": -74.040717275915,
     "fecha_primera_deteccion": "2026-11-26",
@@ -1860,7 +1860,7 @@
     "id_inmueble": "FR-193666500",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Toberin, Bogotá",
-    "barrio": "Toberin",
+    "barrio": "Rincon",
     "precio_inicial": 360000000,
     "precio_actual": 360000000,
     "variacion_pct": 0.0,
@@ -1868,7 +1868,7 @@
     "precio_m2": 5373134,
     "habitaciones": 2,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7411713,
     "lon": -74.0405734,
     "fecha_primera_deteccion": "2026-11-26",
@@ -1897,13 +1897,15 @@
       ]
     },
     "validado_poligono": true,
-    "precio": 360000000
+    "precio": 360000000,
+    "posible_republicacion": true,
+    "id_origen_republicacion": "FR-194651142"
   },
   {
     "id_inmueble": "FR-193632427",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Pradera Norte, Bogotá",
-    "barrio": "Pradera Norte",
+    "barrio": "Rincon",
     "precio_inicial": 325000000,
     "precio_actual": 325000000,
     "variacion_pct": 0.0,
@@ -1911,7 +1913,7 @@
     "precio_m2": 5909090,
     "habitaciones": 3,
     "banos": 1,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7414881,
     "lon": -74.036227,
     "fecha_primera_deteccion": "2026-11-26",
@@ -1946,7 +1948,7 @@
     "id_inmueble": "FR-194305733",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Las orquideas, Bogotá",
-    "barrio": "Las orquideas",
+    "barrio": "Rincon",
     "precio_inicial": 400000000,
     "precio_actual": 400000000,
     "variacion_pct": 0.0,
@@ -1954,7 +1956,7 @@
     "precio_m2": 5970149,
     "habitaciones": 3,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7411713,
     "lon": -74.0405734,
     "fecha_primera_deteccion": "2026-11-26",
@@ -1989,7 +1991,7 @@
     "id_inmueble": "FR-193125012",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Toberin, Bogotá",
-    "barrio": "Toberin",
+    "barrio": "Rincon",
     "precio_inicial": 310000000,
     "precio_actual": 310000000,
     "variacion_pct": 0.0,
@@ -1997,7 +1999,7 @@
     "precio_m2": 6326530,
     "habitaciones": 3,
     "banos": 1,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7439292,
     "lon": -74.0378114,
     "fecha_primera_deteccion": "2026-11-26",
@@ -2032,7 +2034,7 @@
     "id_inmueble": "FR-193876638",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Toberin, Bogotá",
-    "barrio": "Toberin",
+    "barrio": "Rincon",
     "precio_inicial": 315000000,
     "precio_actual": 315000000,
     "variacion_pct": 0.0,
@@ -2040,7 +2042,7 @@
     "precio_m2": 6057692,
     "habitaciones": 2,
     "banos": 1,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7435198,
     "lon": -74.0377662,
     "fecha_primera_deteccion": "2026-11-26",
@@ -2075,7 +2077,7 @@
     "id_inmueble": "FR-194426049",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Las orquideas, Bogotá",
-    "barrio": "Las orquideas",
+    "barrio": "Rincon",
     "precio_inicial": 270000000,
     "precio_actual": 270000000,
     "variacion_pct": 0.0,
@@ -2083,7 +2085,7 @@
     "precio_m2": 4909090,
     "habitaciones": 3,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7437297,
     "lon": -74.0379143,
     "fecha_primera_deteccion": "2026-11-26",
@@ -2163,7 +2165,7 @@
     "id_inmueble": "FR-194459858",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Toberin, Bogotá",
-    "barrio": "Toberin",
+    "barrio": "Rincon",
     "precio_inicial": 270000000,
     "precio_actual": 270000000,
     "variacion_pct": 0.0,
@@ -2171,7 +2173,7 @@
     "precio_m2": 4909090,
     "habitaciones": 3,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7437789489875,
     "lon": -74.038046490726,
     "fecha_primera_deteccion": "2026-11-26",
@@ -2206,7 +2208,7 @@
     "id_inmueble": "FR-194383696",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Toberin, Bogotá",
-    "barrio": "Toberin",
+    "barrio": "Rincon",
     "precio_inicial": 320000000,
     "precio_actual": 320000000,
     "variacion_pct": 0.0,
@@ -2214,7 +2216,7 @@
     "precio_m2": 5079365,
     "habitaciones": 2,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.743292,
     "lon": -74.044991,
     "fecha_primera_deteccion": "2026-11-26",
@@ -2249,7 +2251,7 @@
     "id_inmueble": "FR-194444488",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Las orquideas, Bogotá",
-    "barrio": "Las orquideas",
+    "barrio": "Rincon",
     "precio_inicial": 285000000,
     "precio_actual": 285000000,
     "variacion_pct": 0.0,
@@ -2257,7 +2259,7 @@
     "precio_m2": 5181818,
     "habitaciones": 3,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7437297,
     "lon": -74.0379143,
     "fecha_primera_deteccion": "2026-11-26",
@@ -2292,7 +2294,7 @@
     "id_inmueble": "FR-193737508",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Toberin, Bogotá",
-    "barrio": "Toberin",
+    "barrio": "Rincon",
     "precio_inicial": 225000000,
     "precio_actual": 225000000,
     "variacion_pct": 0.0,
@@ -2335,7 +2337,7 @@
     "id_inmueble": "FR-194440047",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Las orquideas, Bogotá",
-    "barrio": "Las orquideas",
+    "barrio": "Rincon",
     "precio_inicial": 270000000,
     "precio_actual": 270000000,
     "variacion_pct": 0.0,
@@ -2343,7 +2345,7 @@
     "precio_m2": 4909090,
     "habitaciones": 3,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7436872,
     "lon": -74.0379954,
     "fecha_primera_deteccion": "2026-11-26",
@@ -2394,7 +2396,7 @@
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
-    "estado": "activo",
+    "estado": "posible_venta",
     "historial_precios": [
       {
         "fecha": "2026-11-26",
@@ -2404,8 +2406,8 @@
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-las-orquideas-bogota/194221057",
     "zona": "rincon",
     "fecha_ultima_deteccion": "2026-11-27",
-    "fecha_salida": null,
-    "activo_en_corte": true,
+    "fecha_salida": "2026-11-27",
+    "activo_en_corte": false,
     "huella_inmueble": {
       "zona": "rincon",
       "area_m2": 60.0,
@@ -2417,7 +2419,16 @@
       ]
     },
     "validado_poligono": true,
-    "precio": 315000000
+    "precio": 315000000,
+    "cierre_estimado_5pct_cop": 299250000,
+    "cierre_estimado_rango_cop": [
+      292950000,
+      305550000
+    ],
+    "cierre_estimado_5pct_m2": 4987500,
+    "mediana_zona_m2_salida": 5673325,
+    "diferencia_cierre_vs_mediana_pct": -12.09,
+    "tipo_estimacion_cierre": "orientativa_no_confirmada"
   },
   {
     "id_inmueble": "FR-194317416",
@@ -2437,7 +2448,7 @@
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
-    "estado": "activo",
+    "estado": "posible_venta",
     "historial_precios": [
       {
         "fecha": "2026-11-26",
@@ -2447,8 +2458,8 @@
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/194317416",
     "zona": "rincon",
     "fecha_ultima_deteccion": "2026-11-27",
-    "fecha_salida": null,
-    "activo_en_corte": true,
+    "fecha_salida": "2026-11-27",
+    "activo_en_corte": false,
     "huella_inmueble": {
       "zona": "rincon",
       "area_m2": 42.0,
@@ -2460,7 +2471,16 @@
       ]
     },
     "validado_poligono": true,
-    "precio": 295000000
+    "precio": 295000000,
+    "cierre_estimado_5pct_cop": 280250000,
+    "cierre_estimado_rango_cop": [
+      274350000,
+      286150000
+    ],
+    "cierre_estimado_5pct_m2": 6672619,
+    "mediana_zona_m2_salida": 5673325,
+    "diferencia_cierre_vs_mediana_pct": 17.61,
+    "tipo_estimacion_cierre": "orientativa_no_confirmada"
   },
   {
     "id_inmueble": "FR-194496074",
@@ -2480,7 +2500,7 @@
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
-    "estado": "activo",
+    "estado": "posible_venta",
     "historial_precios": [
       {
         "fecha": "2026-11-26",
@@ -2490,8 +2510,8 @@
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-bogota/194496074",
     "zona": "rincon",
     "fecha_ultima_deteccion": "2026-11-27",
-    "fecha_salida": null,
-    "activo_en_corte": true,
+    "fecha_salida": "2026-11-27",
+    "activo_en_corte": false,
     "huella_inmueble": {
       "zona": "rincon",
       "area_m2": 51.0,
@@ -2503,7 +2523,16 @@
       ]
     },
     "validado_poligono": true,
-    "precio": 290000000
+    "precio": 290000000,
+    "cierre_estimado_5pct_cop": 275500000,
+    "cierre_estimado_rango_cop": [
+      269700000,
+      281300000
+    ],
+    "cierre_estimado_5pct_m2": 5401961,
+    "mediana_zona_m2_salida": 5673325,
+    "diferencia_cierre_vs_mediana_pct": -4.78,
+    "tipo_estimacion_cierre": "orientativa_no_confirmada"
   },
   {
     "id_inmueble": "FR-194651142",
@@ -2523,7 +2552,7 @@
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
-    "estado": "activo",
+    "estado": "posible_republicacion",
     "historial_precios": [
       {
         "fecha": "2026-11-26",
@@ -2534,7 +2563,7 @@
     "zona": "rincon",
     "fecha_ultima_deteccion": "2026-11-27",
     "fecha_salida": null,
-    "activo_en_corte": true,
+    "activo_en_corte": false,
     "huella_inmueble": {
       "zona": "rincon",
       "area_m2": 68.0,
@@ -2546,7 +2575,8 @@
       ]
     },
     "validado_poligono": true,
-    "precio": 359500000
+    "precio": 359500000,
+    "id_republicado_como": "FR-193666500"
   },
   {
     "id_inmueble": "FR-194230491",
@@ -2566,7 +2596,7 @@
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
-    "estado": "activo",
+    "estado": "posible_venta",
     "historial_precios": [
       {
         "fecha": "2026-11-26",
@@ -2576,8 +2606,8 @@
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/194230491",
     "zona": "rincon",
     "fecha_ultima_deteccion": "2026-11-27",
-    "fecha_salida": null,
-    "activo_en_corte": true,
+    "fecha_salida": "2026-11-27",
+    "activo_en_corte": false,
     "huella_inmueble": {
       "zona": "rincon",
       "area_m2": 53.0,
@@ -2589,7 +2619,16 @@
       ]
     },
     "validado_poligono": true,
-    "precio": 300000000
+    "precio": 300000000,
+    "cierre_estimado_5pct_cop": 285000000,
+    "cierre_estimado_rango_cop": [
+      279000000,
+      291000000
+    ],
+    "cierre_estimado_5pct_m2": 5377358,
+    "mediana_zona_m2_salida": 5673325,
+    "diferencia_cierre_vs_mediana_pct": -5.22,
+    "tipo_estimacion_cierre": "orientativa_no_confirmada"
   },
   {
     "id_inmueble": "FR-194662730",
@@ -2609,7 +2648,7 @@
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
     "dias_en_mercado": 1,
-    "estado": "activo",
+    "estado": "posible_venta",
     "historial_precios": [
       {
         "fecha": "2026-11-26",
@@ -2619,8 +2658,8 @@
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/194662730",
     "zona": "rincon",
     "fecha_ultima_deteccion": "2026-11-27",
-    "fecha_salida": null,
-    "activo_en_corte": true,
+    "fecha_salida": "2026-11-27",
+    "activo_en_corte": false,
     "huella_inmueble": {
       "zona": "rincon",
       "area_m2": 60.0,
@@ -2632,13 +2671,22 @@
       ]
     },
     "validado_poligono": true,
-    "precio": 300000000
+    "precio": 300000000,
+    "cierre_estimado_5pct_cop": 285000000,
+    "cierre_estimado_rango_cop": [
+      279000000,
+      291000000
+    ],
+    "cierre_estimado_5pct_m2": 4750000,
+    "mediana_zona_m2_salida": 5673325,
+    "diferencia_cierre_vs_mediana_pct": -16.27,
+    "tipo_estimacion_cierre": "orientativa_no_confirmada"
   },
   {
     "id_inmueble": "FR-192790520",
     "portal": "Fincaraiz",
     "titulo": "Apartamento en Venta en Toberin, Bogotá",
-    "barrio": "Toberin",
+    "barrio": "Rincon",
     "precio_inicial": 280000000,
     "precio_actual": 280000000,
     "variacion_pct": 0.0,
@@ -2724,21 +2772,21 @@
     "id_inmueble": "FR-194511122",
     "portal": "Fincaraiz",
     "titulo": "AUSTRAL APARTAMENTOS, Apartamento en Venta en Las margaritas, Bogotá",
-    "barrio": "Las Margaritas",
+    "barrio": "Rincon",
     "precio_inicial": 771309000,
     "precio_actual": 771309000,
-    "variacion_pct": "0.0",
-    "area_m2": 61.5,
-    "precio_m2": 12539570,
+    "variacion_pct": 0.0,
+    "area_m2": 61.0,
+    "precio_m2": 12644409,
     "habitaciones": 2,
     "banos": 2,
     "parqueaderos": 0,
-    "lat": null,
-    "lon": null,
+    "lat": 4.7344578,
+    "lon": -74.0479938,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
-    "dias_en_mercado": 0,
-    "estado": "posible_venta",
+    "dias_en_mercado": 1,
+    "estado": "revisar_atipico",
     "historial_precios": [
       {
         "fecha": "2026-11-26",
@@ -2747,15 +2795,18 @@
     ],
     "url": "https://www.fincaraiz.com.co/austral-apartamentos-apartamento-en-venta-en-las-margaritas-bogota/194511122",
     "zona": "rincon",
-    "fecha_ultima_deteccion": "2026-11-26",
-    "fecha_salida": "2026-11-27",
-    "activo_en_corte": false,
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "activo_en_corte": true,
     "huella_inmueble": {
       "zona": "rincon",
-      "area_m2": 61.5,
+      "area_m2": 61.0,
       "habitaciones": 2,
       "banos": 2,
-      "coordenadas": null
+      "coordenadas": [
+        4.7345,
+        -74.048
+      ]
     },
     "validado_poligono": false,
     "cierre_estimado_5pct_cop": 732743550,
@@ -2766,16 +2817,17 @@
     "cierre_estimado_5pct_m2": 11914529,
     "mediana_zona_m2_salida": 5630188,
     "diferencia_cierre_vs_mediana_pct": 111.62,
-    "tipo_estimacion_cierre": "orientativa_no_confirmada"
+    "tipo_estimacion_cierre": "orientativa_no_confirmada",
+    "precio": 771309000
   },
   {
     "id_inmueble": "FR-194628524",
     "portal": "Fincaraiz",
     "titulo": "AUSTRAL APARTAMENTOS, Apartamento en Venta en Las margaritas, Bogotá",
-    "barrio": "Las Margaritas",
+    "barrio": "Rincon",
     "precio_inicial": 939334000,
     "precio_actual": 939334000,
-    "variacion_pct": "0.0",
+    "variacion_pct": 0.0,
     "area_m2": 75.2,
     "precio_m2": 12492804,
     "habitaciones": 3,
@@ -2785,8 +2837,8 @@
     "lon": null,
     "fecha_primera_deteccion": "2026-11-26",
     "fecha_ultima_vez_visto": "2026-11-26",
-    "dias_en_mercado": 0,
-    "estado": "posible_venta",
+    "dias_en_mercado": 1,
+    "estado": "revisar_atipico",
     "historial_precios": [
       {
         "fecha": "2026-11-26",
@@ -2795,9 +2847,9 @@
     ],
     "url": "https://www.fincaraiz.com.co/austral-apartamentos-apartamento-en-venta-en-las-margaritas-bogota/194628524",
     "zona": "rincon",
-    "fecha_ultima_deteccion": "2026-11-26",
-    "fecha_salida": "2026-11-27",
-    "activo_en_corte": false,
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "activo_en_corte": true,
     "huella_inmueble": {
       "zona": "rincon",
       "area_m2": 75.2,
@@ -2814,7 +2866,8 @@
     "cierre_estimado_5pct_m2": 11866586,
     "mediana_zona_m2_salida": 5630188,
     "diferencia_cierre_vs_mediana_pct": 110.77,
-    "tipo_estimacion_cierre": "orientativa_no_confirmada"
+    "tipo_estimacion_cierre": "orientativa_no_confirmada",
+    "precio": 939334000
   },
   {
     "portal": "Fincaraiz",
@@ -2834,13 +2887,13 @@
     "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-las-orquideas-bogota/194150527",
     "fecha_primera_deteccion": "2026-11-27",
     "fecha_ultima_deteccion": "2026-11-27",
-    "fecha_salida": null,
+    "fecha_salida": "2026-11-27",
     "precio_inicial": 380000000,
     "precio_actual": 380000000,
     "variacion_pct": 0.0,
     "dias_en_mercado": 0,
-    "estado": "activo_nuevo",
-    "activo_en_corte": true,
+    "estado": "posible_venta",
+    "activo_en_corte": false,
     "historial_precios": [
       {
         "fecha": "2026-11-27",
@@ -2857,20 +2910,29 @@
         -74.036
       ]
     },
-    "posible_republicacion": false
+    "posible_republicacion": false,
+    "cierre_estimado_5pct_cop": 361000000,
+    "cierre_estimado_rango_cop": [
+      353400000,
+      368600000
+    ],
+    "cierre_estimado_5pct_m2": 6333333,
+    "mediana_zona_m2_salida": 5673325,
+    "diferencia_cierre_vs_mediana_pct": 11.63,
+    "tipo_estimacion_cierre": "orientativa_no_confirmada"
   },
   {
     "portal": "Fincaraiz",
     "zona": "rincon",
     "id_inmueble": "FR-194469191",
     "titulo": "Apartamento en Venta en Toberin, Bogotá",
-    "barrio": "Toberin",
+    "barrio": "Rincon",
     "precio": 365000000,
     "area_m2": 87.0,
     "precio_m2": 4195402,
     "habitaciones": 4,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7438573,
     "lon": -74.041648,
     "validado_poligono": true,
@@ -2907,13 +2969,13 @@
     "zona": "rincon",
     "id_inmueble": "FR-193573749",
     "titulo": "Apartamento en Venta en Toberin, Bogotá",
-    "barrio": "Toberin",
+    "barrio": "Rincon",
     "precio": 399000000,
     "area_m2": 56.0,
     "precio_m2": 7125000,
     "habitaciones": 3,
     "banos": 1,
-    "parqueaderos": 2,
+    "parqueaderos": 0,
     "lat": 4.7439292,
     "lon": -74.0378114,
     "validado_poligono": true,
@@ -2950,13 +3012,13 @@
     "zona": "rincon",
     "id_inmueble": "FR-194177396",
     "titulo": "Apartamento en Venta en Las orquideas, Bogotá",
-    "barrio": "Las orquideas",
+    "barrio": "Rincon",
     "precio": 380000000,
     "area_m2": 57.0,
     "precio_m2": 6666666,
     "habitaciones": 2,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7420106,
     "lon": -74.040294,
     "validado_poligono": true,
@@ -2993,13 +3055,13 @@
     "zona": "rincon",
     "id_inmueble": "FR-194392256",
     "titulo": "Apartamento en Venta en Toberin, Bogotá",
-    "barrio": "Toberin",
+    "barrio": "Rincon",
     "precio": 270000000,
     "area_m2": 55.0,
     "precio_m2": 4909090,
     "habitaciones": 3,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7437297,
     "lon": -74.0379143,
     "validado_poligono": true,
@@ -3036,13 +3098,13 @@
     "zona": "rincon",
     "id_inmueble": "FR-194665676",
     "titulo": "Apartamento en Venta en Toberin, Bogotá",
-    "barrio": "Toberin",
+    "barrio": "Rincon",
     "precio": 270000000,
     "area_m2": 55.0,
     "precio_m2": 4909090,
     "habitaciones": 3,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7437297,
     "lon": -74.0379143,
     "validado_poligono": true,
@@ -3079,13 +3141,13 @@
     "zona": "rincon",
     "id_inmueble": "FR-194030691",
     "titulo": "Apartamento en Venta en Toberin, Bogotá",
-    "barrio": "Toberin",
+    "barrio": "Rincon",
     "precio": 300000000,
     "area_m2": 57.0,
     "precio_m2": 5263157,
     "habitaciones": 3,
     "banos": 1,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.7437204,
     "lon": -74.0411062,
     "validado_poligono": true,
@@ -3122,13 +3184,13 @@
     "zona": "rincon",
     "id_inmueble": "FR-193046843",
     "titulo": "Apartamento en Venta en Balcones de oriente, Bogotá",
-    "barrio": "Balcones de oriente",
+    "barrio": "Rincon",
     "precio": 350000000,
     "area_m2": 70.0,
     "precio_m2": 5000000,
     "habitaciones": 4,
     "banos": 2,
-    "parqueaderos": 1,
+    "parqueaderos": 0,
     "lat": 4.740465597594,
     "lon": -74.036086422408,
     "validado_poligono": true,
@@ -18797,6 +18859,3403 @@
       "habitaciones": 2,
       "banos": 1,
       "coordenadas": null
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194553628",
+    "titulo": "Apartamento en Venta en Toberin, Bogotá",
+    "barrio": "Rincon",
+    "precio": 330000000,
+    "area_m2": 84.0,
+    "precio_m2": 3928571,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.742323,
+    "lon": -74.046876,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/194553628",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 330000000,
+    "precio_actual": 330000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 330000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 84.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7423,
+        -74.0469
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194254321",
+    "titulo": "Apartamento en Venta en Las orquideas, Bogotá",
+    "barrio": "Rincon",
+    "precio": 370000000,
+    "area_m2": 78.0,
+    "precio_m2": 4743589,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.742323,
+    "lon": -74.046876,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-las-orquideas-bogota/194254321",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 370000000,
+    "precio_actual": 370000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 370000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 78.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7423,
+        -74.0469
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194038798",
+    "titulo": "Apartamento en Venta en Estrella del norte, Bogotá",
+    "barrio": "Rincon",
+    "precio": 345000000,
+    "area_m2": 58.0,
+    "precio_m2": 5948275,
+    "habitaciones": 2,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.7399717109569,
+    "lon": -74.04686654599,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-estrella-del-norte-bogota/194038798",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 345000000,
+    "precio_actual": 345000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 345000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 58.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": [
+        4.74,
+        -74.0469
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194051264",
+    "titulo": "Apartamento en Venta en Villa magdala, Bogotá",
+    "barrio": "Rincon",
+    "precio": 490000000,
+    "area_m2": 87.0,
+    "precio_m2": 5632183,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.73909,
+    "lon": -74.047222,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-villa-magdala-bogota/194051264",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 490000000,
+    "precio_actual": 490000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 490000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 87.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7391,
+        -74.0472
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-193321873",
+    "titulo": "Apartamento en Venta en Estrella del norte, Bogotá",
+    "barrio": "Rincon",
+    "precio": 990000000,
+    "area_m2": 198.0,
+    "precio_m2": 5000000,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.6068824,
+    "lon": -74.071837,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-estrella-del-norte-bogota/193321873",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 990000000,
+    "precio_actual": 990000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 990000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 198.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.6069,
+        -74.0718
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194375098",
+    "titulo": "Apartamento en Venta en Tuna baja, Bogotá",
+    "barrio": "Rincon",
+    "precio": 230000000,
+    "area_m2": 36.0,
+    "precio_m2": 6388888,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.7552537,
+    "lon": -74.0854536,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-tuna-baja-bogota/194375098",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 230000000,
+    "precio_actual": 230000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 230000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 36.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.7553,
+        -74.0855
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194452044",
+    "titulo": "Apartamento en Venta en Suba Salitre, Bogotá",
+    "barrio": "Rincon",
+    "precio": 200000000,
+    "area_m2": 36.0,
+    "precio_m2": 5555555,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.7562726,
+    "lon": -74.0856854,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-suba-salitre-bogota/194452044",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 200000000,
+    "precio_actual": 200000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 200000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 36.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.7563,
+        -74.0857
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-193723879",
+    "titulo": "Apartamento en Venta en Tuna baja, Bogotá",
+    "barrio": "Rincon",
+    "precio": 212000000,
+    "area_m2": 44.0,
+    "precio_m2": 4818181,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.7567235,
+    "lon": -74.0854933,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-tuna-baja-bogota/193723879",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 212000000,
+    "precio_actual": 212000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 212000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 44.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.7567,
+        -74.0855
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-193547564",
+    "titulo": "Apartamento en Venta en Suba urbano, Bogotá",
+    "barrio": "Rincon",
+    "precio": 175000000,
+    "area_m2": 35.0,
+    "precio_m2": 5000000,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.7561732,
+    "lon": -74.0857637,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-suba-urbano-bogota/193547564",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 175000000,
+    "precio_actual": 175000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 175000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 35.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.7562,
+        -74.0858
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194348084",
+    "titulo": "Apartamento en Venta en Suba Salitre, Bogotá",
+    "barrio": "Rincon",
+    "precio": 250000000,
+    "area_m2": 55.0,
+    "precio_m2": 4545454,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.7564968863,
+    "lon": -74.0838602185,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-suba-salitre-bogota/194348084",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 250000000,
+    "precio_actual": 250000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 250000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 55.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7565,
+        -74.0839
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-193593572",
+    "titulo": "Apartamento en Venta en Suba Salitre, Bogotá",
+    "barrio": "Rincon",
+    "precio": 220000000,
+    "area_m2": 36.0,
+    "precio_m2": 6111111,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.7561732,
+    "lon": -74.0857637,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-suba-salitre-bogota/193593572",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 220000000,
+    "precio_actual": 220000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 220000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 36.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.7562,
+        -74.0858
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194485644",
+    "titulo": "Apartamento en Venta en Suba urbano, Bogotá",
+    "barrio": "Rincon",
+    "precio": 230000000,
+    "area_m2": 55.0,
+    "precio_m2": 4181818,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.7564852,
+    "lon": -74.0838729,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-suba-urbano-bogota/194485644",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 230000000,
+    "precio_actual": 230000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 230000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 55.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7565,
+        -74.0839
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-193528352",
+    "titulo": "Apartamento en Venta en Tuna baja, Bogotá",
+    "barrio": "Rincon",
+    "precio": 200000000,
+    "area_m2": 36.0,
+    "precio_m2": 5555555,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.756126848402,
+    "lon": -74.085737966972,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-tuna-baja-bogota/193528352",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 200000000,
+    "precio_actual": 200000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 200000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 36.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.7561,
+        -74.0857
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-193547764",
+    "titulo": "Apartamento en Venta en Suba urbano, Bogotá",
+    "barrio": "Rincon",
+    "precio": 135000000,
+    "area_m2": 24.0,
+    "precio_m2": 5625000,
+    "habitaciones": 1,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.7561732,
+    "lon": -74.0857637,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-suba-urbano-bogota/193547764",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 135000000,
+    "precio_actual": 135000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 135000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 24.0,
+      "habitaciones": 1,
+      "banos": 1,
+      "coordenadas": [
+        4.7562,
+        -74.0858
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194569911",
+    "titulo": "Apartamento en Venta en Suba Salitre, Bogotá",
+    "barrio": "Rincon",
+    "precio": 185000000,
+    "area_m2": 35.0,
+    "precio_m2": 5285714,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.7561732,
+    "lon": -74.0857637,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-suba-salitre-bogota/194569911",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 185000000,
+    "precio_actual": 185000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 185000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 35.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.7562,
+        -74.0858
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194628991",
+    "titulo": "Apartamento en Venta en Toberin, Bogotá",
+    "barrio": "Rincon",
+    "precio": 280000000,
+    "area_m2": 43.0,
+    "precio_m2": 6511627,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.7448906,
+    "lon": -74.0391236,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/194628991",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 280000000,
+    "precio_actual": 280000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 280000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 43.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.7449,
+        -74.0391
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194537693",
+    "titulo": "Apartamento en Venta en Toberin, Bogotá",
+    "barrio": "Rincon",
+    "precio": 368000000,
+    "area_m2": 70.0,
+    "precio_m2": 5257142,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.7690722,
+    "lon": -74.0324395,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/194537693",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 368000000,
+    "precio_actual": 368000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 368000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 70.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7691,
+        -74.0324
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194284280",
+    "titulo": "Apartamento en Venta en Bogotá",
+    "barrio": "Rincon",
+    "precio": 285000000,
+    "area_m2": 39.0,
+    "precio_m2": 7307692,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.748511176905,
+    "lon": -74.042386763749,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-bogota/194284280",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 285000000,
+    "precio_actual": 285000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 285000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 39.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.7485,
+        -74.0424
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-193341107",
+    "titulo": "Apartamento en Venta en Toberin, Bogotá",
+    "barrio": "Rincon",
+    "precio": 900000000,
+    "area_m2": 108.0,
+    "precio_m2": 8333333,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.750415848636,
+    "lon": -74.034601449966,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/193341107",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 900000000,
+    "precio_actual": 900000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 900000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 108.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7504,
+        -74.0346
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-193901119",
+    "titulo": "Apartamento en Venta en Britalia, Bogotá",
+    "barrio": "Rincon",
+    "precio": 360000000,
+    "area_m2": 61.0,
+    "precio_m2": 5901639,
+    "habitaciones": 2,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.7451264,
+    "lon": -74.0482722,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-britalia-bogota/193901119",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 360000000,
+    "precio_actual": 360000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 360000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 61.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": [
+        4.7451,
+        -74.0483
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194437988",
+    "titulo": "Apartamento en Venta en Toberin, Bogotá",
+    "barrio": "Rincon",
+    "precio": 285000000,
+    "area_m2": 32.0,
+    "precio_m2": 8906250,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.7484162,
+    "lon": -74.0423013,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/194437988",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 285000000,
+    "precio_actual": 285000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 285000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 32.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.7484,
+        -74.0423
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194375115",
+    "titulo": "Apartamento en Venta en Britalia, Bogotá",
+    "barrio": "Rincon",
+    "precio": 360000000,
+    "area_m2": 61.0,
+    "precio_m2": 5901639,
+    "habitaciones": 2,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.7451264,
+    "lon": -74.0482722,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-britalia-bogota/194375115",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 360000000,
+    "precio_actual": 360000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 360000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 61.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": [
+        4.7451,
+        -74.0483
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194535720",
+    "titulo": "Apartamento en Venta en Usaquen, Bogotá",
+    "barrio": "Rincon",
+    "precio": 405000000,
+    "area_m2": 81.0,
+    "precio_m2": 5000000,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.7466112492508,
+    "lon": -74.036609478538,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-usaquen-bogota/194535720",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 405000000,
+    "precio_actual": 405000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 405000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 81.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7466,
+        -74.0366
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194664054",
+    "titulo": "Apartamento en Venta en Toberin, Bogotá",
+    "barrio": "Rincon",
+    "precio": 278000000,
+    "area_m2": 37.0,
+    "precio_m2": 7513513,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.7484162,
+    "lon": -74.0423013,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/194664054",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 278000000,
+    "precio_actual": 278000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 278000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 37.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.7484,
+        -74.0423
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194641540",
+    "titulo": "Apartamento en Venta en Bogotá, d.c., Bogotá",
+    "barrio": "Rincon",
+    "precio": 270000000,
+    "area_m2": 54.0,
+    "precio_m2": 5000000,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.7452113,
+    "lon": -74.0428676,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-bogota-dc-bogota/194641540",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 270000000,
+    "precio_actual": 270000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 270000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 54.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.7452,
+        -74.0429
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194655054",
+    "titulo": "Apartamento en Venta en Pradera Norte, Bogotá",
+    "barrio": "Rincon",
+    "precio": 395000000,
+    "area_m2": 72.0,
+    "precio_m2": 5486111,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.744299,
+    "lon": -74.037852,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-pradera-norte-bogota/194655054",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 395000000,
+    "precio_actual": 395000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 395000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 72.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7443,
+        -74.0379
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-193519971",
+    "titulo": "Apartamento en Venta en Toberin, Bogotá",
+    "barrio": "Rincon",
+    "precio": 250000000,
+    "area_m2": 38.0,
+    "precio_m2": 6578947,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.7484162,
+    "lon": -74.0423013,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/193519971",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 250000000,
+    "precio_actual": 250000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 250000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 38.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.7484,
+        -74.0423
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194438013",
+    "titulo": "Apartamento en Venta en Las orquideas, Bogotá",
+    "barrio": "Rincon",
+    "precio": 240000000,
+    "area_m2": 54.0,
+    "precio_m2": 4444444,
+    "habitaciones": 2,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.7435287,
+    "lon": -74.0467938,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-las-orquideas-bogota/194438013",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 240000000,
+    "precio_actual": 240000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 240000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 54.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": [
+        4.7435,
+        -74.0468
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194419202",
+    "titulo": "Apartamento en Venta en Toberin, Bogotá",
+    "barrio": "Rincon",
+    "precio": 390000000,
+    "area_m2": 74.0,
+    "precio_m2": 5270270,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.748316255747,
+    "lon": -74.038886564802,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/194419202",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 390000000,
+    "precio_actual": 390000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 390000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 74.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7483,
+        -74.0389
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194406308",
+    "titulo": "Apartamento en Venta en Mazuren, Bogotá",
+    "barrio": "Rincon",
+    "precio": 400000000,
+    "area_m2": 49.0,
+    "precio_m2": 8163265,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.7451264,
+    "lon": -74.0482722,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-mazuren-bogota/194406308",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 400000000,
+    "precio_actual": 400000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 400000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 49.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.7451,
+        -74.0483
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194529154",
+    "titulo": "Apartamento en Venta en Toberin, Bogotá",
+    "barrio": "Rincon",
+    "precio": 345000000,
+    "area_m2": 61.0,
+    "precio_m2": 5655737,
+    "habitaciones": 3,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.7440869,
+    "lon": -74.0379292,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/194529154",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 345000000,
+    "precio_actual": 345000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 345000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 61.0,
+      "habitaciones": 3,
+      "banos": 1,
+      "coordenadas": [
+        4.7441,
+        -74.0379
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194569027",
+    "titulo": "Apartamento en Venta en Mazuren, Bogotá",
+    "barrio": "Rincon",
+    "precio": 400000000,
+    "area_m2": 49.0,
+    "precio_m2": 8163265,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.7451264,
+    "lon": -74.0482722,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-mazuren-bogota/194569027",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 400000000,
+    "precio_actual": 400000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 400000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 49.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.7451,
+        -74.0483
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-193145409",
+    "titulo": "Apartamento en Venta en Toberin, Bogotá",
+    "barrio": "Rincon",
+    "precio": 255000000,
+    "area_m2": 36.0,
+    "precio_m2": 7083333,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.7484162,
+    "lon": -74.0423013,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/193145409",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 255000000,
+    "precio_actual": 255000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 255000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 36.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.7484,
+        -74.0423
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-193750434",
+    "titulo": "Apartamento en Venta en Toberin, Bogotá",
+    "barrio": "Rincon",
+    "precio": 220000000,
+    "area_m2": 50.0,
+    "precio_m2": 4400000,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.74405,
+    "lon": -74.0464397,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/193750434",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 220000000,
+    "precio_actual": 220000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 220000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 50.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.744,
+        -74.0464
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194387231",
+    "titulo": "Apartamento en Venta en Britalia, Bogotá",
+    "barrio": "Rincon",
+    "precio": 310000000,
+    "area_m2": 68.0,
+    "precio_m2": 4558823,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.7475529,
+    "lon": -74.0465596,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-britalia-bogota/194387231",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 310000000,
+    "precio_actual": 310000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 310000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 68.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7476,
+        -74.0466
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194555979",
+    "titulo": "Apartamento en Venta en Toberin, Bogotá",
+    "barrio": "Rincon",
+    "precio": 360000000,
+    "area_m2": 61.0,
+    "precio_m2": 5901639,
+    "habitaciones": 2,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.7451264,
+    "lon": -74.0482722,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/194555979",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 360000000,
+    "precio_actual": 360000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 360000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 61.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": [
+        4.7451,
+        -74.0483
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-193635026",
+    "titulo": "Apartamento en Venta en Toberin, Bogotá",
+    "barrio": "Rincon",
+    "precio": 290000000,
+    "area_m2": 58.0,
+    "precio_m2": 5000000,
+    "habitaciones": 2,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.744111,
+    "lon": -74.037104,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/193635026",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 290000000,
+    "precio_actual": 290000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 290000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 58.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": [
+        4.7441,
+        -74.0371
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-193192172",
+    "titulo": "Apartamento en Venta en Toberin, Bogotá",
+    "barrio": "Rincon",
+    "precio": 300000000,
+    "area_m2": 60.0,
+    "precio_m2": 5000000,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.7478862,
+    "lon": -74.0384593,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/193192172",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 300000000,
+    "precio_actual": 300000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 300000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 60.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7479,
+        -74.0385
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194019783",
+    "titulo": "Apartamento en Venta en Toberin, Bogotá",
+    "barrio": "Rincon",
+    "precio": 360000000,
+    "area_m2": 61.0,
+    "precio_m2": 5901639,
+    "habitaciones": 2,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.7451264,
+    "lon": -74.0482722,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/194019783",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 360000000,
+    "precio_actual": 360000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 360000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 61.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": [
+        4.7451,
+        -74.0483
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194269295",
+    "titulo": "Apartamento en Venta en Toberin, Bogotá",
+    "barrio": "Rincon",
+    "precio": 220000000,
+    "area_m2": 50.0,
+    "precio_m2": 4400000,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.74405,
+    "lon": -74.0464397,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/194269295",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 220000000,
+    "precio_actual": 220000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 220000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 50.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.744,
+        -74.0464
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194428102",
+    "titulo": "Apartamento en Venta en Alameda, Bogotá",
+    "barrio": "Rincon",
+    "precio": 690000000,
+    "area_m2": 97.0,
+    "precio_m2": 7113402,
+    "habitaciones": 3,
+    "banos": 3,
+    "parqueaderos": 0,
+    "lat": 4.7515459,
+    "lon": -74.0448485,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-alameda-bogota/194428102",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 690000000,
+    "precio_actual": 690000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 690000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 97.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.7515,
+        -74.0448
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194658308",
+    "titulo": "Apartamento en Venta en Toberin, Bogotá",
+    "barrio": "Rincon",
+    "precio": 370000000,
+    "area_m2": 64.0,
+    "precio_m2": 5781250,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.7499840611498,
+    "lon": -74.047626048733,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/194658308",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 370000000,
+    "precio_actual": 370000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 370000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 64.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.75,
+        -74.0476
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194657469",
+    "titulo": "Apartamento en Venta en Toberin, Bogotá",
+    "barrio": "Rincon",
+    "precio": 310000000,
+    "area_m2": 56.0,
+    "precio_m2": 5535714,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.7383597135,
+    "lon": -74.026163904892,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/194657469",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 310000000,
+    "precio_actual": 310000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 310000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 56.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7384,
+        -74.0262
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-193709123",
+    "titulo": "Apartamento en Venta en Toberin, Bogotá",
+    "barrio": "Rincon",
+    "precio": 280000000,
+    "area_m2": 51.0,
+    "precio_m2": 5490196,
+    "habitaciones": 3,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.746029840198,
+    "lon": -74.037763305957,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/193709123",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 280000000,
+    "precio_actual": 280000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 280000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 51.0,
+      "habitaciones": 3,
+      "banos": 1,
+      "coordenadas": [
+        4.746,
+        -74.0378
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194672818",
+    "titulo": "Apartamento en Venta en Toberin, Bogotá",
+    "barrio": "Rincon",
+    "precio": 320000000,
+    "area_m2": 62.0,
+    "precio_m2": 5161290,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.7451264,
+    "lon": -74.0482722,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/194672818",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 320000000,
+    "precio_actual": 320000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 320000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 62.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7451,
+        -74.0483
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194432802",
+    "titulo": "Apartamento en Venta en Toberin, Bogotá",
+    "barrio": "Rincon",
+    "precio": 345000000,
+    "area_m2": 61.0,
+    "precio_m2": 5655737,
+    "habitaciones": 3,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.7440869,
+    "lon": -74.0379292,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/194432802",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 345000000,
+    "precio_actual": 345000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 345000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 61.0,
+      "habitaciones": 3,
+      "banos": 1,
+      "coordenadas": [
+        4.7441,
+        -74.0379
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194033294",
+    "titulo": "Apartamento en Venta en Toberin, Bogotá",
+    "barrio": "Rincon",
+    "precio": 285000000,
+    "area_m2": 37.0,
+    "precio_m2": 7702702,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.7458075892356,
+    "lon": -74.043216705322,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-toberin-bogota/194033294",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 285000000,
+    "precio_actual": 285000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 285000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 37.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.7458,
+        -74.0432
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194521018",
+    "titulo": "Apartamento en Venta en Cedritos, Bogotá",
+    "barrio": "Rincon",
+    "precio": 598000000,
+    "area_m2": 142.0,
+    "precio_m2": 4211267,
+    "habitaciones": 4,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.7327162,
+    "lon": -74.0439291,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-cedritos-bogota/194521018",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 598000000,
+    "precio_actual": 598000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 598000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 142.0,
+      "habitaciones": 4,
+      "banos": 2,
+      "coordenadas": [
+        4.7327,
+        -74.0439
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194536447",
+    "titulo": "Apartamento en Venta en Cedritos, Bogotá",
+    "barrio": "Rincon",
+    "precio": 575000000,
+    "area_m2": 88.0,
+    "precio_m2": 6534090,
+    "habitaciones": 3,
+    "banos": 3,
+    "parqueaderos": 0,
+    "lat": 4.7294381,
+    "lon": -74.046628,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-cedritos-bogota/194536447",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 575000000,
+    "precio_actual": 575000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 575000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 88.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.7294,
+        -74.0466
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194097443",
+    "titulo": "Apartamento en Venta en Cedritos, Bogotá",
+    "barrio": "Rincon",
+    "precio": 560000000,
+    "area_m2": 82.0,
+    "precio_m2": 6829268,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.7288922,
+    "lon": -74.0457299,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-cedritos-bogota/194097443",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 560000000,
+    "precio_actual": 560000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 560000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 82.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7289,
+        -74.0457
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194079359",
+    "titulo": "Apartamento en Venta en Las margaritas, Bogotá",
+    "barrio": "Rincon",
+    "precio": 240000000,
+    "area_m2": 51.0,
+    "precio_m2": 4705882,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.6283225,
+    "lon": -74.1752129,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-las-margaritas-bogota/194079359",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 240000000,
+    "precio_actual": 240000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 240000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 51.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.6283,
+        -74.1752
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194007352",
+    "titulo": "Apartamento en Venta en Las margaritas, Bogotá",
+    "barrio": "Rincon",
+    "precio": 610000000,
+    "area_m2": 125.0,
+    "precio_m2": 4880000,
+    "habitaciones": 3,
+    "banos": 3,
+    "parqueaderos": 0,
+    "lat": 4.7335047,
+    "lon": -74.046279,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-las-margaritas-bogota/194007352",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 610000000,
+    "precio_actual": 610000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 610000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 125.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.7335,
+        -74.0463
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194450572",
+    "titulo": "Apartamento en Venta en Cedro Golf, Bogotá",
+    "barrio": "Rincon",
+    "precio": 615000000,
+    "area_m2": 103.0,
+    "precio_m2": 5970873,
+    "habitaciones": 4,
+    "banos": 3,
+    "parqueaderos": 0,
+    "lat": 4.7337448,
+    "lon": -74.0447036,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-cedro-golf-bogota/194450572",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 615000000,
+    "precio_actual": 615000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 615000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 103.0,
+      "habitaciones": 4,
+      "banos": 3,
+      "coordenadas": [
+        4.7337,
+        -74.0447
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194648771",
+    "titulo": "Apartamento en Venta en Las margaritas, Bogotá",
+    "barrio": "Rincon",
+    "precio": 490000000,
+    "area_m2": 93.0,
+    "precio_m2": 5268817,
+    "habitaciones": 4,
+    "banos": 3,
+    "parqueaderos": 0,
+    "lat": 4.7316618,
+    "lon": -74.048921,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-las-margaritas-bogota/194648771",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 490000000,
+    "precio_actual": 490000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 490000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 93.0,
+      "habitaciones": 4,
+      "banos": 3,
+      "coordenadas": [
+        4.7317,
+        -74.0489
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194377245",
+    "titulo": "Apartamento en Venta en Cedritos, Bogotá",
+    "barrio": "Rincon",
+    "precio": 520000000,
+    "area_m2": 83.0,
+    "precio_m2": 6265060,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.7296928,
+    "lon": -74.0446925,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-cedritos-bogota/194377245",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 520000000,
+    "precio_actual": 520000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 520000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 83.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7297,
+        -74.0447
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-193779430",
+    "titulo": "Apartamento en Venta en Cedritos, Bogotá",
+    "barrio": "Rincon",
+    "precio": 450000000,
+    "area_m2": 76.0,
+    "precio_m2": 5921052,
+    "habitaciones": 2,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.7292086,
+    "lon": -74.0472555,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-cedritos-bogota/193779430",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 450000000,
+    "precio_actual": 450000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 450000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 76.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": [
+        4.7292,
+        -74.0473
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194521157",
+    "titulo": "Apartamento en Venta en Cedritos, Bogotá",
+    "barrio": "Rincon",
+    "precio": 667000000,
+    "area_m2": 115.0,
+    "precio_m2": 5800000,
+    "habitaciones": 4,
+    "banos": 3,
+    "parqueaderos": 0,
+    "lat": 4.7316618,
+    "lon": -74.048921,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-cedritos-bogota/194521157",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 667000000,
+    "precio_actual": 667000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 667000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 115.0,
+      "habitaciones": 4,
+      "banos": 3,
+      "coordenadas": [
+        4.7317,
+        -74.0489
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194498895",
+    "titulo": "Apartamento en Venta en Verbenal san antonio, Bogotá",
+    "barrio": "Rincon",
+    "precio": 667000000,
+    "area_m2": 115.0,
+    "precio_m2": 5800000,
+    "habitaciones": 4,
+    "banos": 3,
+    "parqueaderos": 0,
+    "lat": 4.7314886626606,
+    "lon": -74.049073170695,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-verbenal-san-antonio-bogota/194498895",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 667000000,
+    "precio_actual": 667000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 667000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 115.0,
+      "habitaciones": 4,
+      "banos": 3,
+      "coordenadas": [
+        4.7315,
+        -74.0491
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-193490738",
+    "titulo": "Apartamento en Venta en Cedritos, Bogotá",
+    "barrio": "Rincon",
+    "precio": 520000000,
+    "area_m2": 98.0,
+    "precio_m2": 5306122,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.730275592175,
+    "lon": -74.048032981366,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-cedritos-bogota/193490738",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 520000000,
+    "precio_actual": 520000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 520000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 98.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7303,
+        -74.048
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194295433",
+    "titulo": "Apartamento en Venta en Las margaritas, Bogotá",
+    "barrio": "Rincon",
+    "precio": 195000000,
+    "area_m2": 49.0,
+    "precio_m2": 3979591,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.6302127347063,
+    "lon": -74.175673390033,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-las-margaritas-bogota/194295433",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 195000000,
+    "precio_actual": 195000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 195000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 49.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.6302,
+        -74.1757
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194500265",
+    "titulo": "Apartamento en Venta en Cedritos, Bogotá",
+    "barrio": "Rincon",
+    "precio": 390000000,
+    "area_m2": 52.0,
+    "precio_m2": 7500000,
+    "habitaciones": 1,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.7327141,
+    "lon": -74.0439175,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-cedritos-bogota/194500265",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 390000000,
+    "precio_actual": 390000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 390000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 52.0,
+      "habitaciones": 1,
+      "banos": 1,
+      "coordenadas": [
+        4.7327,
+        -74.0439
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-193858647",
+    "titulo": "Apartamento en Venta en Colina Campestre, Bogotá",
+    "barrio": "Rincon",
+    "precio": 613598226,
+    "area_m2": 64.0,
+    "precio_m2": 9587472,
+    "habitaciones": 2,
+    "banos": 3,
+    "parqueaderos": 0,
+    "lat": 4.729979,
+    "lon": -74.046283,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-colina-campestre-bogota/193858647",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 613598226,
+    "precio_actual": 613598226,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 613598226
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 64.0,
+      "habitaciones": 2,
+      "banos": 3,
+      "coordenadas": [
+        4.73,
+        -74.0463
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194157380",
+    "titulo": "Apartamento en Venta en Los cedros, Bogotá",
+    "barrio": "Rincon",
+    "precio": 455000000,
+    "area_m2": 79.0,
+    "precio_m2": 5759493,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.729645378574,
+    "lon": -74.045330655861,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-los-cedros-bogota/194157380",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 455000000,
+    "precio_actual": 455000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 455000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 79.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7296,
+        -74.0453
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-193505594",
+    "titulo": "Apartamento en Venta en Los cedritos, Bogotá",
+    "barrio": "Rincon",
+    "precio": 520000000,
+    "area_m2": 98.0,
+    "precio_m2": 5306122,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.7300141,
+    "lon": -74.0495555,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-los-cedritos-bogota/193505594",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 520000000,
+    "precio_actual": 520000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 520000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 98.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.73,
+        -74.0496
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-193658003",
+    "titulo": "Apartamento en Venta en Las margaritas, Bogotá",
+    "barrio": "Rincon",
+    "precio": 230000000,
+    "area_m2": 48.0,
+    "precio_m2": 4791666,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.6275022,
+    "lon": -74.1742726,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-las-margaritas-bogota/193658003",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 230000000,
+    "precio_actual": 230000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 230000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 48.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.6275,
+        -74.1743
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194387261",
+    "titulo": "Apartamento en Venta en Las margaritas, Bogotá",
+    "barrio": "Rincon",
+    "precio": 225000000,
+    "area_m2": 50.0,
+    "precio_m2": 4500000,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.6275022,
+    "lon": -74.1742726,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-las-margaritas-bogota/194387261",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 225000000,
+    "precio_actual": 225000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 225000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 50.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.6275,
+        -74.1743
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-193151104",
+    "titulo": "Apartamento en Venta en Las margaritas, Bogotá",
+    "barrio": "Rincon",
+    "precio": 260000000,
+    "area_m2": 50.0,
+    "precio_m2": 5200000,
+    "habitaciones": 2,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.627834881515,
+    "lon": -74.175068844237,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-las-margaritas-bogota/193151104",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 260000000,
+    "precio_actual": 260000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 260000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 50.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": [
+        4.6278,
+        -74.1751
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194293860",
+    "titulo": "Apartamento en Venta en Los rosales, Bogotá",
+    "barrio": "Rincon",
+    "precio": 1100000000,
+    "area_m2": 144.0,
+    "precio_m2": 7638888,
+    "habitaciones": 2,
+    "banos": 3,
+    "parqueaderos": 0,
+    "lat": 4.7308741,
+    "lon": -74.0501833,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-los-rosales-bogota/194293860",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 1100000000,
+    "precio_actual": 1100000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 1100000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 144.0,
+      "habitaciones": 2,
+      "banos": 3,
+      "coordenadas": [
+        4.7309,
+        -74.0502
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194155290",
+    "titulo": "Apartamento en Venta en Cedritos, Bogotá",
+    "barrio": "Rincon",
+    "precio": 630000000,
+    "area_m2": 125.0,
+    "precio_m2": 5040000,
+    "habitaciones": 3,
+    "banos": 3,
+    "parqueaderos": 0,
+    "lat": 4.731622312559,
+    "lon": -74.048849881649,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-cedritos-bogota/194155290",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 630000000,
+    "precio_actual": 630000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 630000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 125.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.7316,
+        -74.0488
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-191649233",
+    "titulo": "Apartamento en Venta en Las margaritas, Bogotá",
+    "barrio": "Rincon",
+    "precio": 265000000,
+    "area_m2": 42.0,
+    "precio_m2": 6309523,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.6392646,
+    "lon": -74.147087308327,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-las-margaritas-bogota/191649233",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 265000000,
+    "precio_actual": 265000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 265000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 42.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.6393,
+        -74.1471
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194293843",
+    "titulo": "Apartamento en Venta en Cedritos, Bogotá",
+    "barrio": "Rincon",
+    "precio": 1250000000,
+    "area_m2": 189.0,
+    "precio_m2": 6613756,
+    "habitaciones": 3,
+    "banos": 5,
+    "parqueaderos": 0,
+    "lat": 4.7308315,
+    "lon": -74.0498672,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-cedritos-bogota/194293843",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 1250000000,
+    "precio_actual": 1250000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 1250000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 189.0,
+      "habitaciones": 3,
+      "banos": 5,
+      "coordenadas": [
+        4.7308,
+        -74.0499
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194002861",
+    "titulo": "Apartamento en Venta en Las margaritas, Bogotá",
+    "barrio": "Rincon",
+    "precio": 215000000,
+    "area_m2": 49.0,
+    "precio_m2": 4387755,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.6295420163557,
+    "lon": -74.175347685814,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-las-margaritas-bogota/194002861",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 215000000,
+    "precio_actual": 215000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 215000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 49.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.6295,
+        -74.1753
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194099796",
+    "titulo": "Apartamento en Venta en Cedritos, Bogotá",
+    "barrio": "Rincon",
+    "precio": 649000000,
+    "area_m2": 122.0,
+    "precio_m2": 5319672,
+    "habitaciones": 4,
+    "banos": 4,
+    "parqueaderos": 0,
+    "lat": 4.7298870573543,
+    "lon": -74.044499148153,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-cedritos-bogota/194099796",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 649000000,
+    "precio_actual": 649000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 649000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 122.0,
+      "habitaciones": 4,
+      "banos": 4,
+      "coordenadas": [
+        4.7299,
+        -74.0445
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194512469",
+    "titulo": "Apartamento en Venta en Las margaritas, Bogotá",
+    "barrio": "Rincon",
+    "precio": 667000000,
+    "area_m2": 115.0,
+    "precio_m2": 5800000,
+    "habitaciones": 4,
+    "banos": 3,
+    "parqueaderos": 0,
+    "lat": 4.7009476280644,
+    "lon": -74.030197262764,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-las-margaritas-bogota/194512469",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 667000000,
+    "precio_actual": 667000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 667000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 115.0,
+      "habitaciones": 4,
+      "banos": 3,
+      "coordenadas": [
+        4.7009,
+        -74.0302
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194241453",
+    "titulo": "Apartamento en Venta en Cedritos, Bogotá",
+    "barrio": "Rincon",
+    "precio": 504000000,
+    "area_m2": 87.0,
+    "precio_m2": 5793103,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.7292086,
+    "lon": -74.0472555,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-cedritos-bogota/194241453",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 504000000,
+    "precio_actual": 504000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 504000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 87.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.7292,
+        -74.0473
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194632541",
+    "titulo": "Apartamento en Venta en Las margaritas, Bogotá",
+    "barrio": "Rincon",
+    "precio": 810000000,
+    "area_m2": 114.0,
+    "precio_m2": 7105263,
+    "habitaciones": 3,
+    "banos": 3,
+    "parqueaderos": 0,
+    "lat": 4.7333928914984,
+    "lon": -74.046368598314,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-las-margaritas-bogota/194632541",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 810000000,
+    "precio_actual": 810000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 810000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 114.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.7334,
+        -74.0464
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-193935849",
+    "titulo": "Apartamento en Venta en Las margaritas, Bogotá",
+    "barrio": "Rincon",
+    "precio": 770000000,
+    "area_m2": 124.0,
+    "precio_m2": 6209677,
+    "habitaciones": 3,
+    "banos": 3,
+    "parqueaderos": 0,
+    "lat": 4.731992876498,
+    "lon": -74.046039094239,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-las-margaritas-bogota/193935849",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 770000000,
+    "precio_actual": 770000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 770000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 124.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.732,
+        -74.046
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-194086597",
+    "titulo": "Apartamento en Venta en Las margaritas, Bogotá",
+    "barrio": "Rincon",
+    "precio": 220000000,
+    "area_m2": 57.0,
+    "precio_m2": 3859649,
+    "habitaciones": 3,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.6339463,
+    "lon": -74.1756484,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-las-margaritas-bogota/194086597",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 220000000,
+    "precio_actual": 220000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 220000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 57.0,
+      "habitaciones": 3,
+      "banos": 1,
+      "coordenadas": [
+        4.6339,
+        -74.1756
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "rincon",
+    "id_inmueble": "FR-191432798",
+    "titulo": "Apartamento en  Venta en Los cedritos, Bogotá",
+    "barrio": "Rincon",
+    "precio": 650000000,
+    "area_m2": 123.0,
+    "precio_m2": 5284552,
+    "habitaciones": 4,
+    "banos": 4,
+    "parqueaderos": 0,
+    "lat": 4.7298503,
+    "lon": -74.0444867,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-los-cedritos-bogota/191432798",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 650000000,
+    "precio_actual": 650000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 650000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "rincon",
+      "area_m2": 123.0,
+      "habitaciones": 4,
+      "banos": 4,
+      "coordenadas": [
+        4.7299,
+        -74.0445
+      ]
     },
     "posible_republicacion": false
   }

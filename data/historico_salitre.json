@@ -4,7 +4,7 @@
     "zona": "salitre",
     "id_inmueble": "FR-194079906",
     "titulo": "Apartamento en Venta en Pablo vi norte, Bogotá",
-    "barrio": "Pablo vi norte",
+    "barrio": "Salitre",
     "precio": 550000000,
     "area_m2": 87.0,
     "precio_m2": 6321839,
@@ -38,6 +38,1984 @@
       "coordenadas": [
         4.6519,
         -74.0922
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194535631",
+    "titulo": "Apartamento en Venta en Balcones del salitre, Bogotá",
+    "barrio": "Salitre",
+    "precio": 580000000,
+    "area_m2": 70.0,
+    "precio_m2": 8285714,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.635643737687,
+    "lon": -74.098938458645,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-balcones-del-salitre-bogota/194535631",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 580000000,
+    "precio_actual": 580000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 580000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 70.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.6356,
+        -74.0989
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194418977",
+    "titulo": "Apartamento en Venta en Modelia, Bogotá",
+    "barrio": "Salitre",
+    "precio": 508657500,
+    "area_m2": 79.0,
+    "precio_m2": 6438702,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.6637059,
+    "lon": -74.1146364,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-modelia-bogota/194418977",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 508657500,
+    "precio_actual": 508657500,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 508657500
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 79.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.6637,
+        -74.1146
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-193936591",
+    "titulo": "Apartamento en Venta en Ciudad Salitre Occidental, Bogotá",
+    "barrio": "Salitre",
+    "precio": 1300000000,
+    "area_m2": 138.0,
+    "precio_m2": 9420289,
+    "habitaciones": 3,
+    "banos": 3,
+    "parqueaderos": 0,
+    "lat": 4.6616565,
+    "lon": -74.1148364,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-ciudad-salitre-occidental-bogota/193936591",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 1300000000,
+    "precio_actual": 1300000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 1300000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 138.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.6617,
+        -74.1148
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194268561",
+    "titulo": "Apartamento en Venta en Ciudad Salitre Occidental, Bogotá",
+    "barrio": "Salitre",
+    "precio": 950000000,
+    "area_m2": 96.0,
+    "precio_m2": 9895833,
+    "habitaciones": 3,
+    "banos": 3,
+    "parqueaderos": 0,
+    "lat": 4.6631157,
+    "lon": -74.1139154,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-ciudad-salitre-occidental-bogota/194268561",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 950000000,
+    "precio_actual": 950000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 950000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 96.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.6631,
+        -74.1139
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194288419",
+    "titulo": "Apartamento en Venta en Balcones del salitre, Bogotá",
+    "barrio": "Salitre",
+    "precio": 775000000,
+    "area_m2": 106.0,
+    "precio_m2": 7311320,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.662956127274,
+    "lon": -74.116085904704,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-balcones-del-salitre-bogota/194288419",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 775000000,
+    "precio_actual": 775000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 775000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 106.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.663,
+        -74.1161
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194025201",
+    "titulo": "Apartamento en Venta en Fontibon, Bogotá",
+    "barrio": "Salitre",
+    "precio": 949000000,
+    "area_m2": 96.0,
+    "precio_m2": 9885416,
+    "habitaciones": 3,
+    "banos": 3,
+    "parqueaderos": 0,
+    "lat": 4.6631157,
+    "lon": -74.1139154,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-fontibon-bogota/194025201",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 949000000,
+    "precio_actual": 949000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 949000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 96.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.6631,
+        -74.1139
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194146005",
+    "titulo": "Apartamento en Venta en Balcones del salitre, Bogotá",
+    "barrio": "Salitre",
+    "precio": 740000000,
+    "area_m2": 83.0,
+    "precio_m2": 8915662,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.653382024101,
+    "lon": -74.108342702551,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-balcones-del-salitre-bogota/194146005",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 740000000,
+    "precio_actual": 740000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 740000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 83.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.6534,
+        -74.1083
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194120315",
+    "titulo": "Apartamento en Venta en Balcones del salitre, Bogotá",
+    "barrio": "Salitre",
+    "precio": 1150000000,
+    "area_m2": 94.0,
+    "precio_m2": 12234042,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.663478436511,
+    "lon": -74.112492599477,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-balcones-del-salitre-bogota/194120315",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 1150000000,
+    "precio_actual": 1150000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 1150000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 94.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.6635,
+        -74.1125
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194632026",
+    "titulo": "Apartamento en Venta en Balcones del salitre, Bogotá",
+    "barrio": "Salitre",
+    "precio": 210000000,
+    "area_m2": 36.0,
+    "precio_m2": 5833333,
+    "habitaciones": 2,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.756523312422,
+    "lon": -74.082736994178,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-balcones-del-salitre-bogota/194632026",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 210000000,
+    "precio_actual": 210000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 210000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 36.0,
+      "habitaciones": 2,
+      "banos": 1,
+      "coordenadas": [
+        4.7565,
+        -74.0827
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194099731",
+    "titulo": "Apartamento en Venta en Fontibon, Bogotá",
+    "barrio": "Salitre",
+    "precio": 785000000,
+    "area_m2": 103.0,
+    "precio_m2": 7621359,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.6631048086738,
+    "lon": -74.115862574729,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-fontibon-bogota/194099731",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 785000000,
+    "precio_actual": 785000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 785000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 103.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.6631,
+        -74.1159
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-191949710",
+    "titulo": "Apartamento en  Venta en Ciudad Salitre Occidental, Bogotá",
+    "barrio": "Salitre",
+    "precio": 850000000,
+    "area_m2": 93.0,
+    "precio_m2": 9139784,
+    "habitaciones": 3,
+    "banos": 3,
+    "parqueaderos": 0,
+    "lat": 4.663445,
+    "lon": -74.1150522,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-ciudad-salitre-occidental-bogota/191949710",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 850000000,
+    "precio_actual": 850000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 850000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 93.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.6634,
+        -74.1151
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194471415",
+    "titulo": "Apartamento en Venta en Ciudad Salitre Occidental, Bogotá",
+    "barrio": "Salitre",
+    "precio": 650000000,
+    "area_m2": 67.0,
+    "precio_m2": 9701492,
+    "habitaciones": 2,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.663445,
+    "lon": -74.1150522,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-ciudad-salitre-occidental-bogota/194471415",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 650000000,
+    "precio_actual": 650000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 650000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 67.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": [
+        4.6634,
+        -74.1151
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194058823",
+    "titulo": "Apartamento en Venta en Balcones del salitre, Bogotá",
+    "barrio": "Salitre",
+    "precio": 2210000900,
+    "area_m2": 158.0,
+    "precio_m2": 13987347,
+    "habitaciones": 3,
+    "banos": 3,
+    "parqueaderos": 0,
+    "lat": 4.66212803715,
+    "lon": -74.112374900893,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-balcones-del-salitre-bogota/194058823",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 2210000900,
+    "precio_actual": 2210000900,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 2210000900
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 158.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.6621,
+        -74.1124
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194342098",
+    "titulo": "Apartamento en Venta en Balcones del salitre, Bogotá",
+    "barrio": "Salitre",
+    "precio": 1300000000,
+    "area_m2": 96.0,
+    "precio_m2": 13541666,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.6533057,
+    "lon": -74.1098539,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-balcones-del-salitre-bogota/194342098",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 1300000000,
+    "precio_actual": 1300000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 1300000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 96.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.6533,
+        -74.1099
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194332308",
+    "titulo": "Apartamento en Venta en Fontibon, Bogotá",
+    "barrio": "Salitre",
+    "precio": 730000000,
+    "area_m2": 91.0,
+    "precio_m2": 8021978,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.6632897,
+    "lon": -74.1157001,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-fontibon-bogota/194332308",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 730000000,
+    "precio_actual": 730000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 730000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 91.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.6633,
+        -74.1157
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-192844816",
+    "titulo": "Apartamento en Venta en La esperanza norte, Bogotá",
+    "barrio": "Salitre",
+    "precio": 1580000000,
+    "area_m2": 173.0,
+    "precio_m2": 9132947,
+    "habitaciones": 3,
+    "banos": 4,
+    "parqueaderos": 0,
+    "lat": 4.662674,
+    "lon": -74.1139905,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-la-esperanza-norte-bogota/192844816",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 1580000000,
+    "precio_actual": 1580000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 1580000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 173.0,
+      "habitaciones": 3,
+      "banos": 4,
+      "coordenadas": [
+        4.6627,
+        -74.114
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194497376",
+    "titulo": "Apartamento en Venta en Modelia, Bogotá",
+    "barrio": "Salitre",
+    "precio": 790000000,
+    "area_m2": 85.0,
+    "precio_m2": 9294117,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.6630352,
+    "lon": -74.1143528,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-modelia-bogota/194497376",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 790000000,
+    "precio_actual": 790000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 790000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 85.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.663,
+        -74.1144
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-193505723",
+    "titulo": "Apartamento en Venta en Ciudad salitre, Bogotá",
+    "barrio": "Salitre",
+    "precio": 840000000,
+    "area_m2": 85.0,
+    "precio_m2": 9882352,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.6616565,
+    "lon": -74.1148364,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-ciudad-salitre-bogota/193505723",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 840000000,
+    "precio_actual": 840000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 840000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 85.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.6617,
+        -74.1148
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194124039",
+    "titulo": "Apartamento en Venta en Modelia, Bogotá",
+    "barrio": "Salitre",
+    "precio": 519000000,
+    "area_m2": 80.0,
+    "precio_m2": 6487500,
+    "habitaciones": 3,
+    "banos": 3,
+    "parqueaderos": 0,
+    "lat": 4.6637059,
+    "lon": -74.1146364,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-modelia-bogota/194124039",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 519000000,
+    "precio_actual": 519000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 519000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 80.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.6637,
+        -74.1146
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194004403",
+    "titulo": "Apartamento en Venta en Ciudad salitre, Bogotá",
+    "barrio": "Salitre",
+    "precio": 1550000000,
+    "area_m2": 170.0,
+    "precio_m2": 9117647,
+    "habitaciones": 3,
+    "banos": 4,
+    "parqueaderos": 0,
+    "lat": 4.662674,
+    "lon": -74.1139905,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-ciudad-salitre-bogota/194004403",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 1550000000,
+    "precio_actual": 1550000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 1550000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 170.0,
+      "habitaciones": 3,
+      "banos": 4,
+      "coordenadas": [
+        4.6627,
+        -74.114
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194637053",
+    "titulo": "Apartamento en Venta en Balcones del salitre, Bogotá",
+    "barrio": "Salitre",
+    "precio": 330000000,
+    "area_m2": 50.0,
+    "precio_m2": 6600000,
+    "habitaciones": 1,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.656591873922,
+    "lon": -74.111953374982,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-balcones-del-salitre-bogota/194637053",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 330000000,
+    "precio_actual": 330000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 330000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 50.0,
+      "habitaciones": 1,
+      "banos": 1,
+      "coordenadas": [
+        4.6566,
+        -74.112
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194485782",
+    "titulo": "Apartamento en Venta en Balcones del salitre, Bogotá",
+    "barrio": "Salitre",
+    "precio": 639000000,
+    "area_m2": 90.0,
+    "precio_m2": 7100000,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.6557329812429,
+    "lon": -74.107312615961,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-balcones-del-salitre-bogota/194485782",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 639000000,
+    "precio_actual": 639000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 639000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 90.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.6557,
+        -74.1073
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194466146",
+    "titulo": "Apartamento en Venta en Modelia, Bogotá",
+    "barrio": "Salitre",
+    "precio": 508657500,
+    "area_m2": 79.0,
+    "precio_m2": 6438702,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.6637059,
+    "lon": -74.1146364,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-modelia-bogota/194466146",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 508657500,
+    "precio_actual": 508657500,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 508657500
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 79.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.6637,
+        -74.1146
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194320828",
+    "titulo": "Apartamento en Venta en Capellania, Bogotá",
+    "barrio": "Salitre",
+    "precio": 450000000,
+    "area_m2": 65.0,
+    "precio_m2": 6923076,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.6628802,
+    "lon": -74.1164936,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-capellania-bogota/194320828",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 450000000,
+    "precio_actual": 450000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 450000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 65.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.6629,
+        -74.1165
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194317450",
+    "titulo": "Apartamento en Venta en Balcones del salitre, Bogotá",
+    "barrio": "Salitre",
+    "precio": 2000000000,
+    "area_m2": 240.0,
+    "precio_m2": 8333333,
+    "habitaciones": 4,
+    "banos": 4,
+    "parqueaderos": 0,
+    "lat": 4.7548635,
+    "lon": -74.0821496,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-balcones-del-salitre-bogota/194317450",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 2000000000,
+    "precio_actual": 2000000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 2000000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 240.0,
+      "habitaciones": 4,
+      "banos": 4,
+      "coordenadas": [
+        4.7549,
+        -74.0821
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-193766990",
+    "titulo": "Apartamento en Venta en Modelia, Bogotá",
+    "barrio": "Salitre",
+    "precio": 670000000,
+    "area_m2": 86.0,
+    "precio_m2": 7790697,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.6627957,
+    "lon": -74.1157376,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-modelia-bogota/193766990",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 670000000,
+    "precio_actual": 670000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 670000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 86.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.6628,
+        -74.1157
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194385963",
+    "titulo": "Apartamento en Venta en Balcones del salitre, Bogotá",
+    "barrio": "Salitre",
+    "precio": 1980000000,
+    "area_m2": 153.0,
+    "precio_m2": 12941176,
+    "habitaciones": 3,
+    "banos": 4,
+    "parqueaderos": 0,
+    "lat": 4.66212803715,
+    "lon": -74.112374900893,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-balcones-del-salitre-bogota/194385963",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 1980000000,
+    "precio_actual": 1980000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 1980000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 153.0,
+      "habitaciones": 3,
+      "banos": 4,
+      "coordenadas": [
+        4.6621,
+        -74.1124
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-193878189",
+    "titulo": "Apartamento en Venta en Ciudad Salitre Occidental, Bogotá",
+    "barrio": "Salitre",
+    "precio": 1600000000,
+    "area_m2": 212.0,
+    "precio_m2": 7547169,
+    "habitaciones": 4,
+    "banos": 4,
+    "parqueaderos": 0,
+    "lat": 4.6626158,
+    "lon": -74.1140245,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-ciudad-salitre-occidental-bogota/193878189",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 1600000000,
+    "precio_actual": 1600000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 1600000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 212.0,
+      "habitaciones": 4,
+      "banos": 4,
+      "coordenadas": [
+        4.6626,
+        -74.114
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-193616977",
+    "titulo": "Apartamento en Venta en Modelia, Bogotá",
+    "barrio": "Salitre",
+    "precio": 620000000,
+    "area_m2": 83.0,
+    "precio_m2": 7469879,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.6628299611244,
+    "lon": -74.115711450577,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-modelia-bogota/193616977",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 620000000,
+    "precio_actual": 620000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 620000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 83.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.6628,
+        -74.1157
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-193993991",
+    "titulo": "Apartamento en Venta en Fontibon, Bogotá",
+    "barrio": "Salitre",
+    "precio": 1712000000,
+    "area_m2": 211.0,
+    "precio_m2": 8113744,
+    "habitaciones": 4,
+    "banos": 5,
+    "parqueaderos": 0,
+    "lat": 4.6626158,
+    "lon": -74.1140245,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-fontibon-bogota/193993991",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 1712000000,
+    "precio_actual": 1712000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 1712000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 211.0,
+      "habitaciones": 4,
+      "banos": 5,
+      "coordenadas": [
+        4.6626,
+        -74.114
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-10912332",
+    "titulo": "Apartamento en Venta en Balcones del salitre, Bogotá",
+    "barrio": "Salitre",
+    "precio": 700000000,
+    "area_m2": 150.0,
+    "precio_m2": 4666666,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.5739545564817,
+    "lon": -74.154564282642,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-balcones-del-salitre-bogota/10912332",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 700000000,
+    "precio_actual": 700000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 700000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 150.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.574,
+        -74.1546
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-193979145",
+    "titulo": "Apartamento en Venta en Tarragona del salitre et. ii, Bogotá",
+    "barrio": "Salitre",
+    "precio": 508657500,
+    "area_m2": 79.0,
+    "precio_m2": 6438702,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.664091,
+    "lon": -74.1148544,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-tarragona-del-salitre-et-ii-bogota/193979145",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 508657500,
+    "precio_actual": 508657500,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 508657500
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 79.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.6641,
+        -74.1149
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-193187492",
+    "titulo": "Apartamento en Venta en Balcones del salitre, Bogotá",
+    "barrio": "Salitre",
+    "precio": 770000000,
+    "area_m2": 68.0,
+    "precio_m2": 11323529,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.663464783068,
+    "lon": -74.112477495387,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-balcones-del-salitre-bogota/193187492",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 770000000,
+    "precio_actual": 770000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 770000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 68.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.6635,
+        -74.1125
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-193170258",
+    "titulo": "Apartamento en Venta en Ciudad salitre, Bogotá",
+    "barrio": "Salitre",
+    "precio": 4050000000,
+    "area_m2": 306.0,
+    "precio_m2": 13235294,
+    "habitaciones": 4,
+    "banos": 6,
+    "parqueaderos": 0,
+    "lat": 4.662674,
+    "lon": -74.1139905,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-ciudad-salitre-bogota/193170258",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 4050000000,
+    "precio_actual": 4050000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 4050000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 306.0,
+      "habitaciones": 4,
+      "banos": 6,
+      "coordenadas": [
+        4.6627,
+        -74.114
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194245158",
+    "titulo": "Apartamento en Venta en Ciudad salitre, Bogotá",
+    "barrio": "Salitre",
+    "precio": 2495000000,
+    "area_m2": 182.0,
+    "precio_m2": 13708791,
+    "habitaciones": 3,
+    "banos": 4,
+    "parqueaderos": 0,
+    "lat": 4.6626158,
+    "lon": -74.1140245,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-ciudad-salitre-bogota/194245158",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 2495000000,
+    "precio_actual": 2495000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 2495000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 182.0,
+      "habitaciones": 3,
+      "banos": 4,
+      "coordenadas": [
+        4.6626,
+        -74.114
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194271259",
+    "titulo": "Apartamento en Venta en Balcones del salitre, Bogotá",
+    "barrio": "Salitre",
+    "precio": 900000000,
+    "area_m2": 115.0,
+    "precio_m2": 7826086,
+    "habitaciones": 3,
+    "banos": 3,
+    "parqueaderos": 0,
+    "lat": 4.647391896996,
+    "lon": -74.107254899157,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-balcones-del-salitre-bogota/194271259",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 900000000,
+    "precio_actual": 900000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 900000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 115.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.6474,
+        -74.1073
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194336671",
+    "titulo": "Apartamento en Venta en Fontibon, Bogotá",
+    "barrio": "Salitre",
+    "precio": 730000000,
+    "area_m2": 91.0,
+    "precio_m2": 8021978,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.662992,
+    "lon": -74.1153084,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-fontibon-bogota/194336671",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 730000000,
+    "precio_actual": 730000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 730000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 91.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.663,
+        -74.1153
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194118780",
+    "titulo": "Apartamento en Venta en Rafael Nuñez, Bogotá",
+    "barrio": "Salitre",
+    "precio": 870000000,
+    "area_m2": 84.0,
+    "precio_m2": 10357142,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.6437403,
+    "lon": -74.0873428,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-rafael-nunez-bogota/194118780",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 870000000,
+    "precio_actual": 870000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 870000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 84.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.6437,
+        -74.0873
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194458773",
+    "titulo": "Apartamento en Venta en Teusaquillo, Bogotá",
+    "barrio": "Salitre",
+    "precio": 1200000000,
+    "area_m2": 126.0,
+    "precio_m2": 9523809,
+    "habitaciones": 3,
+    "banos": 3,
+    "parqueaderos": 0,
+    "lat": 4.648096,
+    "lon": -74.086518,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-teusaquillo-bogota/194458773",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 1200000000,
+    "precio_actual": 1200000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 1200000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 126.0,
+      "habitaciones": 3,
+      "banos": 3,
+      "coordenadas": [
+        4.6481,
+        -74.0865
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194375565",
+    "titulo": "Apartamento en Venta en La esmeralda, Bogotá",
+    "barrio": "Salitre",
+    "precio": 870000000,
+    "area_m2": 85.0,
+    "precio_m2": 10235294,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.6436054353059,
+    "lon": -74.087698459625,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-la-esmeralda-bogota/194375565",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 870000000,
+    "precio_actual": 870000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 870000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 85.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.6436,
+        -74.0877
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194294208",
+    "titulo": "Apartamento en Venta en La esmeralda, Bogotá",
+    "barrio": "Salitre",
+    "precio": 230000000,
+    "area_m2": 40.0,
+    "precio_m2": 5750000,
+    "habitaciones": 1,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.6422765,
+    "lon": -74.0907071,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-la-esmeralda-bogota/194294208",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 230000000,
+    "precio_actual": 230000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 230000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 40.0,
+      "habitaciones": 1,
+      "banos": 1,
+      "coordenadas": [
+        4.6423,
+        -74.0907
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-193577077",
+    "titulo": "Apartamento en Venta en La esmeralda, Bogotá",
+    "barrio": "Salitre",
+    "precio": 870000000,
+    "area_m2": 84.0,
+    "precio_m2": 10357142,
+    "habitaciones": 3,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.6437832074,
+    "lon": -74.0873950074,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-la-esmeralda-bogota/193577077",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 870000000,
+    "precio_actual": 870000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 870000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 84.0,
+      "habitaciones": 3,
+      "banos": 2,
+      "coordenadas": [
+        4.6438,
+        -74.0874
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194294330",
+    "titulo": "Apartamento en Venta en La esmeralda, Bogotá",
+    "barrio": "Salitre",
+    "precio": 260000000,
+    "area_m2": 23.0,
+    "precio_m2": 11304347,
+    "habitaciones": 1,
+    "banos": 1,
+    "parqueaderos": 0,
+    "lat": 4.6422765,
+    "lon": -74.0907071,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-la-esmeralda-bogota/194294330",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 260000000,
+    "precio_actual": 260000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 260000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 23.0,
+      "habitaciones": 1,
+      "banos": 1,
+      "coordenadas": [
+        4.6423,
+        -74.0907
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-193635013",
+    "titulo": "Apartamento en Venta en Nicolas de federman, Bogotá",
+    "barrio": "Salitre",
+    "precio": 1853000000,
+    "area_m2": 220.0,
+    "precio_m2": 8422727,
+    "habitaciones": 4,
+    "banos": 4,
+    "parqueaderos": 0,
+    "lat": 4.6476796925,
+    "lon": -74.0857243538,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-nicolas-de-federman-bogota/193635013",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 1853000000,
+    "precio_actual": 1853000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 1853000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 220.0,
+      "habitaciones": 4,
+      "banos": 4,
+      "coordenadas": [
+        4.6477,
+        -74.0857
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-194632966",
+    "titulo": "Apartamento en Venta en Teusaquillo, Bogotá",
+    "barrio": "Salitre",
+    "precio": 455000000,
+    "area_m2": 71.0,
+    "precio_m2": 6408450,
+    "habitaciones": 2,
+    "banos": 2,
+    "parqueaderos": 0,
+    "lat": 4.6422765,
+    "lon": -74.0907071,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-teusaquillo-bogota/194632966",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 455000000,
+    "precio_actual": 455000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 455000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 71.0,
+      "habitaciones": 2,
+      "banos": 2,
+      "coordenadas": [
+        4.6423,
+        -74.0907
+      ]
+    },
+    "posible_republicacion": false
+  },
+  {
+    "portal": "Fincaraiz",
+    "zona": "salitre",
+    "id_inmueble": "FR-193861072",
+    "titulo": "Apartamento en Venta en Teusaquillo, Bogotá",
+    "barrio": "Salitre",
+    "precio": 700000000,
+    "area_m2": 160.0,
+    "precio_m2": 4375000,
+    "habitaciones": 5,
+    "banos": 3,
+    "parqueaderos": 0,
+    "lat": 4.6422765,
+    "lon": -74.0907071,
+    "validado_poligono": false,
+    "url": "https://www.fincaraiz.com.co/apartamento-en-venta-en-teusaquillo-bogota/193861072",
+    "fecha_primera_deteccion": "2026-11-27",
+    "fecha_ultima_deteccion": "2026-11-27",
+    "fecha_salida": null,
+    "precio_inicial": 700000000,
+    "precio_actual": 700000000,
+    "variacion_pct": 0.0,
+    "dias_en_mercado": 0,
+    "estado": "revisar_atipico",
+    "activo_en_corte": true,
+    "historial_precios": [
+      {
+        "fecha": "2026-11-27",
+        "precio": 700000000
+      }
+    ],
+    "huella_inmueble": {
+      "zona": "salitre",
+      "area_m2": 160.0,
+      "habitaciones": 5,
+      "banos": 3,
+      "coordenadas": [
+        4.6423,
+        -74.0907
       ]
     },
     "posible_republicacion": false
