@@ -1,0 +1,82 @@
+{
+  "fecha_corte": "2026-11-27",
+  "total_capturados": 0,
+  "estado_poligono": {
+    "rincon": "calibrado",
+    "mirandela": "aproximado_v1",
+    "salitre": "aproximado_v1"
+  },
+  "estado_captura": {
+    "rincon": {
+      "Fincaraiz": {
+        "consultas": 12,
+        "consultas_ok": 0,
+        "capturados": 0,
+        "captura_confiable": false,
+        "errores": [
+          "HTTP 202: https://www.fincaraiz.com.co/venta/apartamentos/bogota/estrella-del-norte/pagina1",
+          "HTTP 202: https://www.fincaraiz.com.co/venta/apartamentos/bogota/estrella-del-norte/pagina2",
+          "HTTP 202: https://www.fincaraiz.com.co/venta/apartamentos/bogota/estrella-del-norte/pagina3",
+          "HTTP 202: https://www.fincaraiz.com.co/venta/apartamentos/bogota/orquideas/pagina1",
+          "HTTP 202: https://www.fincaraiz.com.co/venta/apartamentos/bogota/orquideas/pagina2",
+          "HTTP 202: https://www.fincaraiz.com.co/venta/apartamentos/bogota/orquideas/pagina3",
+          "HTTP 202: https://www.fincaraiz.com.co/venta/apartamentos/bogota/el-toberin/pagina1",
+          "HTTP 202: https://www.fincaraiz.com.co/venta/apartamentos/bogota/el-toberin/pagina2",
+          "HTTP 202: https://www.fincaraiz.com.co/venta/apartamentos/bogota/el-toberin/pagina3",
+          "HTTP 202: https://www.fincaraiz.com.co/venta/apartamentos/bogota/las-margaritas/pagina1"
+        ]
+      },
+      "Metrocuadrado": {
+        "consultas": 3,
+        "consultas_ok": 3,
+        "capturados": 0,
+        "captura_confiable": false,
+        "errores": []
+      }
+    },
+    "mirandela": {
+      "Fincaraiz": {
+        "consultas": 3,
+        "consultas_ok": 0,
+        "capturados": 0,
+        "captura_confiable": false,
+        "errores": [
+          "HTTP 202: https://www.fincaraiz.com.co/venta/apartamentos/bogota/mirandela/pagina1",
+          "HTTP 202: https://www.fincaraiz.com.co/venta/apartamentos/bogota/mirandela/pagina2",
+          "HTTP 202: https://www.fincaraiz.com.co/venta/apartamentos/bogota/mirandela/pagina3"
+        ]
+      },
+      "Metrocuadrado": {
+        "consultas": 3,
+        "consultas_ok": 3,
+        "capturados": 0,
+        "captura_confiable": false,
+        "errores": []
+      }
+    },
+    "salitre": {
+      "Fincaraiz": {
+        "consultas": 6,
+        "consultas_ok": 0,
+        "capturados": 0,
+        "captura_confiable": false,
+        "errores": [
+          "HTTP 202: https://www.fincaraiz.com.co/venta/apartamentos/bogota/salitre/pagina1",
+          "HTTP 202: https://www.fincaraiz.com.co/venta/apartamentos/bogota/salitre/pagina2",
+          "HTTP 202: https://www.fincaraiz.com.co/venta/apartamentos/bogota/salitre/pagina3",
+          "HTTP 202: https://www.fincaraiz.com.co/venta/apartamentos/bogota/la-esmeralda/pagina1",
+          "HTTP 202: https://www.fincaraiz.com.co/venta/apartamentos/bogota/la-esmeralda/pagina2",
+          "HTTP 202: https://www.fincaraiz.com.co/venta/apartamentos/bogota/la-esmeralda/pagina3"
+        ]
+      },
+      "Metrocuadrado": {
+        "consultas": 3,
+        "consultas_ok": 3,
+        "capturados": 0,
+        "captura_confiable": false,
+        "errores": []
+      }
+    }
+  },
+  "inmuebles": []
+}
