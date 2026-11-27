@@ -1,6 +1,12 @@
 name: Monitor Inmobiliario Zona Norte
 
 on:
+  push:
+    paths:
+      - "src/**"
+      - "config/**"
+      - "requirements.txt"
+      - ".github/workflows/main.yml"
   schedule:
     - cron: '0 13 */3 * *'
   workflow_dispatch:
