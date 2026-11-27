@@ -13,7 +13,7 @@ mediana_precio_m2: 6321839
 # Radar de Salitre — Bogotá
 
 Polígono en **aproximado_v1**. Los indicadores geográficos deben interpretarse con esa calibración.
-**Captura 2026-11-27:** Fincaraiz: 1 anuncios (no confiable); Metrocuadrado: 0 anuncios (no confiable)
+**Captura 2026-11-27:** Fincaraiz: 0 anuncios (no confiable); Metrocuadrado: 0 anuncios (no confiable)
 La captura actual no es confiable; las cifras de oferta y medianas conservan el último histórico validado y pueden estar desactualizadas.
 
 ## Dinámica de zona
