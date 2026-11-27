@@ -8,23 +8,40 @@ import requests
 
 API_BASE = "https://api.api.sh"
 TIMEOUT_SEGUNDOS = 60
-PAGINAS_MAXIMAS = 3
+PAGINAS_MAXIMAS = 10
+VERSION_CACHE_GEO = 2
 DIAS_REINTENTO_GEO = 7
 RUTA_CACHE_GEO = Path("data/cache_coordenadas_metrocuadrado.json")
 
 
 def _coordenadas(item):
-    lat = item.get("latitude") or item.get("lat")
-    lon = item.get("longitude") or item.get("lon") or item.get("lng")
-    loc = item.get("location") or {}
-    if isinstance(loc, dict):
-        lat = lat or loc.get("latitude") or loc.get("lat")
-        lon = lon or loc.get("longitude") or loc.get("lon") or loc.get("lng")
-    try:
-        if lat is not None and lon is not None:
-            return float(lat), float(lon)
-    except (TypeError, ValueError):
-        pass
+    """Busca coordenadas de la ficha y sus datos crudos, sin usar puntos de interés cercanos."""
+    if isinstance(item, dict):
+        lat = item.get("latitude") or item.get("lat")
+        lon = item.get("longitude") or item.get("lon") or item.get("lng")
+        try:
+            if lat is not None and lon is not None:
+                return float(lat), float(lon)
+        except (TypeError, ValueError):
+            pass
+        for clave, valor in item.items():
+            if str(clave).lower() in {"nearby", "nearby_places", "poi", "similar", "photos", "images", "advertiser"}:
+                continue
+            resultado = _coordenadas(valor)
+            if resultado != (None, None):
+                return resultado
+    elif isinstance(item, list):
+        for valor in item:
+            resultado = _coordenadas(valor)
+            if resultado != (None, None):
+                return resultado
+    elif isinstance(item, str):
+        texto = item.strip()
+        if texto.startswith("{") or texto.startswith("["):
+            try:
+                return _coordenadas(json.loads(texto))
+            except json.JSONDecodeError:
+                pass
     return None, None
 
 
@@ -57,6 +74,7 @@ def _completar_coordenadas_metro(anuncios, clave):
     cache = _cargar_cache_geo()
     consultas = coordenadas_recuperadas = cache_usado = 0
     advertencias = []
+    claves_detalle = []
     headers = {"x-api-key": clave}
 
     for anuncio in anuncios:
@@ -70,12 +88,12 @@ def _completar_coordenadas_metro(anuncios, clave):
             continue
 
         guardado = cache.get(identificador, {})
-        if guardado.get("lat") is not None and guardado.get("lon") is not None:
+        if guardado.get("version") == VERSION_CACHE_GEO and guardado.get("lat") is not None and guardado.get("lon") is not None:
             _aplicar_coordenadas(anuncio, guardado["lat"], guardado["lon"])
             cache_usado += 1
             continue
 
-        revisado = guardado.get("revisado_en")
+        revisado = guardado.get("revisado_en") if guardado.get("version") == VERSION_CACHE_GEO else None
         if revisado:
             try:
                 if date.fromisoformat(revisado) > date.today() - timedelta(days=DIAS_REINTENTO_GEO):
@@ -83,7 +101,7 @@ def _completar_coordenadas_metro(anuncios, clave):
             except ValueError:
                 pass
 
-        params = {"url": anuncio["url"]} if anuncio.get("url") else {"id": identificador}
+        params = {"url": anuncio["url"], "raw": "true"} if anuncio.get("url") else {"id": identificador, "raw": "true"}
         consultas += 1
         try:
             respuesta = requests.get(
@@ -96,10 +114,17 @@ def _completar_coordenadas_metro(anuncios, clave):
             detalle = respuesta.json()
             if not isinstance(detalle, dict):
                 raise ValueError("Detalle de Metrocuadrado no es un objeto JSON.")
-            if isinstance(detalle.get("listing"), dict):
-                detalle = detalle["listing"]
+            claves_detalle = sorted(detalle.keys())
+            for envoltura in ("listing", "result", "data"):
+                if isinstance(detalle.get(envoltura), dict):
+                    detalle = detalle[envoltura]
             lat, lon = _coordenadas(detalle)
-            guardado = {"lat": lat, "lon": lon, "revisado_en": date.today().isoformat()}
+            guardado = {
+                "lat": lat,
+                "lon": lon,
+                "revisado_en": date.today().isoformat(),
+                "version": VERSION_CACHE_GEO,
+            }
             cache[identificador] = guardado
             if lat is not None and lon is not None:
                 _aplicar_coordenadas(anuncio, lat, lon)
@@ -111,6 +136,7 @@ def _completar_coordenadas_metro(anuncios, clave):
                 "lat": None,
                 "lon": None,
                 "revisado_en": date.today().isoformat(),
+                "version": VERSION_CACHE_GEO,
             }
             advertencias.append(f"No se pudo geolocalizar {identificador}: {error}")
 
@@ -120,6 +146,7 @@ def _completar_coordenadas_metro(anuncios, clave):
         "coordenadas_recuperadas": coordenadas_recuperadas,
         "coordenadas_desde_cache": cache_usado,
         "advertencias_geolocalizacion": advertencias[:20],
+        "claves_detalle_ejemplo": claves_detalle,
     }
 
 
