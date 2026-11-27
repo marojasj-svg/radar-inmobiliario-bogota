@@ -44,7 +44,6 @@ jobs:
 
       - name: Ejecutar captura de datos (Scraper)
         env:
-          RADAR_DATA_API_KEY: ${{ secrets.RADAR_DATA_API_KEY }}
           SCRAPPA_API_KEY: ${{ secrets.SCRAPPA_API_KEY }}
           FORZAR_CAPTURA: ${{ github.event_name != 'workflow_dispatch' || inputs.forzar_captura }}
         run: python src/scraper.py
