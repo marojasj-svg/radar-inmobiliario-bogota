@@ -13,7 +13,7 @@ mediana_precio_m2: 5673325
 # Radar de Rincón — Bogotá
 
 Polígono en **calibrado**. Los indicadores geográficos deben interpretarse con esa calibración.
-**Captura 2026-11-27:** Fincaraiz: 69 anuncios (confiable); Metrocuadrado: 391 anuncios (no confiable)
+**Captura 2026-11-27:** Fincaraiz: 69 anuncios (confiable); Metrocuadrado: 0 anuncios (no confiable)
 
 ## Dinámica de zona
 
