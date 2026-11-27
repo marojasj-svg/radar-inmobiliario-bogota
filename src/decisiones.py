@@ -363,7 +363,6 @@ def actualizar_reglas(activos, carpeta):
     lineas.append(
         f"\n- **Horizonte inicial de publicación:** {activos.get('fecha_objetivo_publicacion', 'por definir')}."
     )
-    _reemplazar_seccion(texto, "## Perfiles de activos propios", "\n".join(lineas))
     with open(ruta, "w", encoding="utf-8") as archivo:
         archivo.write(_reemplazar_seccion(texto, "## Perfiles de activos propios", "\n".join(lineas)))
 
