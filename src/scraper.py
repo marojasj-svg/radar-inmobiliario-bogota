@@ -185,10 +185,20 @@ def recolectar_portal(portal, zona_id, zona):
             unicos[normalizado["id_inmueble"]] = normalizado
 
     minimo = MINIMOS_CAPTURA_PORTAL[portal]
+    con_coordenadas = [
+        item for item in unicos.values()
+        if item.get("lat") is not None and item.get("lon") is not None
+    ]
+    dentro_poligono = [item for item in unicos.values() if item.get("validado_poligono")]
+    cobertura_geo = round(len(con_coordenadas) / len(unicos) * 100, 1) if unicos else 0.0
     estado["capturados"] = len(unicos)
+    estado["capturados_con_coordenadas"] = len(con_coordenadas)
+    estado["capturados_en_poligono"] = len(dentro_poligono)
+    estado["cobertura_coordenadas_pct"] = cobertura_geo
     estado["captura_confiable"] = (
         estado.get("captura_confiable", False)
-        and len(unicos) >= minimo
+        and len(dentro_poligono) >= minimo
+        and cobertura_geo >= 80.0
         and estado.get("consultas_ok") == estado.get("consultas")
     )
     if candidatos and not unicos:
