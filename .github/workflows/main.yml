@@ -10,6 +10,12 @@ on:
   schedule:
     - cron: '0 13 */3 * *'
   workflow_dispatch:
+    inputs:
+      forzar_captura:
+        description: "Volver a consultar los portales aunque ya exista un corte hoy"
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -40,6 +46,7 @@ jobs:
         env:
           RADAR_DATA_API_KEY: ${{ secrets.RADAR_DATA_API_KEY }}
           SCRAPPA_API_KEY: ${{ secrets.SCRAPPA_API_KEY }}
+          FORZAR_CAPTURA: ${{ github.event_name != 'workflow_dispatch' || inputs.forzar_captura }}
         run: python src/scraper.py
 
       - name: Ejecutar análisis de dinámica y generar notas Obsidian
