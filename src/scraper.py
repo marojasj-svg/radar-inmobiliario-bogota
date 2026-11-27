@@ -211,6 +211,14 @@ def recolectar_portal(portal, zona_id, zona):
 def main():
     fecha = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     os.makedirs("data/snapshots", exist_ok=True)
+    ruta = f"data/snapshots/{fecha}.json"
+    forzar = os.getenv("FORZAR_CAPTURA", "false").lower() in ("1", "true", "si", "sí")
+    if os.path.exists(ruta) and not forzar:
+        print(
+            f"[INFO] Ya existe un corte para {fecha}; se reutiliza sin consultar portales. "
+            "Activa 'Forzar captura' en la ejecución manual para actualizarlo."
+        )
+        return
     inmuebles, estado_captura = [], {}
 
     for zona_id, zona in ZONAS.items():
