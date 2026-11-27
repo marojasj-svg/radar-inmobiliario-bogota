@@ -57,3 +57,8 @@ La captura actual no es confiable; las cifras de oferta y medianas conservan el 
 | FR-194392256 | Fincaraiz | 55.0 | $ 270.000.000 | $ 4.909.090 | 0 | 2 |
 | FR-194665676 | Fincaraiz | 55.0 | $ 270.000.000 | $ 4.909.090 | 0 | 2 |
 | FR-194030691 | Fincaraiz | 57.0 | $ 300.000.000 | $ 5.263.157 | 0 | 1 |
+## Fichas de decisión de venta
+
+- [[03_Decision_Rincon|Decisión de venta: Rincón]]
+- [[03_Decision_Mirandela|Decisión de venta: Mirandela]]
+- [[03_Decision_Salitre|Decisión de venta: Salitre]]
