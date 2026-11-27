@@ -105,7 +105,7 @@ def normalizar_item(raw, portal, zona_id, barrio_fuente):
         if not id_raw:
             return None
 
-        precio = numero(raw.get("price") or raw.get("precio") or raw.get("valor") or raw.get("salePrice") or raw.get("sale_price"))
+        precio = numero(raw.get("price") or raw.get("price_sale") or raw.get("precio") or raw.get("valor") or raw.get("salePrice") or raw.get("sale_price"))
         area = numero(raw.get("area") or raw.get("area_m2") or raw.get("surface") or raw.get("m2") or raw.get("builtArea") or raw.get("built_area_m2") or raw.get("areaConstruida"))
         if precio <= 50_000_000 or area < 20:
             return None
