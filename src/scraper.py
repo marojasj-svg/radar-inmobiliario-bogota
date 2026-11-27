@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 from shapely.geometry import Point
 
 from config import MINIMOS_CAPTURA_PORTAL, ZONAS
+from proveedor_api import buscar as buscar_api
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
@@ -104,8 +105,8 @@ def normalizar_item(raw, portal, zona_id, barrio_fuente):
         if not id_raw:
             return None
 
-        precio = numero(raw.get("price") or raw.get("precio") or raw.get("valor") or raw.get("salePrice"))
-        area = numero(raw.get("area") or raw.get("surface") or raw.get("m2") or raw.get("builtArea") or raw.get("areaConstruida"))
+        precio = numero(raw.get("price") or raw.get("precio") or raw.get("valor") or raw.get("salePrice") or raw.get("sale_price"))
+        area = numero(raw.get("area") or raw.get("area_m2") or raw.get("surface") or raw.get("m2") or raw.get("builtArea") or raw.get("built_area_m2") or raw.get("areaConstruida"))
         if precio <= 50_000_000 or area < 20:
             return None
 
@@ -131,11 +132,12 @@ def normalizar_item(raw, portal, zona_id, barrio_fuente):
             url = ""
 
         loc = raw.get("location") or raw.get("ubicacion") or {}
-        barrio = raw.get("neighborhood") or raw.get("barrio") or (
-            loc.get("neighborhood") or loc.get("name") if isinstance(loc, dict) else None
+        barrio = raw.get("neighborhood") or raw.get("neighborhood_common_name") or raw.get("barrio") or (
+            loc.get("neighborhood") or loc.get("name") or loc.get("main") or loc.get("neighbourhood") if isinstance(loc, dict) else None
         ) or barrio_fuente.replace("-", " ").title()
 
         prefijo = "FR" if portal == "Fincaraiz" else "MC"
+        id_raw = re.sub(rf"^{prefijo}-?", "", id_raw, flags=re.IGNORECASE)
         return {
             "portal": portal,
             "zona": zona_id,
@@ -170,35 +172,30 @@ def urls_busqueda(portal, zona_id, zona):
 
 
 def recolectar_portal(portal, zona_id, zona):
-    unicos, errores = {}, []
-    consultas, exitosas = 0, 0
-    for barrio, url in urls_busqueda(portal, zona_id, zona):
-        consultas += 1
-        try:
-            respuesta = requests.get(url, headers=HEADERS, timeout=TIMEOUT_SEGUNDOS)
-            if respuesta.status_code != 200:
-                errores.append(f"HTTP {respuesta.status_code}: {url}")
-                continue
-            exitosas += 1
-            candidatos, vistos = [], set()
-            for estructura in extraer_datos_embebidos(respuesta.text):
-                buscar_listados_recursivo(estructura, candidatos, vistos)
-            for item in candidatos:
-                normalizado = normalizar_item(item, portal, zona_id, barrio)
-                if normalizado:
-                    unicos[normalizado["id_inmueble"]] = normalizado
-        except requests.RequestException as error:
-            errores.append(f"{url}: {error}")
+    candidatos, estado = buscar_api(portal, zona)
+    unicos = {}
+    for item in candidatos:
+        barrio = (
+            item.get("neighborhood")
+            or item.get("neighborhood_common_name")
+            or zona.get("busqueda_metrocuadrado", zona_id).split()[0]
+        )
+        normalizado = normalizar_item(item, portal, zona_id, barrio)
+        if normalizado:
+            unicos[normalizado["id_inmueble"]] = normalizado
 
     minimo = MINIMOS_CAPTURA_PORTAL[portal]
-    confiable = len(unicos) >= minimo and exitosas == consultas and not errores
-    return list(unicos.values()), {
-        "consultas": consultas,
-        "consultas_ok": exitosas,
-        "capturados": len(unicos),
-        "captura_confiable": confiable,
-        "errores": errores[:10],
-    }
+    estado["capturados"] = len(unicos)
+    estado["captura_confiable"] = (
+        estado.get("captura_confiable", False)
+        and len(unicos) >= minimo
+        and estado.get("consultas_ok") == estado.get("consultas")
+    )
+    if candidatos and not unicos:
+        estado.setdefault("errores", []).append(
+            "La API devolvió anuncios, pero ninguno pasó la validación de precio, área y polígono."
+        )
+    return list(unicos.values()), estado
 
 
 def main():
