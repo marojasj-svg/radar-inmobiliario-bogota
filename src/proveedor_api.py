@@ -11,7 +11,7 @@ API_SH_BASE = "https://api.api.sh"
 SCRAPPA_BASE = "https://scrappa.co/api"
 TIMEOUT_SEGUNDOS = 45
 PAGINAS_MAXIMAS = 10
-CREDITOS_MES_RADAR = 450
+CREDITOS_MES_RADAR = 450\nCREDITOS_MES_POR_ZONA = 150
 RUTA_CREDITOS = Path("data/scrappa_creditos.json")
 RUTA_COORDENADAS = Path("data/metrocuadrado_coordenadas.json")
 
@@ -89,7 +89,7 @@ def _radio_km(zona):
     return max(1, math.ceil(max_km + 0.1)), centro.y, centro.x
 
 
-def _detalle_metro(id_anuncio, cache, headers):
+def _detalle_metro(id_anuncio, cache, headers, zona_id):
     guardado = cache.get(id_anuncio)
     if guardado and guardado.get("consultado"):
         fecha = str(guardado["consultado"])[:10]
@@ -130,7 +130,7 @@ def _buscar_metrocuadrado(zona):
         }
 
     headers = {"x-api-key": api_key}
-    radio_km, latitud, longitud = _radio_km(zona)
+    zona_id = zona.get("id", "zona")\n    radio_km, latitud, longitud = _radio_km(zona)
     cache = _cargar_json(RUTA_COORDENADAS, {})
     anuncios, errores, advertencias = {}, [], []
     consultas = consultas_ok = 0
@@ -176,7 +176,7 @@ def _buscar_metrocuadrado(zona):
                     continue
                 anuncio = dict(item)
                 try:
-                    lat, lon, aviso = _detalle_metro(id_anuncio, cache, headers)
+                    lat, lon, aviso = _detalle_metro(id_anuncio, cache, headers, zona_id)
                     if aviso:
                         advertencias.append(aviso)
                     if lat is not None and lon is not None:
