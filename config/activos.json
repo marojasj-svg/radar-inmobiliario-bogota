@@ -1,0 +1,56 @@
+{
+  "fecha_objetivo_publicacion": "2027-02-27",
+  "activos": {
+    "rincon": {
+      "nombre": "Rincón",
+      "area_m2": 53.47,
+      "tipo_area": "privada",
+      "habitaciones": 3,
+      "banos": 2,
+      "parqueaderos": 1,
+      "tipo_parqueadero": "propio en sótano",
+      "piso": 5,
+      "ascensor": false,
+      "estrato": 4,
+      "estado": "Excelente estado; última remodelación hace 3 años",
+      "atributos": ["Excelente ubicación", "Bicicletero", "Buena vista"],
+      "administracion_cop": 515000,
+      "tolerancia_area_pct": 15,
+      "parqueaderos_min_comparable": 1
+    },
+    "mirandela": {
+      "nombre": "Mirandela",
+      "area_m2": 78.67,
+      "tipo_area": "construida",
+      "habitaciones": 3,
+      "banos": 2,
+      "parqueaderos": 1,
+      "tipo_parqueadero": "1 parqueadero",
+      "piso": 3,
+      "ascensor": false,
+      "estrato": 4,
+      "estado": "Excelente estado",
+      "atributos": ["Zonas verdes", "Salones sociales"],
+      "administracion_cop": 327000,
+      "tolerancia_area_pct": 15,
+      "parqueaderos_min_comparable": 1
+    },
+    "salitre": {
+      "nombre": "Salitre",
+      "area_m2": 30.0,
+      "tipo_area": "privada",
+      "habitaciones": 1,
+      "banos": 1,
+      "parqueaderos": 0,
+      "tipo_parqueadero": "comunal",
+      "piso": 10,
+      "ascensor": true,
+      "estrato": 4,
+      "estado": "Construido hace 1 año; remodelado",
+      "atributos": ["Gimnasio", "Terrazas", "Coworking", "Zonas comunes"],
+      "administracion_cop": 147000,
+      "tolerancia_area_pct": 20,
+      "parqueaderos_min_comparable": 0
+    }
+  }
+}
