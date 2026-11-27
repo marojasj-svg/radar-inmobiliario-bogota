@@ -4,7 +4,7 @@ Automatización para observar oferta y rotación de apartamentos en tres zonas: 
 
 ## Flujo automático
 
-El workflow de GitHub Actions ejecuta `src/scraper.py` y luego `src/analizador.py`. El cron actual realiza cortes cada tres días y también permite ejecución manual desde **Actions → Monitor Inmobiliario Zona Norte → Run workflow**.
+El workflow de GitHub Actions ejecuta `src/scraper.py` y luego `src/analizador.py`. El cron actual realiza cortes cada tres días; también se ejecuta al actualizar código, configuración, dependencias o el workflow. Permite ejecución manual desde **Actions → Monitor Inmobiliario Zona Norte → Run workflow**.
 
 - `config/zonas.json`: límites, estado de calibración y rutas de búsqueda por zona. Las coordenadas se guardan como [latitud, longitud]; el código las convierte al orden requerido por Shapely.
 - `data/snapshots/AAAA-MM-DD.json`: corte unificado con anuncios y estado de captura por portal y zona.
@@ -28,7 +28,7 @@ Mirandela y Salitre están activas con polígonos `aproximado_v1`; sus tableros 
 
 ## Credenciales y permisos
 
-La captura estructurada consulta FincaRaíz y Metrocuadrado a través de API.SH, un proveedor externo y no afiliado a esos portales. Requiere una clave de API guardada en GitHub como secreto `RADAR_DATA_API_KEY` (Settings → Secrets and variables → Actions → New repository secret). Nunca debe pegarse en el código ni en los archivos del radar. API.SH publica 1.000 créditos mensuales gratuitos; cada búsqueda documentada cuesta 1 crédito, con topes configurables en su cuenta. El proveedor puede cambiar su disponibilidad, condiciones y precios; revisa sus [precios](https://api.sh/pricing) antes de activar o continuar el uso. Sin el secreto, el radar marca las capturas como no confiables y no infiere posibles ventas.
+La captura estructurada consulta FincaRaíz y Metrocuadrado a través de API.SH, un proveedor externo y no afiliado a esos portales. Las búsquedas de Metrocuadrado complementan las coordenadas con las fichas y guardan resultados positivos en `data/cache_coordenadas_metrocuadrado.json` para no repetir consultas. Una captura solo se marca confiable si la cobertura de coordenadas y los anuncios validados dentro del polígono superan los mínimos configurados. Requiere una clave de API guardada en GitHub como secreto `RADAR_DATA_API_KEY` (Settings → Secrets and variables → Actions → New repository secret). Nunca debe pegarse en el código ni en los archivos del radar. API.SH publica 1.000 créditos mensuales gratuitos; cada búsqueda documentada cuesta 1 crédito, con topes configurables en su cuenta. El proveedor puede cambiar su disponibilidad, condiciones y precios; revisa sus [precios](https://api.sh/pricing) antes de activar o continuar el uso. Sin el secreto, el radar marca las capturas como no confiables y no infiere posibles ventas.
 
 GitHub Actions usa además el token temporal `GITHUB_TOKEN` que GitHub crea para cada ejecución. `actions/checkout` conserva la credencial para que el paso final pueda publicar el commit, y el workflow limita el permiso del token a `contents: write`.
 
