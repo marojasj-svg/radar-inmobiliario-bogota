@@ -18,7 +18,16 @@ precision_coordenadas_huella: 4
 - DOM observado comienza en la primera detección disponible; no equivale a la fecha real de publicación.
 - Tasa de absorción acumulada: posibles ventas estimadas divididas por IDs únicos históricos de la zona; no equivale a absorción mensual de transacciones confirmadas.
 
-## Perfiles de activos propios
+## Perfiles de apartamentos propios
 
-- Rincón: 55 m², 3 habitaciones, 2 baños, parqueadero propio, 5.º piso sin ascensor, administración $515.000 COP/mes. Horizonte inicial: junio de 2027.
-- Mirandela y Salitre: perfil por parametrizar en archivos de configuración cuando se suministren sus características.
+- **Rincón:** 53,47 m² privados; 3 habitaciones, 2 baños; 1 parqueadero propio en sótano; piso 5 sin ascensor; estrato 4; excelente estado, última remodelación hace 3 años; bicicletero, buena vista y excelente ubicación; administración $515.000 COP/mes.
+- **Mirandela:** 78,67 m² construidos; 3 habitaciones, 2 baños; 1 parqueadero; piso 3 sin ascensor; estrato 4; excelente estado; zonas verdes y salones sociales; administración $327.000 COP/mes.
+- **Salitre:** 30 m² privados; 1 habitación, 1 baño; parqueadero comunal; piso 10 con ascensor; estrato 4; construcción de 1 año y remodelado; gimnasio, terrazas, coworking y zonas comunes; administración $147.000 COP/mes.
+
+## Horizonte de publicación
+
+- Fecha objetivo inicial: **27 de febrero de 2027**. Se puede ajustar en `config/activos.json`.
+- Los criterios de comparables se guardan por activo en `config/activos.json`: misma cantidad de habitaciones y baños, área dentro de una tolerancia del área propia y requisito mínimo de parqueaderos cuando aplica.
+- Cada corte actualiza las fichas `03_Decision_Rincon.md`, `03_Decision_Mirandela.md` y `03_Decision_Salitre.md` en Obsidian.
+- La mediana de comparables y el rango preliminar de publicación solo se recomiendan con captura confiable actual y al menos 3 comparables directos. Si no se cumple, la ficha conserva el histórico para consulta y marca la recomendación como pendiente.
+- Los comparables son precios publicados. El descuento de cierre de 5% es una hipótesis orientativa y no representa una venta confirmada ni un avalúo.
