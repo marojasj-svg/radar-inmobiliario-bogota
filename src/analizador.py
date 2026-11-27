@@ -5,6 +5,7 @@ import os
 import re
 from datetime import date, datetime
 from statistics import mean, median
+from shapely.geometry import Point
 
 from config import (
     DESCUENTO_CIERRE_BASE_PCT,
@@ -113,8 +114,29 @@ def cargar_historico(zona_id):
     ruta = os.path.join(CARPETA_HISTORICOS, f"historico_{zona_id}.json")
     if os.path.exists(ruta):
         with open(ruta, encoding="utf-8") as archivo:
-            return json.load(archivo)
-    return migrar_csv_rincon() if zona_id == "rincon" else []
+            registros = json.load(archivo)
+    else:
+        registros = migrar_csv_rincon() if zona_id == "rincon" else []
+
+    # Completa los campos añadidos al pasar del histórico CSV al esquema por zona.
+    for registro in registros:
+        registro.setdefault("zona", zona_id)
+        lat, lon = registro.get("lat"), registro.get("lon")
+        try:
+            lat, lon = float(lat), float(lon)
+            registro["lat"], registro["lon"] = lat, lon
+            registro["validado_poligono"] = ZONAS[zona_id]["poligono"].covers(Point(lon, lat))
+        except (TypeError, ValueError):
+            registro["lat"], registro["lon"] = None, None
+            registro["validado_poligono"] = False
+        registro.setdefault("fecha_ultima_deteccion", registro.get("fecha_ultima_vez_visto"))
+        registro.setdefault(
+            "activo_en_corte",
+            registro.get("estado") in ("activo", "activo_nuevo", "activo_bajando", "revisar_atipico"),
+        )
+        if not registro.get("huella_inmueble"):
+            registro["huella_inmueble"] = huella(registro)
+    return registros
 
 
 def huella(item):
